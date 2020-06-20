@@ -1,0 +1,1244 @@
+2020-06-20 12:19:41,982 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-20 12:19:41,992 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-20 12:19:42,074 [myid:] - INFO  [main:PortAssignment@154] - Test process 6/8 using ports from 24686 - 27378.
+2020-06-20 12:19:42,173 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 24687 from range 24686 - 27378.
+2020-06-20 12:19:42,187 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testQuotaWithQuorum
+2020-06-20 12:19:42,237 [myid:] - INFO  [main:QuorumBase@84] - QuorumBase.setup testQuotaWithQuorum
+2020-06-20 12:19:42,716 [myid:] - INFO  [main:JMXEnv@58] - connecting to addr service:jmx:rmi://127.0.0.1/stub/rO0ABXNyAC5qYXZheC5tYW5hZ2VtZW50LnJlbW90ZS5ybWkuUk1JU2VydmVySW1wbF9TdHViAAAAAAAAAAICAAB4cgAaamF2YS5ybWkuc2VydmVyLlJlbW90ZVN0dWLp/tzJi+FlGgIAAHhyABxqYXZhLnJtaS5zZXJ2ZXIuUmVtb3RlT2JqZWN002G0kQxhMx4DAAB4cHc4AAtVbmljYXN0UmVmMgAADTE5Mi4xNjguMS4xMDAAAOhv2uqU5XPAevqH4h/uAAABcs/0IYqAAQB4
+2020-06-20 12:19:42,834 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 24688 from range 24686 - 27378.
+2020-06-20 12:19:42,835 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 24689 from range 24686 - 27378.
+2020-06-20 12:19:42,836 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 24690 from range 24686 - 27378.
+2020-06-20 12:19:42,836 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 24691 from range 24686 - 27378.
+2020-06-20 12:19:42,842 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 24692 from range 24686 - 27378.
+2020-06-20 12:19:42,843 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 24693 from range 24686 - 27378.
+2020-06-20 12:19:42,845 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 24694 from range 24686 - 27378.
+2020-06-20 12:19:42,845 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 24695 from range 24686 - 27378.
+2020-06-20 12:19:42,846 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 24696 from range 24686 - 27378.
+2020-06-20 12:19:42,851 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 24697 from range 24686 - 27378.
+2020-06-20 12:19:42,852 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 24698 from range 24686 - 27378.
+2020-06-20 12:19:42,882 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 24699 from range 24686 - 27378.
+2020-06-20 12:19:42,882 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 24700 from range 24686 - 27378.
+2020-06-20 12:19:42,883 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 24701 from range 24686 - 27378.
+2020-06-20 12:19:42,883 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 24702 from range 24686 - 27378.
+2020-06-20 12:19:42,883 [myid:] - INFO  [main:QuorumBase@119] - Ports are: 127.0.0.1:24698,127.0.0.1:24699,127.0.0.1:24700,127.0.0.1:24701,127.0.0.1:24702
+2020-06-20 12:19:43,094 [myid:] - INFO  [main:QuorumBase@158] - creating QuorumPeer 1 port 24698
+2020-06-20 12:19:43,109 [myid:] - INFO  [main:QuorumPeer@754] - zookeeper.quorumCnxnTimeoutMs=-1
+2020-06-20 12:19:43,259 [myid:] - INFO  [main:ServerCnxnFactory@171] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
+2020-06-20 12:19:43,266 [myid:] - WARN  [main:ServerCnxnFactory@311] - maxCnxns is not configured, using default value 0.
+2020-06-20 12:19:43,275 [myid:] - INFO  [main:NIOServerCnxnFactory@701] - Configuring NIO connection handler with 10s sessionless connection timeout, 2 selector thread(s), 24 worker threads, and 64 kB direct buffers.
+2020-06-20 12:19:43,420 [myid:] - INFO  [main:NIOServerCnxnFactory@709] - binding to port /127.0.0.1:24698
+2020-06-20 12:19:43,516 [myid:] - INFO  [main:X509Util@77] - Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation
+2020-06-20 12:19:43,526 [myid:] - INFO  [main:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-06-20 12:19:43,733 [myid:] - INFO  [main:ZookeeperBanner@42] - 
+2020-06-20 12:19:43,733 [myid:] - INFO  [main:ZookeeperBanner@42] -   ______                  _                                          
+2020-06-20 12:19:43,733 [myid:] - INFO  [main:ZookeeperBanner@42] -  |___  /                 | |                                         
+2020-06-20 12:19:43,733 [myid:] - INFO  [main:ZookeeperBanner@42] -     / /    ___     ___   | | __   ___    ___   _ __     ___   _ __   
+2020-06-20 12:19:43,733 [myid:] - INFO  [main:ZookeeperBanner@42] -    / /    / _ \   / _ \  | |/ /  / _ \  / _ \ | '_ \   / _ \ | '__|
+2020-06-20 12:19:43,734 [myid:] - INFO  [main:ZookeeperBanner@42] -   / /__  | (_) | | (_) | |   <  |  __/ |  __/ | |_) | |  __/ | |    
+2020-06-20 12:19:43,735 [myid:] - INFO  [main:ZookeeperBanner@42] -  /_____|  \___/   \___/  |_|\_\  \___|  \___| | .__/   \___| |_|
+2020-06-20 12:19:43,735 [myid:] - INFO  [main:ZookeeperBanner@42] -                                               | |                     
+2020-06-20 12:19:43,735 [myid:] - INFO  [main:ZookeeperBanner@42] -                                               |_|                     
+2020-06-20 12:19:43,735 [myid:] - INFO  [main:ZookeeperBanner@42] - 
+2020-06-20 12:19:43,742 [myid:] - INFO  [main:Environment@98] - Server environment:zookeeper.version=3.6.1-SNAPSHOT-88650b8fe4a8dd606149302d55bdd69353408da9-dirty, built on 06/20/2020 04:19 GMT
+2020-06-20 12:19:43,742 [myid:] - INFO  [main:Environment@98] - Server environment:host.name=192.168.1.100
+2020-06-20 12:19:43,742 [myid:] - INFO  [main:Environment@98] - Server environment:java.version=1.8.0_181
+2020-06-20 12:19:43,744 [myid:] - INFO  [main:Environment@98] - Server environment:java.vendor=Oracle Corporation
+2020-06-20 12:19:43,744 [myid:] - INFO  [main:Environment@98] - Server environment:java.home=/Library/Java/JavaVirtualMachines/jdk8.jdk/Contents/Home/jre
+2020-06-20 12:19:43,744 [myid:] - INFO  [main:Environment@98] - Server environment:java.class.path=/Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/test-classes:/Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/classes:/Users/dylan/environment/repo/com/github/spotbugs/spotbugs-annotations/3.1.9/spotbugs-annotations-3.1.9.jar:/Users/dylan/environment/repo/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/dylan/environment/repo/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar:/Users/dylan/environment/repo/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/dylan/environment/repo/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/dylan/environment/repo/org/apache/zookeeper/zookeeper-jute/3.6.1-SNAPSHOT/zookeeper-jute-3.6.1-SNAPSHOT.jar:/Users/dylan/environment/repo/commons-cli/commons-cli/1.2/commons-cli-1.2.jar:/Users/dylan/environment/repo/org/apache/yetus/audience-annotations/0.5.0/audience-annotations-0.5.0.jar:/Users/dylan/environment/repo/io/netty/netty-handler/4.1.45.Final/netty-handler-4.1.45.Final.jar:/Users/dylan/environment/repo/io/netty/netty-common/4.1.45.Final/netty-common-4.1.45.Final.jar:/Users/dylan/environment/repo/io/netty/netty-buffer/4.1.45.Final/netty-buffer-4.1.45.Final.jar:/Users/dylan/environment/repo/io/netty/netty-transport/4.1.45.Final/netty-transport-4.1.45.Final.jar:/Users/dylan/environment/repo/io/netty/netty-resolver/4.1.45.Final/netty-resolver-4.1.45.Final.jar:/Users/dylan/environment/repo/io/netty/netty-codec/4.1.45.Final/netty-codec-4.1.45.Final.jar:/Users/dylan/environment/repo/io/netty/netty-transport-native-epoll/4.1.45.Final/netty-transport-native-epoll-4.1.45.Final.jar:/Users/dylan/environment/repo/io/netty/netty-transport-native-unix-common/4.1.45.Final/netty-transport-native-unix-common-4.1.45.Final.jar:/Users/dylan/environment/repo/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/dylan/environment/repo/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar:/Users/dylan/environment/repo/org/eclipse/jetty/jetty-server/9.4.24.v20191120/jetty-server-9.4.24.v20191120.jar:/Users/dylan/environment/repo/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/dylan/environment/repo/org/eclipse/jetty/jetty-http/9.4.24.v20191120/jetty-http-9.4.24.v20191120.jar:/Users/dylan/environment/repo/org/eclipse/jetty/jetty-util/9.4.24.v20191120/jetty-util-9.4.24.v20191120.jar:/Users/dylan/environment/repo/org/eclipse/jetty/jetty-io/9.4.24.v20191120/jetty-io-9.4.24.v20191120.jar:/Users/dylan/environment/repo/org/eclipse/jetty/jetty-servlet/9.4.24.v20191120/jetty-servlet-9.4.24.v20191120.jar:/Users/dylan/environment/repo/org/eclipse/jetty/jetty-security/9.4.24.v20191120/jetty-security-9.4.24.v20191120.jar:/Users/dylan/environment/repo/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/dylan/environment/repo/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/dylan/environment/repo/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/dylan/environment/repo/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/dylan/environment/repo/org/bouncycastle/bcprov-jdk15on/1.60/bcprov-jdk15on-1.60.jar:/Users/dylan/environment/repo/org/bouncycastle/bcpkix-jdk15on/1.60/bcpkix-jdk15on-1.60.jar:/Users/dylan/environment/repo/jline/jline/2.11/jline-2.11.jar:/Users/dylan/environment/repo/io/dropwizard/metrics/metrics-core/3.2.5/metrics-core-3.2.5.jar:/Users/dylan/environment/repo/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-core/2.0.0/kerb-core-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerby-pkix/2.0.0/kerby-pkix-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerby-asn1/2.0.0/kerby-asn1-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerby-util/2.0.0/kerby-util-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-simplekdc/2.0.0/kerb-simplekdc-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-client/2.0.0/kerb-client-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-common/2.0.0/kerb-common-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-crypto/2.0.0/kerb-crypto-2.0.0.jar:/Users/dylan/environment/repo/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-util/2.0.0/kerb-util-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/token-provider/2.0.0/token-provider-2.0.0.jar:/Users/dylan/environment/repo/com/nimbusds/nimbus-jose-jwt/4.41.2/nimbus-jose-jwt-4.41.2.jar:/Users/dylan/environment/repo/com/github/stephenc/jcip/jcip-annotations/1.0-1/jcip-annotations-1.0-1.jar:/Users/dylan/environment/repo/net/minidev/json-smart/2.3/json-smart-2.3.jar:/Users/dylan/environment/repo/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar:/Users/dylan/environment/repo/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-admin/2.0.0/kerb-admin-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-server/2.0.0/kerb-server-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-identity/2.0.0/kerb-identity-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerby-xdr/2.0.0/kerby-xdr-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerby-config/2.0.0/kerby-config-2.0.0.jar:/Users/dylan/environment/repo/org/mockito/mockito-core/2.27.0/mockito-core-2.27.0.jar:/Users/dylan/environment/repo/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.jar:/Users/dylan/environment/repo/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.jar:/Users/dylan/environment/repo/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/Users/dylan/environment/repo/org/jmockit/jmockit/1.48/jmockit-1.48.jar:/Users/dylan/environment/repo/junit/junit/4.12/junit-4.12.jar:/Users/dylan/environment/repo/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/dylan/environment/repo/org/xerial/snappy/snappy-java/1.1.7/snappy-java-1.1.7.jar:
+2020-06-20 12:19:43,745 [myid:] - INFO  [main:Environment@98] - Server environment:java.library.path=/Users/dylan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+2020-06-20 12:19:43,746 [myid:] - INFO  [main:Environment@98] - Server environment:java.io.tmpdir=/var/folders/ff/jrkzw6gx39jd5s2rmrzy1tc00000gn/T/
+2020-06-20 12:19:43,747 [myid:] - INFO  [main:Environment@98] - Server environment:java.compiler=<NA>
+2020-06-20 12:19:43,748 [myid:] - INFO  [main:Environment@98] - Server environment:os.name=Mac OS X
+2020-06-20 12:19:43,749 [myid:] - INFO  [main:Environment@98] - Server environment:os.arch=x86_64
+2020-06-20 12:19:43,749 [myid:] - INFO  [main:Environment@98] - Server environment:os.version=10.13.6
+2020-06-20 12:19:43,750 [myid:] - INFO  [main:Environment@98] - Server environment:user.name=dylan
+2020-06-20 12:19:43,751 [myid:] - INFO  [main:Environment@98] - Server environment:user.home=/Users/dylan
+2020-06-20 12:19:43,752 [myid:] - INFO  [main:Environment@98] - Server environment:user.dir=/Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server
+2020-06-20 12:19:43,753 [myid:] - INFO  [main:Environment@98] - Server environment:os.memory.free=231MB
+2020-06-20 12:19:43,754 [myid:] - INFO  [main:Environment@98] - Server environment:os.memory.max=455MB
+2020-06-20 12:19:43,754 [myid:] - INFO  [main:Environment@98] - Server environment:os.memory.total=245MB
+2020-06-20 12:19:43,754 [myid:] - INFO  [main:ZooKeeperServer@128] - zookeeper.enableEagerACLCheck = false
+2020-06-20 12:19:43,754 [myid:] - INFO  [main:ZooKeeperServer@136] - zookeeper.digest.enabled = true
+2020-06-20 12:19:43,755 [myid:] - INFO  [main:ZooKeeperServer@140] - zookeeper.closeSessionTxn.enabled = true
+2020-06-20 12:19:43,755 [myid:] - INFO  [main:ZooKeeperServer@1496] - zookeeper.flushDelay=0
+2020-06-20 12:19:43,755 [myid:] - INFO  [main:ZooKeeperServer@1505] - zookeeper.maxWriteQueuePollTime=0
+2020-06-20 12:19:43,756 [myid:] - INFO  [main:ZooKeeperServer@1514] - zookeeper.maxBatchSize=1000
+2020-06-20 12:19:43,760 [myid:] - INFO  [main:ZooKeeperServer@243] - zookeeper.intBufferStartingSizeBytes = 1024
+2020-06-20 12:19:43,773 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-20 12:19:43,773 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-20 12:19:43,773 [myid:] - INFO  [main:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-06-20 12:19:43,773 [myid:] - INFO  [main:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-06-20 12:19:43,774 [myid:] - WARN  [main:QuorumPeer@1832] - configFilename is null! This should only happen in tests.
+2020-06-20 12:19:43,842 [myid:] - INFO  [main:QuorumBase@161] - creating QuorumPeer 2 port 24699
+2020-06-20 12:19:43,842 [myid:] - INFO  [main:ServerCnxnFactory@171] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
+2020-06-20 12:19:43,843 [myid:] - WARN  [main:ServerCnxnFactory@311] - maxCnxns is not configured, using default value 0.
+2020-06-20 12:19:43,843 [myid:] - INFO  [main:NIOServerCnxnFactory@701] - Configuring NIO connection handler with 10s sessionless connection timeout, 2 selector thread(s), 24 worker threads, and 64 kB direct buffers.
+2020-06-20 12:19:43,843 [myid:] - INFO  [main:NIOServerCnxnFactory@709] - binding to port /127.0.0.1:24699
+2020-06-20 12:19:43,844 [myid:] - INFO  [main:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-06-20 12:19:43,845 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-20 12:19:43,845 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-20 12:19:43,845 [myid:] - INFO  [main:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-06-20 12:19:43,845 [myid:] - INFO  [main:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-06-20 12:19:43,846 [myid:] - WARN  [main:QuorumPeer@1832] - configFilename is null! This should only happen in tests.
+2020-06-20 12:19:43,846 [myid:] - INFO  [main:QuorumBase@164] - creating QuorumPeer 3 port 24700
+2020-06-20 12:19:43,846 [myid:] - INFO  [main:ServerCnxnFactory@171] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
+2020-06-20 12:19:43,847 [myid:] - WARN  [main:ServerCnxnFactory@311] - maxCnxns is not configured, using default value 0.
+2020-06-20 12:19:43,847 [myid:] - INFO  [main:NIOServerCnxnFactory@701] - Configuring NIO connection handler with 10s sessionless connection timeout, 2 selector thread(s), 24 worker threads, and 64 kB direct buffers.
+2020-06-20 12:19:43,847 [myid:] - INFO  [main:NIOServerCnxnFactory@709] - binding to port /127.0.0.1:24700
+2020-06-20 12:19:43,848 [myid:] - INFO  [main:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-06-20 12:19:43,849 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-20 12:19:43,849 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-20 12:19:43,849 [myid:] - INFO  [main:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-06-20 12:19:43,849 [myid:] - INFO  [main:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-06-20 12:19:43,850 [myid:] - WARN  [main:QuorumPeer@1832] - configFilename is null! This should only happen in tests.
+2020-06-20 12:19:43,850 [myid:] - INFO  [main:QuorumBase@167] - creating QuorumPeer 4 port 24701
+2020-06-20 12:19:43,850 [myid:] - INFO  [main:ServerCnxnFactory@171] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
+2020-06-20 12:19:43,850 [myid:] - WARN  [main:ServerCnxnFactory@311] - maxCnxns is not configured, using default value 0.
+2020-06-20 12:19:43,850 [myid:] - INFO  [main:NIOServerCnxnFactory@701] - Configuring NIO connection handler with 10s sessionless connection timeout, 2 selector thread(s), 24 worker threads, and 64 kB direct buffers.
+2020-06-20 12:19:43,851 [myid:] - INFO  [main:NIOServerCnxnFactory@709] - binding to port /127.0.0.1:24701
+2020-06-20 12:19:43,851 [myid:] - INFO  [main:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-06-20 12:19:43,852 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-20 12:19:43,852 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-20 12:19:43,858 [myid:] - INFO  [main:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-06-20 12:19:43,859 [myid:] - INFO  [main:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-06-20 12:19:43,859 [myid:] - WARN  [main:QuorumPeer@1832] - configFilename is null! This should only happen in tests.
+2020-06-20 12:19:43,861 [myid:] - INFO  [main:QuorumBase@170] - creating QuorumPeer 5 port 24702
+2020-06-20 12:19:43,862 [myid:] - INFO  [main:ServerCnxnFactory@171] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
+2020-06-20 12:19:43,862 [myid:] - WARN  [main:ServerCnxnFactory@311] - maxCnxns is not configured, using default value 0.
+2020-06-20 12:19:43,862 [myid:] - INFO  [main:NIOServerCnxnFactory@701] - Configuring NIO connection handler with 10s sessionless connection timeout, 2 selector thread(s), 24 worker threads, and 64 kB direct buffers.
+2020-06-20 12:19:43,863 [myid:] - INFO  [main:NIOServerCnxnFactory@709] - binding to port /127.0.0.1:24702
+2020-06-20 12:19:43,863 [myid:] - INFO  [main:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-06-20 12:19:43,864 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-20 12:19:43,864 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-20 12:19:43,865 [myid:] - INFO  [main:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-06-20 12:19:43,865 [myid:] - INFO  [main:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-06-20 12:19:43,865 [myid:] - WARN  [main:QuorumPeer@1832] - configFilename is null! This should only happen in tests.
+2020-06-20 12:19:43,917 [myid:] - INFO  [main:QuorumBase@179] - QuorumPeer 1 voting view: {1=127.0.0.1:24688:24693:participant;127.0.0.1:24698, 2=127.0.0.1:24689:24694:participant;127.0.0.1:24699, 3=127.0.0.1:24690:24695:participant;127.0.0.1:24700, 4=127.0.0.1:24691:24696:participant;127.0.0.1:24701, 5=127.0.0.1:24692:24697:participant;127.0.0.1:24702}
+2020-06-20 12:19:43,942 [myid:] - INFO  [main:QuorumBase@180] - QuorumPeer 2 voting view: {1=127.0.0.1:24688:24693:participant;127.0.0.1:24698, 2=127.0.0.1:24689:24694:participant;127.0.0.1:24699, 3=127.0.0.1:24690:24695:participant;127.0.0.1:24700, 4=127.0.0.1:24691:24696:participant;127.0.0.1:24701, 5=127.0.0.1:24692:24697:participant;127.0.0.1:24702}
+2020-06-20 12:19:43,956 [myid:] - INFO  [main:QuorumBase@181] - QuorumPeer 3 voting view: {1=127.0.0.1:24688:24693:participant;127.0.0.1:24698, 2=127.0.0.1:24689:24694:participant;127.0.0.1:24699, 3=127.0.0.1:24690:24695:participant;127.0.0.1:24700, 4=127.0.0.1:24691:24696:participant;127.0.0.1:24701, 5=127.0.0.1:24692:24697:participant;127.0.0.1:24702}
+2020-06-20 12:19:43,960 [myid:] - INFO  [main:QuorumBase@182] - QuorumPeer 4 voting view: {1=127.0.0.1:24688:24693:participant;127.0.0.1:24698, 2=127.0.0.1:24689:24694:participant;127.0.0.1:24699, 3=127.0.0.1:24690:24695:participant;127.0.0.1:24700, 4=127.0.0.1:24691:24696:participant;127.0.0.1:24701, 5=127.0.0.1:24692:24697:participant;127.0.0.1:24702}
+2020-06-20 12:19:43,962 [myid:] - INFO  [main:QuorumBase@183] - QuorumPeer 5 voting view: {1=127.0.0.1:24688:24693:participant;127.0.0.1:24698, 2=127.0.0.1:24689:24694:participant;127.0.0.1:24699, 3=127.0.0.1:24690:24695:participant;127.0.0.1:24700, 4=127.0.0.1:24691:24696:participant;127.0.0.1:24701, 5=127.0.0.1:24692:24697:participant;127.0.0.1:24702}
+2020-06-20 12:19:43,962 [myid:] - INFO  [main:QuorumPeer@1728] - Local sessions disabled
+2020-06-20 12:19:43,963 [myid:] - INFO  [main:QuorumPeer@1728] - Local sessions disabled
+2020-06-20 12:19:43,963 [myid:] - INFO  [main:QuorumPeer@1728] - Local sessions disabled
+2020-06-20 12:19:43,963 [myid:] - INFO  [main:QuorumPeer@1728] - Local sessions disabled
+2020-06-20 12:19:43,963 [myid:] - INFO  [main:QuorumPeer@1728] - Local sessions disabled
+2020-06-20 12:19:43,963 [myid:] - INFO  [main:QuorumPeer@1739] - Local session upgrading disabled
+2020-06-20 12:19:43,963 [myid:] - INFO  [main:QuorumPeer@1739] - Local session upgrading disabled
+2020-06-20 12:19:43,964 [myid:] - INFO  [main:QuorumPeer@1739] - Local session upgrading disabled
+2020-06-20 12:19:43,965 [myid:] - INFO  [main:QuorumPeer@1739] - Local session upgrading disabled
+2020-06-20 12:19:43,966 [myid:] - INFO  [main:QuorumPeer@1739] - Local session upgrading disabled
+2020-06-20 12:19:43,966 [myid:] - INFO  [main:QuorumBase@196] - start QuorumPeer 1
+2020-06-20 12:19:44,186 [myid:] - INFO  [main:FileTxnSnapLog@253] - Initialize file found, an empty database will not block voting participation
+2020-06-20 12:19:44,224 [myid:] - INFO  [main:SnapStream@61] - zookeeper.snapshot.compression.method = CHECKED
+2020-06-20 12:19:44,225 [myid:] - INFO  [main:FileTxnSnapLog@476] - Snapshotting: 0x0 to /Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/surefire/test4478212579356007292.junit.dir/version-2/snapshot.0
+2020-06-20 12:19:44,258 [myid:] - INFO  [main:ZKDatabase@289] - Snapshot loaded in 266 ms, highest zxid is 0x0, digest is 1371985504
+2020-06-20 12:19:44,259 [myid:] - INFO  [main:QuorumPeer@1123] - currentEpoch not found! Creating with a reasonable default of 0. This should only happen when you are upgrading your installation
+2020-06-20 12:19:44,262 [myid:] - INFO  [main:QuorumPeer@1148] - acceptedEpoch not found! Creating with a reasonable default of 0. This should only happen when you are upgrading your installation
+2020-06-20 12:19:44,268 [myid:] - INFO  [main:QuorumPeer@2555] - Using 6000ms as the quorum cnxn socket timeout
+2020-06-20 12:19:44,288 [myid:] - INFO  [main:QuorumCnxManager$Listener@956] - Election port bind maximum retries is 3
+2020-06-20 12:19:44,297 [myid:] - INFO  [ListenerHandler-/127.0.0.1:24693:QuorumCnxManager$Listener$ListenerHandler@1101] - 1 is accepting connections now, my election bind port: /127.0.0.1:24693
+2020-06-20 12:19:44,299 [myid:] - INFO  [main:FastLeaderElection@88] - zookeeper.fastleader.minNotificationInterval=200
+2020-06-20 12:19:44,299 [myid:] - INFO  [main:FastLeaderElection@90] - zookeeper.fastleader.maxNotificationInterval=60000
+2020-06-20 12:19:44,352 [myid:] - INFO  [main:QuorumBase@198] - start QuorumPeer 2
+2020-06-20 12:19:44,353 [myid:] - INFO  [main:FileTxnSnapLog@253] - Initialize file found, an empty database will not block voting participation
+2020-06-20 12:19:44,353 [myid:] - INFO  [main:FileTxnSnapLog@476] - Snapshotting: 0x0 to /Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/surefire/test3144560304799766797.junit.dir/version-2/snapshot.0
+2020-06-20 12:19:44,357 [myid:] - INFO  [main:ZKDatabase@289] - Snapshot loaded in 4 ms, highest zxid is 0x0, digest is 1371985504
+2020-06-20 12:19:44,357 [myid:] - INFO  [main:QuorumPeer@1123] - currentEpoch not found! Creating with a reasonable default of 0. This should only happen when you are upgrading your installation
+2020-06-20 12:19:44,358 [myid:] - INFO  [main:QuorumPeer@1148] - acceptedEpoch not found! Creating with a reasonable default of 0. This should only happen when you are upgrading your installation
+2020-06-20 12:19:44,360 [myid:] - INFO  [QuorumPeer[myid=1](plain=127.0.0.1:24698)(secure=disabled):QuorumPeer@1410] - LOOKING
+2020-06-20 12:19:44,360 [myid:] - INFO  [main:QuorumPeer@2555] - Using 6000ms as the quorum cnxn socket timeout
+2020-06-20 12:19:44,361 [myid:] - INFO  [main:QuorumCnxManager$Listener@956] - Election port bind maximum retries is 3
+2020-06-20 12:19:44,361 [myid:] - INFO  [QuorumPeer[myid=1](plain=127.0.0.1:24698)(secure=disabled):FastLeaderElection@967] - New election. My id = 1, proposed zxid=0x0
+2020-06-20 12:19:44,361 [myid:] - INFO  [ListenerHandler-/127.0.0.1:24694:QuorumCnxManager$Listener$ListenerHandler@1101] - 2 is accepting connections now, my election bind port: /127.0.0.1:24694
+2020-06-20 12:19:44,361 [myid:] - INFO  [main:QuorumBase@200] - start QuorumPeer 3
+2020-06-20 12:19:44,362 [myid:] - INFO  [main:FileTxnSnapLog@253] - Initialize file found, an empty database will not block voting participation
+2020-06-20 12:19:44,363 [myid:] - INFO  [QuorumPeer[myid=2](plain=127.0.0.1:24699)(secure=disabled):QuorumPeer@1410] - LOOKING
+2020-06-20 12:19:44,365 [myid:] - INFO  [main:FileTxnSnapLog@476] - Snapshotting: 0x0 to /Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/surefire/test7633498781314459527.junit.dir/version-2/snapshot.0
+2020-06-20 12:19:44,365 [myid:] - INFO  [QuorumPeer[myid=2](plain=127.0.0.1:24699)(secure=disabled):FastLeaderElection@967] - New election. My id = 2, proposed zxid=0x0
+2020-06-20 12:19:44,366 [myid:] - INFO  [main:ZKDatabase@289] - Snapshot loaded in 5 ms, highest zxid is 0x0, digest is 1371985504
+2020-06-20 12:19:44,367 [myid:] - INFO  [main:QuorumPeer@1123] - currentEpoch not found! Creating with a reasonable default of 0. This should only happen when you are upgrading your installation
+2020-06-20 12:19:44,368 [myid:] - INFO  [main:QuorumPeer@1148] - acceptedEpoch not found! Creating with a reasonable default of 0. This should only happen when you are upgrading your installation
+2020-06-20 12:19:44,373 [myid:] - INFO  [WorkerReceiver[myid=1]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:1, n.state:LOOKING, n.leader:1, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,373 [myid:] - INFO  [ListenerHandler-/127.0.0.1:24693:QuorumCnxManager$Listener$ListenerHandler@1106] - Received connection request from /127.0.0.1:59535
+2020-06-20 12:19:44,373 [myid:] - INFO  [ListenerHandler-/127.0.0.1:24694:QuorumCnxManager$Listener$ListenerHandler@1106] - Received connection request from /127.0.0.1:59534
+2020-06-20 12:19:44,373 [myid:] - INFO  [WorkerReceiver[myid=2]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:2, n.state:LOOKING, n.leader:2, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,374 [myid:] - WARN  [QuorumConnectionThread-[myid=1]-2:QuorumCnxManager@408] - Cannot open channel to 3 at election address /127.0.0.1:24695
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:391)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:466)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-20 12:19:44,375 [myid:] - WARN  [QuorumConnectionThread-[myid=2]-4:QuorumCnxManager@408] - Cannot open channel to 5 at election address /127.0.0.1:24697
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:391)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:466)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-20 12:19:44,375 [myid:] - WARN  [QuorumConnectionThread-[myid=1]-4:QuorumCnxManager@408] - Cannot open channel to 5 at election address /127.0.0.1:24697
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:391)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:466)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-20 12:19:44,375 [myid:] - WARN  [QuorumConnectionThread-[myid=2]-3:QuorumCnxManager@408] - Cannot open channel to 4 at election address /127.0.0.1:24696
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:391)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:466)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-20 12:19:44,374 [myid:] - WARN  [QuorumConnectionThread-[myid=1]-3:QuorumCnxManager@408] - Cannot open channel to 4 at election address /127.0.0.1:24696
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:391)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:466)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-20 12:19:44,374 [myid:] - INFO  [main:QuorumPeer@2555] - Using 6000ms as the quorum cnxn socket timeout
+2020-06-20 12:19:44,374 [myid:] - WARN  [QuorumConnectionThread-[myid=2]-2:QuorumCnxManager@408] - Cannot open channel to 3 at election address /127.0.0.1:24695
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:391)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:466)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-20 12:19:44,374 [myid:] - INFO  [QuorumConnectionThread-[myid=1]-1:QuorumCnxManager@524] - Have smaller server identifier, so dropping the connection: (myId:1 --> sid:2)
+2020-06-20 12:19:44,379 [myid:] - INFO  [main:QuorumCnxManager$Listener@956] - Election port bind maximum retries is 3
+2020-06-20 12:19:44,376 [myid:] - INFO  [WorkerReceiver[myid=1]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:2, n.state:LOOKING, n.leader:2, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,376 [myid:] - INFO  [WorkerReceiver[myid=2]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:1, n.state:LOOKING, n.leader:1, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,381 [myid:] - INFO  [ListenerHandler-/127.0.0.1:24695:QuorumCnxManager$Listener$ListenerHandler@1101] - 3 is accepting connections now, my election bind port: /127.0.0.1:24695
+2020-06-20 12:19:44,382 [myid:] - INFO  [main:QuorumBase@202] - start QuorumPeer 4
+2020-06-20 12:19:44,386 [myid:] - WARN  [QuorumConnectionThread-[myid=1]-4:QuorumCnxManager@408] - Cannot open channel to 5 at election address /127.0.0.1:24697
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:391)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:466)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-20 12:19:44,385 [myid:] - WARN  [QuorumConnectionThread-[myid=1]-3:QuorumCnxManager@408] - Cannot open channel to 4 at election address /127.0.0.1:24696
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:391)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:466)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-20 12:19:44,385 [myid:] - INFO  [QuorumConnectionThread-[myid=1]-1:QuorumCnxManager@524] - Have smaller server identifier, so dropping the connection: (myId:1 --> sid:3)
+2020-06-20 12:19:44,385 [myid:] - INFO  [ListenerHandler-/127.0.0.1:24695:QuorumCnxManager$Listener$ListenerHandler@1106] - Received connection request from /127.0.0.1:59542
+2020-06-20 12:19:44,384 [myid:] - INFO  [WorkerReceiver[myid=2]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:1, n.state:LOOKING, n.leader:2, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,383 [myid:] - INFO  [QuorumPeer[myid=3](plain=127.0.0.1:24700)(secure=disabled):QuorumPeer@1410] - LOOKING
+2020-06-20 12:19:44,382 [myid:] - INFO  [WorkerReceiver[myid=1]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:1, n.state:LOOKING, n.leader:2, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,387 [myid:] - INFO  [main:FileTxnSnapLog@253] - Initialize file found, an empty database will not block voting participation
+2020-06-20 12:19:44,388 [myid:] - INFO  [QuorumPeer[myid=3](plain=127.0.0.1:24700)(secure=disabled):FastLeaderElection@967] - New election. My id = 3, proposed zxid=0x0
+2020-06-20 12:19:44,389 [myid:] - INFO  [main:FileTxnSnapLog@476] - Snapshotting: 0x0 to /Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/surefire/test2461068113263882211.junit.dir/version-2/snapshot.0
+2020-06-20 12:19:44,389 [myid:] - INFO  [ListenerHandler-/127.0.0.1:24693:QuorumCnxManager$Listener$ListenerHandler@1106] - Received connection request from /127.0.0.1:59546
+2020-06-20 12:19:44,389 [myid:] - INFO  [main:ZKDatabase@289] - Snapshot loaded in 3 ms, highest zxid is 0x0, digest is 1371985504
+2020-06-20 12:19:44,390 [myid:] - INFO  [main:QuorumPeer@1123] - currentEpoch not found! Creating with a reasonable default of 0. This should only happen when you are upgrading your installation
+2020-06-20 12:19:44,390 [myid:] - INFO  [WorkerReceiver[myid=3]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:1, n.state:LOOKING, n.leader:2, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,390 [myid:] - INFO  [WorkerReceiver[myid=1]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:3, n.state:LOOKING, n.leader:3, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,391 [myid:] - INFO  [main:QuorumPeer@1148] - acceptedEpoch not found! Creating with a reasonable default of 0. This should only happen when you are upgrading your installation
+2020-06-20 12:19:44,392 [myid:] - INFO  [ListenerHandler-/127.0.0.1:24694:QuorumCnxManager$Listener$ListenerHandler@1106] - Received connection request from /127.0.0.1:59548
+2020-06-20 12:19:44,392 [myid:] - INFO  [WorkerReceiver[myid=1]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:1, n.state:LOOKING, n.leader:3, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,392 [myid:] - INFO  [WorkerReceiver[myid=3]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:3, n.state:LOOKING, n.leader:3, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,393 [myid:] - INFO  [WorkerReceiver[myid=2]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:3, n.state:LOOKING, n.leader:3, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,393 [myid:] - WARN  [QuorumConnectionThread-[myid=3]-3:QuorumCnxManager@408] - Cannot open channel to 4 at election address /127.0.0.1:24696
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:391)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:466)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-20 12:19:44,393 [myid:] - INFO  [WorkerReceiver[myid=3]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:2, n.state:LOOKING, n.leader:2, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,394 [myid:] - WARN  [QuorumConnectionThread-[myid=3]-2:QuorumCnxManager@408] - Cannot open channel to 5 at election address /127.0.0.1:24697
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:391)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:466)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-20 12:19:44,394 [myid:] - INFO  [WorkerReceiver[myid=2]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:1, n.state:LOOKING, n.leader:3, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,394 [myid:] - INFO  [WorkerReceiver[myid=3]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:1, n.state:LOOKING, n.leader:3, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,395 [myid:] - INFO  [main:QuorumPeer@2555] - Using 6000ms as the quorum cnxn socket timeout
+2020-06-20 12:19:44,395 [myid:] - WARN  [QuorumConnectionThread-[myid=1]-1:QuorumCnxManager@408] - Cannot open channel to 4 at election address /127.0.0.1:24696
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:391)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:466)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-20 12:19:44,395 [myid:] - WARN  [QuorumConnectionThread-[myid=1]-3:QuorumCnxManager@408] - Cannot open channel to 5 at election address /127.0.0.1:24697
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:391)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:466)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-20 12:19:44,395 [myid:] - INFO  [main:QuorumCnxManager$Listener@956] - Election port bind maximum retries is 3
+2020-06-20 12:19:44,396 [myid:] - INFO  [WorkerReceiver[myid=1]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:2, n.state:LOOKING, n.leader:3, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,396 [myid:] - INFO  [WorkerReceiver[myid=2]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:2, n.state:LOOKING, n.leader:3, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,397 [myid:] - INFO  [ListenerHandler-/127.0.0.1:24696:QuorumCnxManager$Listener$ListenerHandler@1101] - 4 is accepting connections now, my election bind port: /127.0.0.1:24696
+2020-06-20 12:19:44,397 [myid:] - INFO  [main:QuorumBase@204] - start QuorumPeer 5
+2020-06-20 12:19:44,397 [myid:] - INFO  [WorkerReceiver[myid=3]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:2, n.state:LOOKING, n.leader:3, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,398 [myid:] - INFO  [ListenerHandler-/127.0.0.1:24696:QuorumCnxManager$Listener$ListenerHandler@1106] - Received connection request from /127.0.0.1:59557
+2020-06-20 12:19:44,398 [myid:] - INFO  [QuorumPeer[myid=4](plain=127.0.0.1:24701)(secure=disabled):QuorumPeer@1410] - LOOKING
+2020-06-20 12:19:44,398 [myid:] - INFO  [QuorumConnectionThread-[myid=2]-2:QuorumCnxManager@524] - Have smaller server identifier, so dropping the connection: (myId:2 --> sid:4)
+2020-06-20 12:19:44,399 [myid:] - INFO  [QuorumPeer[myid=4](plain=127.0.0.1:24701)(secure=disabled):FastLeaderElection@967] - New election. My id = 4, proposed zxid=0x0
+2020-06-20 12:19:44,399 [myid:] - WARN  [QuorumConnectionThread-[myid=2]-3:QuorumCnxManager@408] - Cannot open channel to 5 at election address /127.0.0.1:24697
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:391)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:466)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-20 12:19:44,399 [myid:] - INFO  [main:FileTxnSnapLog@253] - Initialize file found, an empty database will not block voting participation
+2020-06-20 12:19:44,399 [myid:] - INFO  [ListenerHandler-/127.0.0.1:24694:QuorumCnxManager$Listener$ListenerHandler@1106] - Received connection request from /127.0.0.1:59559
+2020-06-20 12:19:44,401 [myid:] - INFO  [ListenerHandler-/127.0.0.1:24693:QuorumCnxManager$Listener$ListenerHandler@1106] - Received connection request from /127.0.0.1:59560
+2020-06-20 12:19:44,401 [myid:] - INFO  [WorkerReceiver[myid=2]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:4, n.state:LOOKING, n.leader:4, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,401 [myid:] - INFO  [WorkerReceiver[myid=4]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:2, n.state:LOOKING, n.leader:3, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,402 [myid:] - INFO  [WorkerReceiver[myid=1]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:4, n.state:LOOKING, n.leader:4, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,402 [myid:] - INFO  [ListenerHandler-/127.0.0.1:24695:QuorumCnxManager$Listener$ListenerHandler@1106] - Received connection request from /127.0.0.1:59562
+2020-06-20 12:19:44,401 [myid:] - INFO  [main:FileTxnSnapLog@476] - Snapshotting: 0x0 to /Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/surefire/test6004043682656153209.junit.dir/version-2/snapshot.0
+2020-06-20 12:19:44,402 [myid:] - INFO  [WorkerReceiver[myid=4]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:1, n.state:LOOKING, n.leader:3, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,403 [myid:] - WARN  [QuorumConnectionThread-[myid=4]-3:QuorumCnxManager@408] - Cannot open channel to 5 at election address /127.0.0.1:24697
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:391)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:466)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-20 12:19:44,403 [myid:] - INFO  [WorkerReceiver[myid=1]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:2, n.state:LOOKING, n.leader:4, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,403 [myid:] - INFO  [WorkerReceiver[myid=3]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:4, n.state:LOOKING, n.leader:4, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,404 [myid:] - INFO  [WorkerReceiver[myid=4]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:4, n.state:LOOKING, n.leader:4, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,404 [myid:] - INFO  [WorkerReceiver[myid=2]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:2, n.state:LOOKING, n.leader:4, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,404 [myid:] - INFO  [WorkerReceiver[myid=1]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:1, n.state:LOOKING, n.leader:4, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,405 [myid:] - INFO  [WorkerReceiver[myid=4]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:3, n.state:LOOKING, n.leader:3, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,405 [myid:] - INFO  [WorkerReceiver[myid=2]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:1, n.state:LOOKING, n.leader:4, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,405 [myid:] - INFO  [WorkerReceiver[myid=3]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:2, n.state:LOOKING, n.leader:4, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,406 [myid:] - INFO  [WorkerReceiver[myid=1]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:3, n.state:LOOKING, n.leader:4, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,406 [myid:] - INFO  [WorkerReceiver[myid=3]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:1, n.state:LOOKING, n.leader:4, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,406 [myid:] - INFO  [WorkerReceiver[myid=4]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:2, n.state:LOOKING, n.leader:4, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,407 [myid:] - INFO  [WorkerReceiver[myid=2]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:3, n.state:LOOKING, n.leader:4, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,407 [myid:] - WARN  [QuorumConnectionThread-[myid=2]-3:QuorumCnxManager@408] - Cannot open channel to 5 at election address /127.0.0.1:24697
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:391)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:466)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-20 12:19:44,407 [myid:] - INFO  [WorkerReceiver[myid=4]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:1, n.state:LOOKING, n.leader:4, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,407 [myid:] - WARN  [QuorumConnectionThread-[myid=1]-3:QuorumCnxManager@408] - Cannot open channel to 5 at election address /127.0.0.1:24697
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:391)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:466)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-20 12:19:44,407 [myid:] - INFO  [WorkerReceiver[myid=3]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:3, n.state:LOOKING, n.leader:4, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,408 [myid:] - INFO  [WorkerReceiver[myid=4]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:3, n.state:LOOKING, n.leader:4, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,410 [myid:] - WARN  [QuorumConnectionThread-[myid=3]-2:QuorumCnxManager@408] - Cannot open channel to 5 at election address /127.0.0.1:24697
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:391)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:466)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-20 12:19:44,427 [myid:] - INFO  [main:ZKDatabase@289] - Snapshot loaded in 15 ms, highest zxid is 0x0, digest is 1371985504
+2020-06-20 12:19:44,427 [myid:] - INFO  [main:QuorumPeer@1123] - currentEpoch not found! Creating with a reasonable default of 0. This should only happen when you are upgrading your installation
+2020-06-20 12:19:44,435 [myid:] - INFO  [main:QuorumPeer@1148] - acceptedEpoch not found! Creating with a reasonable default of 0. This should only happen when you are upgrading your installation
+2020-06-20 12:19:44,442 [myid:] - INFO  [main:QuorumPeer@2555] - Using 6000ms as the quorum cnxn socket timeout
+2020-06-20 12:19:44,448 [myid:] - INFO  [main:QuorumCnxManager$Listener@956] - Election port bind maximum retries is 3
+2020-06-20 12:19:44,449 [myid:] - INFO  [ListenerHandler-/127.0.0.1:24697:QuorumCnxManager$Listener$ListenerHandler@1101] - 5 is accepting connections now, my election bind port: /127.0.0.1:24697
+2020-06-20 12:19:44,454 [myid:] - INFO  [main:QuorumBase@206] - started QuorumPeer 5
+2020-06-20 12:19:44,455 [myid:] - INFO  [QuorumPeer[myid=5](plain=127.0.0.1:24702)(secure=disabled):QuorumPeer@1410] - LOOKING
+2020-06-20 12:19:44,479 [myid:] - INFO  [QuorumPeer[myid=5](plain=127.0.0.1:24702)(secure=disabled):FastLeaderElection@967] - New election. My id = 5, proposed zxid=0x0
+2020-06-20 12:19:44,479 [myid:] - INFO  [main:QuorumBase@208] - Checking ports 127.0.0.1:24698,127.0.0.1:24699,127.0.0.1:24700,127.0.0.1:24701,127.0.0.1:24702
+2020-06-20 12:19:44,481 [myid:] - INFO  [ListenerHandler-/127.0.0.1:24693:QuorumCnxManager$Listener$ListenerHandler@1106] - Received connection request from /127.0.0.1:59576
+2020-06-20 12:19:44,482 [myid:] - INFO  [ListenerHandler-/127.0.0.1:24694:QuorumCnxManager$Listener$ListenerHandler@1106] - Received connection request from /127.0.0.1:59577
+2020-06-20 12:19:44,483 [myid:] - INFO  [ListenerHandler-/127.0.0.1:24695:QuorumCnxManager$Listener$ListenerHandler@1106] - Received connection request from /127.0.0.1:59578
+2020-06-20 12:19:44,483 [myid:] - INFO  [WorkerReceiver[myid=1]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:5, n.state:LOOKING, n.leader:5, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,483 [myid:] - INFO  [WorkerReceiver[myid=5]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:1, n.state:LOOKING, n.leader:4, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,483 [myid:] - INFO  [ListenerHandler-/127.0.0.1:24696:QuorumCnxManager$Listener$ListenerHandler@1106] - Received connection request from /127.0.0.1:59579
+2020-06-20 12:19:44,483 [myid:] - INFO  [WorkerReceiver[myid=2]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:5, n.state:LOOKING, n.leader:5, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,483 [myid:] - INFO  [main:FourLetterWordMain@93] - connecting to 127.0.0.1 24698
+2020-06-20 12:19:44,484 [myid:] - INFO  [WorkerReceiver[myid=5]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:2, n.state:LOOKING, n.leader:4, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,484 [myid:] - INFO  [WorkerReceiver[myid=3]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:5, n.state:LOOKING, n.leader:5, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,484 [myid:] - INFO  [WorkerReceiver[myid=4]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:5, n.state:LOOKING, n.leader:5, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,484 [myid:] - INFO  [WorkerReceiver[myid=5]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:5, n.state:LOOKING, n.leader:5, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,485 [myid:] - INFO  [WorkerReceiver[myid=1]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:1, n.state:LOOKING, n.leader:5, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,485 [myid:] - INFO  [WorkerReceiver[myid=5]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:3, n.state:LOOKING, n.leader:4, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,486 [myid:] - INFO  [WorkerReceiver[myid=5]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:4, n.state:LOOKING, n.leader:4, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,486 [myid:] - INFO  [WorkerReceiver[myid=2]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:2, n.state:LOOKING, n.leader:5, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,486 [myid:] - INFO  [WorkerReceiver[myid=1]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:2, n.state:LOOKING, n.leader:5, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,486 [myid:] - INFO  [WorkerReceiver[myid=3]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:1, n.state:LOOKING, n.leader:5, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,487 [myid:] - INFO  [WorkerReceiver[myid=2]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:4, n.state:LOOKING, n.leader:5, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,487 [myid:] - INFO  [WorkerReceiver[myid=1]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:4, n.state:LOOKING, n.leader:5, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,487 [myid:] - INFO  [WorkerReceiver[myid=3]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:2, n.state:LOOKING, n.leader:5, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,488 [myid:] - INFO  [WorkerReceiver[myid=4]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:1, n.state:LOOKING, n.leader:5, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,488 [myid:] - INFO  [WorkerReceiver[myid=3]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:4, n.state:LOOKING, n.leader:5, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,488 [myid:] - INFO  [WorkerReceiver[myid=2]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:1, n.state:LOOKING, n.leader:5, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,488 [myid:] - INFO  [WorkerReceiver[myid=1]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:3, n.state:LOOKING, n.leader:5, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,488 [myid:] - INFO  [WorkerReceiver[myid=4]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:4, n.state:LOOKING, n.leader:5, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,489 [myid:] - INFO  [WorkerReceiver[myid=5]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:4, n.state:LOOKING, n.leader:5, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,489 [myid:] - INFO  [WorkerReceiver[myid=2]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:3, n.state:LOOKING, n.leader:5, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,489 [myid:] - INFO  [WorkerReceiver[myid=4]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:2, n.state:LOOKING, n.leader:5, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,489 [myid:] - INFO  [WorkerReceiver[myid=5]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:2, n.state:LOOKING, n.leader:5, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,489 [myid:] - INFO  [WorkerReceiver[myid=3]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:3, n.state:LOOKING, n.leader:5, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,490 [myid:] - INFO  [WorkerReceiver[myid=4]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:3, n.state:LOOKING, n.leader:5, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,490 [myid:] - INFO  [WorkerReceiver[myid=5]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:1, n.state:LOOKING, n.leader:5, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,491 [myid:] - INFO  [WorkerReceiver[myid=5]:FastLeaderElection$Messenger$WorkerReceiver@394] - Notification: my state:LOOKING; n.sid:3, n.state:LOOKING, n.leader:5, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-06-20 12:19:44,509 [myid:] - INFO  [NIOWorkerThread-1:FourLetterCommands@223] - The list of known four letter word commands is : [{1936881266=srvr, 1937006964=stat, 2003003491=wchc, 1685417328=dump, 1668445044=crst, 1936880500=srst, 1701738089=envi, 1668247142=conf, -720899=telnet close, 1751217000=hash, 2003003507=wchs, 2003003504=wchp, 1684632179=dirs, 1668247155=cons, 1835955314=mntr, 1769173615=isro, 1920298859=ruok, 1735683435=gtmk, 1937010027=stmk}]
+2020-06-20 12:19:44,510 [myid:] - INFO  [NIOWorkerThread-1:FourLetterCommands@224] - The list of enabled four letter word commands is : [[wchs, stat, wchp, dirs, stmk, conf, ruok, mntr, srvr, wchc, envi, srst, isro, dump, gtmk, telnet close, crst, hash, cons]]
+2020-06-20 12:19:44,510 [myid:] - INFO  [NIOWorkerThread-1:NIOServerCnxn@531] - Processing stat command from /127.0.0.1:59580
+2020-06-20 12:19:44,691 [myid:] - INFO  [QuorumPeer[myid=4](plain=127.0.0.1:24701)(secure=disabled):QuorumPeer@859] - Peer state changed: following
+2020-06-20 12:19:44,691 [myid:] - INFO  [QuorumPeer[myid=3](plain=127.0.0.1:24700)(secure=disabled):QuorumPeer@859] - Peer state changed: following
+2020-06-20 12:19:44,692 [myid:] - INFO  [QuorumPeer[myid=5](plain=127.0.0.1:24702)(secure=disabled):QuorumPeer@859] - Peer state changed: leading
+2020-06-20 12:19:44,692 [myid:] - INFO  [QuorumPeer[myid=4](plain=127.0.0.1:24701)(secure=disabled):QuorumPeer@1497] - FOLLOWING
+2020-06-20 12:19:44,692 [myid:] - INFO  [QuorumPeer[myid=5](plain=127.0.0.1:24702)(secure=disabled):QuorumPeer@1513] - LEADING
+2020-06-20 12:19:44,692 [myid:] - INFO  [QuorumPeer[myid=1](plain=127.0.0.1:24698)(secure=disabled):QuorumPeer@859] - Peer state changed: following
+2020-06-20 12:19:44,692 [myid:] - INFO  [QuorumPeer[myid=2](plain=127.0.0.1:24699)(secure=disabled):QuorumPeer@859] - Peer state changed: following
+2020-06-20 12:19:44,692 [myid:] - INFO  [QuorumPeer[myid=3](plain=127.0.0.1:24700)(secure=disabled):QuorumPeer@1497] - FOLLOWING
+2020-06-20 12:19:44,693 [myid:] - INFO  [QuorumPeer[myid=1](plain=127.0.0.1:24698)(secure=disabled):QuorumPeer@1497] - FOLLOWING
+2020-06-20 12:19:44,693 [myid:] - INFO  [QuorumPeer[myid=2](plain=127.0.0.1:24699)(secure=disabled):QuorumPeer@1497] - FOLLOWING
+2020-06-20 12:19:44,697 [myid:] - INFO  [QuorumPeer[myid=5](plain=127.0.0.1:24702)(secure=disabled):LearnerMaster@47] - zookeeper.leader.maxConcurrentSnapSyncs = 10
+2020-06-20 12:19:44,697 [myid:] - INFO  [QuorumPeer[myid=5](plain=127.0.0.1:24702)(secure=disabled):LearnerMaster@50] - zookeeper.leader.maxConcurrentDiffSyncs = 100
+2020-06-20 12:19:44,697 [myid:] - INFO  [QuorumPeer[myid=5](plain=127.0.0.1:24702)(secure=disabled):Leader@84] - TCP NoDelay set to: true
+2020-06-20 12:19:44,697 [myid:] - INFO  [QuorumPeer[myid=5](plain=127.0.0.1:24702)(secure=disabled):Leader@105] - zookeeper.leader.ackLoggingFrequency = 1000
+2020-06-20 12:19:44,697 [myid:] - INFO  [QuorumPeer[myid=5](plain=127.0.0.1:24702)(secure=disabled):Leader@1422] - zookeeper.leader.maxTimeToWaitForEpoch = -1ms
+2020-06-20 12:19:44,698 [myid:] - INFO  [QuorumPeer[myid=4](plain=127.0.0.1:24701)(secure=disabled):Learner@117] - leaderConnectDelayDuringRetryMs: 100
+2020-06-20 12:19:44,698 [myid:] - INFO  [QuorumPeer[myid=4](plain=127.0.0.1:24701)(secure=disabled):Learner@118] - TCP NoDelay set to: true
+2020-06-20 12:19:44,700 [myid:] - INFO  [QuorumPeer[myid=2](plain=127.0.0.1:24699)(secure=disabled):BlueThrottle@141] - Weighed connection throttling is disabled
+2020-06-20 12:19:44,702 [myid:] - INFO  [QuorumPeer[myid=3](plain=127.0.0.1:24700)(secure=disabled):ZooKeeperServer@1285] - minSessionTimeout set to 4000
+2020-06-20 12:19:44,702 [myid:] - INFO  [QuorumPeer[myid=4](plain=127.0.0.1:24701)(secure=disabled):ZooKeeperServer@1285] - minSessionTimeout set to 4000
+2020-06-20 12:19:44,702 [myid:] - INFO  [QuorumPeer[myid=5](plain=127.0.0.1:24702)(secure=disabled):ZooKeeperServer@1285] - minSessionTimeout set to 4000
+2020-06-20 12:19:44,702 [myid:] - INFO  [QuorumPeer[myid=5](plain=127.0.0.1:24702)(secure=disabled):ZooKeeperServer@1294] - maxSessionTimeout set to 40000
+2020-06-20 12:19:44,702 [myid:] - INFO  [QuorumPeer[myid=2](plain=127.0.0.1:24699)(secure=disabled):ZooKeeperServer@1285] - minSessionTimeout set to 4000
+2020-06-20 12:19:44,702 [myid:] - INFO  [QuorumPeer[myid=1](plain=127.0.0.1:24698)(secure=disabled):ZooKeeperServer@1285] - minSessionTimeout set to 4000
+2020-06-20 12:19:44,703 [myid:] - INFO  [QuorumPeer[myid=2](plain=127.0.0.1:24699)(secure=disabled):ZooKeeperServer@1294] - maxSessionTimeout set to 40000
+2020-06-20 12:19:44,702 [myid:] - INFO  [QuorumPeer[myid=4](plain=127.0.0.1:24701)(secure=disabled):ZooKeeperServer@1294] - maxSessionTimeout set to 40000
+2020-06-20 12:19:44,702 [myid:] - INFO  [QuorumPeer[myid=3](plain=127.0.0.1:24700)(secure=disabled):ZooKeeperServer@1294] - maxSessionTimeout set to 40000
+2020-06-20 12:19:44,703 [myid:] - INFO  [QuorumPeer[myid=1](plain=127.0.0.1:24698)(secure=disabled):ZooKeeperServer@1294] - maxSessionTimeout set to 40000
+2020-06-20 12:19:44,704 [myid:] - INFO  [QuorumPeer[myid=4](plain=127.0.0.1:24701)(secure=disabled):ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-20 12:19:44,704 [myid:] - INFO  [QuorumPeer[myid=2](plain=127.0.0.1:24699)(secure=disabled):ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-20 12:19:44,704 [myid:] - INFO  [QuorumPeer[myid=5](plain=127.0.0.1:24702)(secure=disabled):ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-20 12:19:44,704 [myid:] - INFO  [QuorumPeer[myid=1](plain=127.0.0.1:24698)(secure=disabled):ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-20 12:19:44,704 [myid:] - INFO  [QuorumPeer[myid=3](plain=127.0.0.1:24700)(secure=disabled):ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-20 12:19:44,704 [myid:] - INFO  [QuorumPeer[myid=1](plain=127.0.0.1:24698)(secure=disabled):ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-20 12:19:44,704 [myid:] - INFO  [QuorumPeer[myid=5](plain=127.0.0.1:24702)(secure=disabled):ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-20 12:19:44,704 [myid:] - INFO  [QuorumPeer[myid=2](plain=127.0.0.1:24699)(secure=disabled):ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-20 12:19:44,704 [myid:] - INFO  [QuorumPeer[myid=4](plain=127.0.0.1:24701)(secure=disabled):ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-20 12:19:44,704 [myid:] - INFO  [QuorumPeer[myid=3](plain=127.0.0.1:24700)(secure=disabled):ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-20 12:19:44,706 [myid:] - INFO  [QuorumPeer[myid=4](plain=127.0.0.1:24701)(secure=disabled):RequestPathMetricsCollector@111] - zookeeper.pathStats.slotCapacity = 60
+2020-06-20 12:19:44,706 [myid:] - INFO  [QuorumPeer[myid=2](plain=127.0.0.1:24699)(secure=disabled):RequestPathMetricsCollector@111] - zookeeper.pathStats.slotCapacity = 60
+2020-06-20 12:19:44,707 [myid:] - INFO  [QuorumPeer[myid=4](plain=127.0.0.1:24701)(secure=disabled):RequestPathMetricsCollector@112] - zookeeper.pathStats.slotDuration = 15
+2020-06-20 12:19:44,706 [myid:] - INFO  [QuorumPeer[myid=3](plain=127.0.0.1:24700)(secure=disabled):RequestPathMetricsCollector@111] - zookeeper.pathStats.slotCapacity = 60
+2020-06-20 12:19:44,706 [myid:] - INFO  [QuorumPeer[myid=1](plain=127.0.0.1:24698)(secure=disabled):RequestPathMetricsCollector@111] - zookeeper.pathStats.slotCapacity = 60
+2020-06-20 12:19:44,706 [myid:] - INFO  [QuorumPeer[myid=5](plain=127.0.0.1:24702)(secure=disabled):RequestPathMetricsCollector@111] - zookeeper.pathStats.slotCapacity = 60
+2020-06-20 12:19:44,707 [myid:] - INFO  [QuorumPeer[myid=1](plain=127.0.0.1:24698)(secure=disabled):RequestPathMetricsCollector@112] - zookeeper.pathStats.slotDuration = 15
+2020-06-20 12:19:44,708 [myid:] - INFO  [QuorumPeer[myid=1](plain=127.0.0.1:24698)(secure=disabled):RequestPathMetricsCollector@113] - zookeeper.pathStats.maxDepth = 6
+2020-06-20 12:19:44,707 [myid:] - INFO  [QuorumPeer[myid=3](plain=127.0.0.1:24700)(secure=disabled):RequestPathMetricsCollector@112] - zookeeper.pathStats.slotDuration = 15
+2020-06-20 12:19:44,708 [myid:] - INFO  [QuorumPeer[myid=3](plain=127.0.0.1:24700)(secure=disabled):RequestPathMetricsCollector@113] - zookeeper.pathStats.maxDepth = 6
+2020-06-20 12:19:44,707 [myid:] - INFO  [QuorumPeer[myid=4](plain=127.0.0.1:24701)(secure=disabled):RequestPathMetricsCollector@113] - zookeeper.pathStats.maxDepth = 6
+2020-06-20 12:19:44,707 [myid:] - INFO  [QuorumPeer[myid=2](plain=127.0.0.1:24699)(secure=disabled):RequestPathMetricsCollector@112] - zookeeper.pathStats.slotDuration = 15
+2020-06-20 12:19:44,708 [myid:] - INFO  [QuorumPeer[myid=2](plain=127.0.0.1:24699)(secure=disabled):RequestPathMetricsCollector@113] - zookeeper.pathStats.maxDepth = 6
+2020-06-20 12:19:44,708 [myid:] - INFO  [QuorumPeer[myid=2](plain=127.0.0.1:24699)(secure=disabled):RequestPathMetricsCollector@114] - zookeeper.pathStats.initialDelay = 5
+2020-06-20 12:19:44,708 [myid:] - INFO  [QuorumPeer[myid=4](plain=127.0.0.1:24701)(secure=disabled):RequestPathMetricsCollector@114] - zookeeper.pathStats.initialDelay = 5
+2020-06-20 12:19:44,708 [myid:] - INFO  [QuorumPeer[myid=4](plain=127.0.0.1:24701)(secure=disabled):RequestPathMetricsCollector@115] - zookeeper.pathStats.delay = 5
+2020-06-20 12:19:44,709 [myid:] - INFO  [QuorumPeer[myid=4](plain=127.0.0.1:24701)(secure=disabled):RequestPathMetricsCollector@116] - zookeeper.pathStats.enabled = false
+2020-06-20 12:19:44,708 [myid:] - INFO  [QuorumPeer[myid=3](plain=127.0.0.1:24700)(secure=disabled):RequestPathMetricsCollector@114] - zookeeper.pathStats.initialDelay = 5
+2020-06-20 12:19:44,709 [myid:] - INFO  [QuorumPeer[myid=3](plain=127.0.0.1:24700)(secure=disabled):RequestPathMetricsCollector@115] - zookeeper.pathStats.delay = 5
+2020-06-20 12:19:44,708 [myid:] - INFO  [QuorumPeer[myid=1](plain=127.0.0.1:24698)(secure=disabled):RequestPathMetricsCollector@114] - zookeeper.pathStats.initialDelay = 5
+2020-06-20 12:19:44,707 [myid:] - INFO  [QuorumPeer[myid=5](plain=127.0.0.1:24702)(secure=disabled):RequestPathMetricsCollector@112] - zookeeper.pathStats.slotDuration = 15
+2020-06-20 12:19:44,709 [myid:] - INFO  [QuorumPeer[myid=1](plain=127.0.0.1:24698)(secure=disabled):RequestPathMetricsCollector@115] - zookeeper.pathStats.delay = 5
+2020-06-20 12:19:44,709 [myid:] - INFO  [QuorumPeer[myid=1](plain=127.0.0.1:24698)(secure=disabled):RequestPathMetricsCollector@116] - zookeeper.pathStats.enabled = false
+2020-06-20 12:19:44,709 [myid:] - INFO  [QuorumPeer[myid=3](plain=127.0.0.1:24700)(secure=disabled):RequestPathMetricsCollector@116] - zookeeper.pathStats.enabled = false
+2020-06-20 12:19:44,708 [myid:] - INFO  [QuorumPeer[myid=2](plain=127.0.0.1:24699)(secure=disabled):RequestPathMetricsCollector@115] - zookeeper.pathStats.delay = 5
+2020-06-20 12:19:44,709 [myid:] - INFO  [QuorumPeer[myid=5](plain=127.0.0.1:24702)(secure=disabled):RequestPathMetricsCollector@113] - zookeeper.pathStats.maxDepth = 6
+2020-06-20 12:19:44,710 [myid:] - INFO  [QuorumPeer[myid=2](plain=127.0.0.1:24699)(secure=disabled):RequestPathMetricsCollector@116] - zookeeper.pathStats.enabled = false
+2020-06-20 12:19:44,710 [myid:] - INFO  [QuorumPeer[myid=5](plain=127.0.0.1:24702)(secure=disabled):RequestPathMetricsCollector@114] - zookeeper.pathStats.initialDelay = 5
+2020-06-20 12:19:44,710 [myid:] - INFO  [QuorumPeer[myid=5](plain=127.0.0.1:24702)(secure=disabled):RequestPathMetricsCollector@115] - zookeeper.pathStats.delay = 5
+2020-06-20 12:19:44,710 [myid:] - INFO  [QuorumPeer[myid=5](plain=127.0.0.1:24702)(secure=disabled):RequestPathMetricsCollector@116] - zookeeper.pathStats.enabled = false
+2020-06-20 12:19:44,711 [myid:] - INFO  [QuorumPeer[myid=1](plain=127.0.0.1:24698)(secure=disabled):ZooKeeperServer@1533] - The max bytes for all large requests are set to 104857600
+2020-06-20 12:19:44,711 [myid:] - INFO  [QuorumPeer[myid=3](plain=127.0.0.1:24700)(secure=disabled):ZooKeeperServer@1533] - The max bytes for all large requests are set to 104857600
+2020-06-20 12:19:44,711 [myid:] - INFO  [QuorumPeer[myid=3](plain=127.0.0.1:24700)(secure=disabled):ZooKeeperServer@1547] - The large request threshold is set to -1
+2020-06-20 12:19:44,711 [myid:] - INFO  [QuorumPeer[myid=4](plain=127.0.0.1:24701)(secure=disabled):ZooKeeperServer@1533] - The max bytes for all large requests are set to 104857600
+2020-06-20 12:19:44,711 [myid:] - INFO  [QuorumPeer[myid=3](plain=127.0.0.1:24700)(secure=disabled):ZooKeeperServer@332] - Created server with tickTime 2000 minSessionTimeout 4000 maxSessionTimeout 40000 clientPortListenBacklog -1 datadir /Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/surefire/test7633498781314459527.junit.dir/version-2 snapdir /Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/surefire/test7633498781314459527.junit.dir/version-2
+2020-06-20 12:19:44,711 [myid:] - INFO  [QuorumPeer[myid=5](plain=127.0.0.1:24702)(secure=disabled):ZooKeeperServer@1533] - The max bytes for all large requests are set to 104857600
+2020-06-20 12:19:44,712 [myid:] - INFO  [QuorumPeer[myid=5](plain=127.0.0.1:24702)(secure=disabled):ZooKeeperServer@1547] - The large request threshold is set to -1
+2020-06-20 12:19:44,711 [myid:] - INFO  [QuorumPeer[myid=2](plain=127.0.0.1:24699)(secure=disabled):ZooKeeperServer@1533] - The max bytes for all large requests are set to 104857600
+2020-06-20 12:19:44,712 [myid:] - INFO  [QuorumPeer[myid=2](plain=127.0.0.1:24699)(secure=disabled):ZooKeeperServer@1547] - The large request threshold is set to -1
+2020-06-20 12:19:44,712 [myid:] - INFO  [QuorumPeer[myid=2](plain=127.0.0.1:24699)(secure=disabled):ZooKeeperServer@332] - Created server with tickTime 2000 minSessionTimeout 4000 maxSessionTimeout 40000 clientPortListenBacklog -1 datadir /Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/surefire/test3144560304799766797.junit.dir/version-2 snapdir /Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/surefire/test3144560304799766797.junit.dir/version-2
+2020-06-20 12:19:44,711 [myid:] - INFO  [QuorumPeer[myid=1](plain=127.0.0.1:24698)(secure=disabled):ZooKeeperServer@1547] - The large request threshold is set to -1
+2020-06-20 12:19:44,712 [myid:] - INFO  [QuorumPeer[myid=1](plain=127.0.0.1:24698)(secure=disabled):ZooKeeperServer@332] - Created server with tickTime 2000 minSessionTimeout 4000 maxSessionTimeout 40000 clientPortListenBacklog -1 datadir /Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/surefire/test4478212579356007292.junit.dir/version-2 snapdir /Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/surefire/test4478212579356007292.junit.dir/version-2
+2020-06-20 12:19:44,712 [myid:] - INFO  [QuorumPeer[myid=5](plain=127.0.0.1:24702)(secure=disabled):ZooKeeperServer@332] - Created server with tickTime 2000 minSessionTimeout 4000 maxSessionTimeout 40000 clientPortListenBacklog -1 datadir /Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/surefire/test6004043682656153209.junit.dir/version-2 snapdir /Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/surefire/test6004043682656153209.junit.dir/version-2
+2020-06-20 12:19:44,711 [myid:] - INFO  [QuorumPeer[myid=4](plain=127.0.0.1:24701)(secure=disabled):ZooKeeperServer@1547] - The large request threshold is set to -1
+2020-06-20 12:19:44,713 [myid:] - INFO  [QuorumPeer[myid=4](plain=127.0.0.1:24701)(secure=disabled):ZooKeeperServer@332] - Created server with tickTime 2000 minSessionTimeout 4000 maxSessionTimeout 40000 clientPortListenBacklog -1 datadir /Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/surefire/test2461068113263882211.junit.dir/version-2 snapdir /Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/surefire/test2461068113263882211.junit.dir/version-2
+2020-06-20 12:19:44,714 [myid:] - INFO  [QuorumPeer[myid=2](plain=127.0.0.1:24699)(secure=disabled):Follower@75] - FOLLOWING - LEADER ELECTION TOOK - 349 MS
+2020-06-20 12:19:44,714 [myid:] - INFO  [QuorumPeer[myid=3](plain=127.0.0.1:24700)(secure=disabled):Follower@75] - FOLLOWING - LEADER ELECTION TOOK - 325 MS
+2020-06-20 12:19:44,714 [myid:] - INFO  [QuorumPeer[myid=4](plain=127.0.0.1:24701)(secure=disabled):Follower@75] - FOLLOWING - LEADER ELECTION TOOK - 315 MS
+2020-06-20 12:19:44,714 [myid:] - INFO  [QuorumPeer[myid=1](plain=127.0.0.1:24698)(secure=disabled):Follower@75] - FOLLOWING - LEADER ELECTION TOOK - 352 MS
+2020-06-20 12:19:44,717 [myid:] - INFO  [QuorumPeer[myid=3](plain=127.0.0.1:24700)(secure=disabled):QuorumPeer@865] - Peer state changed: following - discovery
+2020-06-20 12:19:44,717 [myid:] - INFO  [QuorumPeer[myid=2](plain=127.0.0.1:24699)(secure=disabled):QuorumPeer@865] - Peer state changed: following - discovery
+2020-06-20 12:19:44,717 [myid:] - INFO  [QuorumPeer[myid=1](plain=127.0.0.1:24698)(secure=disabled):QuorumPeer@865] - Peer state changed: following - discovery
+2020-06-20 12:19:44,717 [myid:] - INFO  [QuorumPeer[myid=4](plain=127.0.0.1:24701)(secure=disabled):QuorumPeer@865] - Peer state changed: following - discovery
+2020-06-20 12:19:44,720 [myid:] - INFO  [QuorumPeer[myid=5](plain=127.0.0.1:24702)(secure=disabled):Leader@598] - LEADING - LEADER ELECTION TOOK - 240 MS
+2020-06-20 12:19:44,720 [myid:] - INFO  [LeaderConnector-/127.0.0.1:24692:Learner$LeaderConnector@337] - Successfully connected to leader, using address: /127.0.0.1:24692
+2020-06-20 12:19:44,720 [myid:] - INFO  [LeaderConnector-/127.0.0.1:24692:Learner$LeaderConnector@337] - Successfully connected to leader, using address: /127.0.0.1:24692
+2020-06-20 12:19:44,722 [myid:] - INFO  [LeaderConnector-/127.0.0.1:24692:Learner$LeaderConnector@337] - Successfully connected to leader, using address: /127.0.0.1:24692
+2020-06-20 12:19:44,722 [myid:] - INFO  [LeaderConnector-/127.0.0.1:24692:Learner$LeaderConnector@337] - Successfully connected to leader, using address: /127.0.0.1:24692
+2020-06-20 12:19:44,722 [myid:] - INFO  [QuorumPeer[myid=5](plain=127.0.0.1:24702)(secure=disabled):QuorumPeer@865] - Peer state changed: leading - discovery
+2020-06-20 12:19:44,723 [myid:] - INFO  [QuorumPeer[myid=5](plain=127.0.0.1:24702)(secure=disabled):FileTxnSnapLog@476] - Snapshotting: 0x0 to /Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/surefire/test6004043682656153209.junit.dir/version-2/snapshot.0
+2020-06-20 12:19:44,726 [myid:] - INFO  [QuorumPeer[myid=5](plain=127.0.0.1:24702)(secure=disabled):ZooKeeperServer@525] - Snapshot taken in 3 ms
+2020-06-20 12:19:44,738 [myid:] - INFO  [LearnerHandler-/127.0.0.1:59598:LearnerHandler@514] - Follower sid: 4 : info : 127.0.0.1:24691:24696:participant;127.0.0.1:24701
+2020-06-20 12:19:44,738 [myid:] - INFO  [LearnerHandler-/127.0.0.1:59599:LearnerHandler@514] - Follower sid: 3 : info : 127.0.0.1:24690:24695:participant;127.0.0.1:24700
+2020-06-20 12:19:44,738 [myid:] - INFO  [LearnerHandler-/127.0.0.1:59600:LearnerHandler@514] - Follower sid: 1 : info : 127.0.0.1:24688:24693:participant;127.0.0.1:24698
+2020-06-20 12:19:44,738 [myid:] - INFO  [LearnerHandler-/127.0.0.1:59601:LearnerHandler@514] - Follower sid: 2 : info : 127.0.0.1:24689:24694:participant;127.0.0.1:24699
+2020-06-20 12:19:44,743 [myid:] - WARN  [QuorumPeer[myid=5](plain=127.0.0.1:24702)(secure=disabled):QuorumPeer@1832] - configFilename is null! This should only happen in tests.
+2020-06-20 12:19:44,744 [myid:] - INFO  [QuorumPeer[myid=3](plain=127.0.0.1:24700)(secure=disabled):QuorumPeer@865] - Peer state changed: following - synchronization
+2020-06-20 12:19:44,744 [myid:] - INFO  [LearnerHandler-/127.0.0.1:59599:ZKDatabase@352] - On disk txn sync enabled with snapshotSizeFactor 0.33
+2020-06-20 12:19:44,744 [myid:] - INFO  [LearnerHandler-/127.0.0.1:59600:ZKDatabase@352] - On disk txn sync enabled with snapshotSizeFactor 0.33
+2020-06-20 12:19:44,744 [myid:] - INFO  [LearnerHandler-/127.0.0.1:59601:ZKDatabase@352] - On disk txn sync enabled with snapshotSizeFactor 0.33
+2020-06-20 12:19:44,744 [myid:] - INFO  [LearnerHandler-/127.0.0.1:59598:ZKDatabase@352] - On disk txn sync enabled with snapshotSizeFactor 0.33
+2020-06-20 12:19:44,744 [myid:] - INFO  [QuorumPeer[myid=2](plain=127.0.0.1:24699)(secure=disabled):QuorumPeer@865] - Peer state changed: following - synchronization
+2020-06-20 12:19:44,744 [myid:] - INFO  [LearnerHandler-/127.0.0.1:59598:LearnerHandler@861] - Synchronizing with Learner sid: 4 maxCommittedLog=0x0 minCommittedLog=0x0 lastProcessedZxid=0x0 peerLastZxid=0x0
+2020-06-20 12:19:44,744 [myid:] - INFO  [LearnerHandler-/127.0.0.1:59600:LearnerHandler@861] - Synchronizing with Learner sid: 1 maxCommittedLog=0x0 minCommittedLog=0x0 lastProcessedZxid=0x0 peerLastZxid=0x0
+2020-06-20 12:19:44,744 [myid:] - INFO  [LearnerHandler-/127.0.0.1:59601:LearnerHandler@861] - Synchronizing with Learner sid: 2 maxCommittedLog=0x0 minCommittedLog=0x0 lastProcessedZxid=0x0 peerLastZxid=0x0
+2020-06-20 12:19:44,744 [myid:] - INFO  [LearnerHandler-/127.0.0.1:59599:LearnerHandler@861] - Synchronizing with Learner sid: 3 maxCommittedLog=0x0 minCommittedLog=0x0 lastProcessedZxid=0x0 peerLastZxid=0x0
+2020-06-20 12:19:44,745 [myid:] - INFO  [LearnerHandler-/127.0.0.1:59599:LearnerHandler@916] - Sending DIFF zxid=0x0 for peer sid: 3
+2020-06-20 12:19:44,744 [myid:] - INFO  [QuorumPeer[myid=4](plain=127.0.0.1:24701)(secure=disabled):QuorumPeer@865] - Peer state changed: following - synchronization
+2020-06-20 12:19:44,744 [myid:] - INFO  [QuorumPeer[myid=1](plain=127.0.0.1:24698)(secure=disabled):QuorumPeer@865] - Peer state changed: following - synchronization
+2020-06-20 12:19:44,745 [myid:] - INFO  [QuorumPeer[myid=5](plain=127.0.0.1:24702)(secure=disabled):QuorumPeer@865] - Peer state changed: leading - synchronization
+2020-06-20 12:19:44,744 [myid:] - INFO  [LearnerHandler-/127.0.0.1:59601:LearnerHandler@916] - Sending DIFF zxid=0x0 for peer sid: 2
+2020-06-20 12:19:44,744 [myid:] - INFO  [LearnerHandler-/127.0.0.1:59600:LearnerHandler@916] - Sending DIFF zxid=0x0 for peer sid: 1
+2020-06-20 12:19:44,744 [myid:] - INFO  [LearnerHandler-/127.0.0.1:59598:LearnerHandler@916] - Sending DIFF zxid=0x0 for peer sid: 4
+2020-06-20 12:19:44,747 [myid:] - INFO  [QuorumPeer[myid=4](plain=127.0.0.1:24701)(secure=disabled):Learner@542] - Getting a diff from the leader 0x0
+2020-06-20 12:19:44,747 [myid:] - INFO  [QuorumPeer[myid=4](plain=127.0.0.1:24701)(secure=disabled):QuorumPeer@870] - Peer state changed: following - synchronization - diff
+2020-06-20 12:19:44,747 [myid:] - INFO  [QuorumPeer[myid=1](plain=127.0.0.1:24698)(secure=disabled):Learner@542] - Getting a diff from the leader 0x0
+2020-06-20 12:19:44,747 [myid:] - INFO  [QuorumPeer[myid=3](plain=127.0.0.1:24700)(secure=disabled):Learner@542] - Getting a diff from the leader 0x0
+2020-06-20 12:19:44,748 [myid:] - INFO  [QuorumPeer[myid=3](plain=127.0.0.1:24700)(secure=disabled):QuorumPeer@870] - Peer state changed: following - synchronization - diff
+2020-06-20 12:19:44,748 [myid:] - INFO  [QuorumPeer[myid=1](plain=127.0.0.1:24698)(secure=disabled):QuorumPeer@870] - Peer state changed: following - synchronization - diff
+2020-06-20 12:19:44,757 [myid:] - INFO  [QuorumPeer[myid=2](plain=127.0.0.1:24699)(secure=disabled):Learner@542] - Getting a diff from the leader 0x0
+2020-06-20 12:19:44,770 [myid:] - INFO  [QuorumPeer[myid=2](plain=127.0.0.1:24699)(secure=disabled):QuorumPeer@870] - Peer state changed: following - synchronization - diff
+2020-06-20 12:19:44,773 [myid:] - INFO  [QuorumPeer[myid=3](plain=127.0.0.1:24700)(secure=disabled):Learner@719] - Learner received NEWLEADER message
+2020-06-20 12:19:44,774 [myid:] - INFO  [QuorumPeer[myid=2](plain=127.0.0.1:24699)(secure=disabled):Learner@719] - Learner received NEWLEADER message
+2020-06-20 12:19:44,773 [myid:] - INFO  [QuorumPeer[myid=1](plain=127.0.0.1:24698)(secure=disabled):Learner@719] - Learner received NEWLEADER message
+2020-06-20 12:19:44,773 [myid:] - INFO  [QuorumPeer[myid=4](plain=127.0.0.1:24701)(secure=disabled):Learner@719] - Learner received NEWLEADER message
+2020-06-20 12:19:44,774 [myid:] - WARN  [QuorumPeer[myid=3](plain=127.0.0.1:24700)(secure=disabled):QuorumPeer@1832] - configFilename is null! This should only happen in tests.
+2020-06-20 12:19:44,774 [myid:] - WARN  [QuorumPeer[myid=2](plain=127.0.0.1:24699)(secure=disabled):QuorumPeer@1832] - configFilename is null! This should only happen in tests.
+2020-06-20 12:19:44,774 [myid:] - WARN  [QuorumPeer[myid=1](plain=127.0.0.1:24698)(secure=disabled):QuorumPeer@1832] - configFilename is null! This should only happen in tests.
+2020-06-20 12:19:44,774 [myid:] - WARN  [QuorumPeer[myid=4](plain=127.0.0.1:24701)(secure=disabled):QuorumPeer@1832] - configFilename is null! This should only happen in tests.
+2020-06-20 12:19:44,775 [myid:] - INFO  [QuorumPeer[myid=5](plain=127.0.0.1:24702)(secure=disabled):Leader@1587] - Have quorum of supporters, sids: [[2, 3, 5],[2, 3, 5]]; starting up and setting last processed zxid: 0x100000000
+2020-06-20 12:19:44,786 [myid:] - INFO  [QuorumPeer[myid=5](plain=127.0.0.1:24702)(secure=disabled):CommitProcessor@543] - Configuring CommitProcessor with readBatchSize -1 commitBatchSize 1
+2020-06-20 12:19:44,786 [myid:] - INFO  [QuorumPeer[myid=5](plain=127.0.0.1:24702)(secure=disabled):CommitProcessor@505] - Configuring CommitProcessor with 12 worker threads.
+2020-06-20 12:19:44,799 [myid:] - INFO  [QuorumPeer[myid=5](plain=127.0.0.1:24702)(secure=disabled):ContainerManager@83] - Using checkIntervalMs=60000 maxPerMinute=10000 maxNeverUsedIntervalMs=0
+2020-06-20 12:19:44,800 [myid:] - INFO  [QuorumPeer[myid=5](plain=127.0.0.1:24702)(secure=disabled):RequestThrottler@74] - zookeeper.request_throttler.shutdownTimeout = 10000
+2020-06-20 12:19:44,812 [myid:] - INFO  [main:FourLetterWordMain@93] - connecting to 127.0.0.1 24698
+2020-06-20 12:19:44,814 [myid:] - INFO  [NIOWorkerThread-2:NIOServerCnxn@531] - Processing stat command from /127.0.0.1:59602
+2020-06-20 12:19:44,823 [myid:] - INFO  [QuorumPeer[myid=2](plain=127.0.0.1:24699)(secure=disabled):Learner@702] - Learner received UPTODATE message
+2020-06-20 12:19:44,823 [myid:] - INFO  [QuorumPeer[myid=5](plain=127.0.0.1:24702)(secure=disabled):QuorumPeer@865] - Peer state changed: leading - broadcast
+2020-06-20 12:19:44,823 [myid:] - INFO  [QuorumPeer[myid=4](plain=127.0.0.1:24701)(secure=disabled):Learner@702] - Learner received UPTODATE message
+2020-06-20 12:19:44,823 [myid:] - INFO  [QuorumPeer[myid=1](plain=127.0.0.1:24698)(secure=disabled):Learner@702] - Learner received UPTODATE message
+2020-06-20 12:19:44,823 [myid:] - INFO  [QuorumPeer[myid=3](plain=127.0.0.1:24700)(secure=disabled):Learner@702] - Learner received UPTODATE message
+2020-06-20 12:19:44,824 [myid:] - INFO  [QuorumPeer[myid=1](plain=127.0.0.1:24698)(secure=disabled):QuorumPeer@870] - Peer state changed: following - synchronization
+2020-06-20 12:19:44,823 [myid:] - INFO  [QuorumPeer[myid=4](plain=127.0.0.1:24701)(secure=disabled):QuorumPeer@870] - Peer state changed: following - synchronization
+2020-06-20 12:19:44,823 [myid:] - INFO  [QuorumPeer[myid=2](plain=127.0.0.1:24699)(secure=disabled):QuorumPeer@870] - Peer state changed: following - synchronization
+2020-06-20 12:19:44,824 [myid:] - INFO  [QuorumPeer[myid=4](plain=127.0.0.1:24701)(secure=disabled):CommitProcessor@543] - Configuring CommitProcessor with readBatchSize -1 commitBatchSize 1
+2020-06-20 12:19:44,824 [myid:] - INFO  [QuorumPeer[myid=1](plain=127.0.0.1:24698)(secure=disabled):CommitProcessor@543] - Configuring CommitProcessor with readBatchSize -1 commitBatchSize 1
+2020-06-20 12:19:44,824 [myid:] - INFO  [QuorumPeer[myid=3](plain=127.0.0.1:24700)(secure=disabled):QuorumPeer@870] - Peer state changed: following - synchronization
+2020-06-20 12:19:44,824 [myid:] - INFO  [QuorumPeer[myid=1](plain=127.0.0.1:24698)(secure=disabled):CommitProcessor@505] - Configuring CommitProcessor with 12 worker threads.
+2020-06-20 12:19:44,824 [myid:] - INFO  [QuorumPeer[myid=4](plain=127.0.0.1:24701)(secure=disabled):CommitProcessor@505] - Configuring CommitProcessor with 12 worker threads.
+2020-06-20 12:19:44,824 [myid:] - INFO  [QuorumPeer[myid=2](plain=127.0.0.1:24699)(secure=disabled):CommitProcessor@543] - Configuring CommitProcessor with readBatchSize -1 commitBatchSize 1
+2020-06-20 12:19:44,825 [myid:] - INFO  [QuorumPeer[myid=3](plain=127.0.0.1:24700)(secure=disabled):CommitProcessor@543] - Configuring CommitProcessor with readBatchSize -1 commitBatchSize 1
+2020-06-20 12:19:44,825 [myid:] - INFO  [QuorumPeer[myid=3](plain=127.0.0.1:24700)(secure=disabled):CommitProcessor@505] - Configuring CommitProcessor with 12 worker threads.
+2020-06-20 12:19:44,825 [myid:] - INFO  [QuorumPeer[myid=2](plain=127.0.0.1:24699)(secure=disabled):CommitProcessor@505] - Configuring CommitProcessor with 12 worker threads.
+2020-06-20 12:19:44,828 [myid:] - INFO  [QuorumPeer[myid=3](plain=127.0.0.1:24700)(secure=disabled):QuorumPeer@865] - Peer state changed: following - broadcast
+2020-06-20 12:19:44,828 [myid:] - INFO  [QuorumPeer[myid=2](plain=127.0.0.1:24699)(secure=disabled):QuorumPeer@865] - Peer state changed: following - broadcast
+2020-06-20 12:19:44,828 [myid:] - INFO  [QuorumPeer[myid=1](plain=127.0.0.1:24698)(secure=disabled):QuorumPeer@865] - Peer state changed: following - broadcast
+2020-06-20 12:19:44,829 [myid:] - INFO  [QuorumPeer[myid=4](plain=127.0.0.1:24701)(secure=disabled):QuorumPeer@865] - Peer state changed: following - broadcast
+2020-06-20 12:19:45,065 [myid:] - INFO  [main:FourLetterWordMain@93] - connecting to 127.0.0.1 24698
+2020-06-20 12:19:45,068 [myid:] - INFO  [NIOWorkerThread-3:NIOServerCnxn@531] - Processing stat command from /127.0.0.1:59603
+2020-06-20 12:19:45,068 [myid:] - INFO  [NIOWorkerThread-3:StatCommand@52] - Stat command output
+2020-06-20 12:19:45,069 [myid:] - INFO  [main:QuorumBase@211] - 127.0.0.1:24698 is accepting client connections
+2020-06-20 12:19:45,070 [myid:] - INFO  [main:FourLetterWordMain@93] - connecting to 127.0.0.1 24699
+2020-06-20 12:19:45,071 [myid:] - INFO  [NIOWorkerThread-1:NIOServerCnxn@531] - Processing stat command from /127.0.0.1:59604
+2020-06-20 12:19:45,071 [myid:] - INFO  [NIOWorkerThread-1:StatCommand@52] - Stat command output
+2020-06-20 12:19:45,072 [myid:] - INFO  [main:QuorumBase@211] - 127.0.0.1:24699 is accepting client connections
+2020-06-20 12:19:45,072 [myid:] - INFO  [main:FourLetterWordMain@93] - connecting to 127.0.0.1 24700
+2020-06-20 12:19:45,073 [myid:] - INFO  [NIOWorkerThread-1:NIOServerCnxn@531] - Processing stat command from /127.0.0.1:59605
+2020-06-20 12:19:45,073 [myid:] - INFO  [NIOWorkerThread-1:StatCommand@52] - Stat command output
+2020-06-20 12:19:45,074 [myid:] - INFO  [main:QuorumBase@211] - 127.0.0.1:24700 is accepting client connections
+2020-06-20 12:19:45,074 [myid:] - INFO  [main:FourLetterWordMain@93] - connecting to 127.0.0.1 24701
+2020-06-20 12:19:45,075 [myid:] - INFO  [NIOWorkerThread-1:NIOServerCnxn@531] - Processing stat command from /127.0.0.1:59606
+2020-06-20 12:19:45,076 [myid:] - INFO  [NIOWorkerThread-1:StatCommand@52] - Stat command output
+2020-06-20 12:19:45,076 [myid:] - INFO  [main:QuorumBase@211] - 127.0.0.1:24701 is accepting client connections
+2020-06-20 12:19:45,076 [myid:] - INFO  [main:FourLetterWordMain@93] - connecting to 127.0.0.1 24702
+2020-06-20 12:19:45,078 [myid:] - INFO  [NIOWorkerThread-1:NIOServerCnxn@531] - Processing stat command from /127.0.0.1:59607
+2020-06-20 12:19:45,078 [myid:] - INFO  [NIOWorkerThread-1:StatCommand@52] - Stat command output
+2020-06-20 12:19:45,078 [myid:] - INFO  [main:QuorumBase@211] - 127.0.0.1:24702 is accepting client connections
+2020-06-20 12:19:45,079 [myid:] - INFO  [main:JMXEnv@191] - JMXEnv.dump() follows
+2020-06-20 12:19:45,089 [myid:] - INFO  [main:JMXEnv@199] - bean:org.apache.ZooKeeperService:name0=ReplicatedServer_id5,name1=replica.5,name2=Leader
+2020-06-20 12:19:45,089 [myid:] - INFO  [main:JMXEnv@199] - bean:org.apache.ZooKeeperService:name0=ReplicatedServer_id5,name1=replica.5
+2020-06-20 12:19:45,090 [myid:] - INFO  [main:JMXEnv@199] - bean:org.apache.ZooKeeperService:name0=ReplicatedServer_id1,name1=replica.1,name2=Follower,name3=InMemoryDataTree
+2020-06-20 12:19:45,090 [myid:] - INFO  [main:JMXEnv@199] - bean:org.apache.ZooKeeperService:name0=ReplicatedServer_id5,name1=replica.2
+2020-06-20 12:19:45,090 [myid:] - INFO  [main:JMXEnv@199] - bean:org.apache.ZooKeeperService:name0=ReplicatedServer_id5
+2020-06-20 12:19:45,090 [myid:] - INFO  [main:JMXEnv@199] - bean:org.apache.ZooKeeperService:name0=ReplicatedServer_id5,name1=replica.1
+2020-06-20 12:19:45,090 [myid:] - INFO  [main:JMXEnv@199] - bean:org.apache.ZooKeeperService:name0=ReplicatedServer_id2,name1=replica.5
+2020-06-20 12:19:45,090 [myid:] - INFO  [main:JMXEnv@199] - bean:org.apache.ZooKeeperService:name0=ReplicatedServer_id5,name1=replica.4
+2020-06-20 12:19:45,090 [myid:] - INFO  [main:JMXEnv@199] - bean:org.apache.ZooKeeperService:name0=ReplicatedServer_id2,name1=replica.4
+2020-06-20 12:19:45,091 [myid:] - INFO  [main:JMXEnv@199] - bean:org.apache.ZooKeeperService:name0=ReplicatedServer_id5,name1=replica.3
+2020-06-20 12:19:45,091 [myid:] - INFO  [main:JMXEnv@199] - bean:org.apache.ZooKeeperService:name0=ReplicatedServer_id2,name1=replica.3
+2020-06-20 12:19:45,091 [myid:] - INFO  [main:JMXEnv@199] - bean:org.apache.ZooKeeperService:name0=ReplicatedServer_id1
+2020-06-20 12:19:45,091 [myid:] - INFO  [main:JMXEnv@199] - bean:org.apache.ZooKeeperService:name0=ReplicatedServer_id2,name1=replica.2
+2020-06-20 12:19:45,091 [myid:] - INFO  [main:JMXEnv@199] - bean:org.apache.ZooKeeperService:name0=ReplicatedServer_id2
+2020-06-20 12:19:45,091 [myid:] - INFO  [main:JMXEnv@199] - bean:org.apache.ZooKeeperService:name0=ReplicatedServer_id2,name1=replica.1
+2020-06-20 12:19:45,091 [myid:] - INFO  [main:JMXEnv@199] - bean:org.apache.ZooKeeperService:name0=ReplicatedServer_id3
+2020-06-20 12:19:45,091 [myid:] - INFO  [main:JMXEnv@199] - bean:org.apache.ZooKeeperService:name0=ReplicatedServer_id4
+2020-06-20 12:19:45,092 [myid:] - INFO  [main:JMXEnv@199] - bean:org.apache.ZooKeeperService:name0=ReplicatedServer_id2,name1=replica.2,name2=Follower,name3=InMemoryDataTree
+2020-06-20 12:19:45,092 [myid:] - INFO  [main:JMXEnv@199] - bean:org.apache.ZooKeeperService:name0=ReplicatedServer_id5,name1=replica.5,name2=Leader,name3=Learner_Connections,name4="127.0.0.1:59598",name5="id:4"
+2020-06-20 12:19:45,092 [myid:] - INFO  [main:JMXEnv@199] - bean:org.apache.ZooKeeperService:name0=ReplicatedServer_id5,name1=replica.5,name2=Leader,name3=InMemoryDataTree
+2020-06-20 12:19:45,092 [myid:] - INFO  [main:JMXEnv@199] - bean:org.apache.ZooKeeperService:name0=ReplicatedServer_id4,name1=replica.4,name2=Follower,name3=InMemoryDataTree
+2020-06-20 12:19:45,092 [myid:] - INFO  [main:JMXEnv@199] - bean:org.apache.ZooKeeperService:name0=ReplicatedServer_id4,name1=replica.4,name2=Follower
+2020-06-20 12:19:45,092 [myid:] - INFO  [main:JMXEnv@199] - bean:org.apache.ZooKeeperService:name0=ReplicatedServer_id1,name1=replica.1,name2=Follower
+2020-06-20 12:19:45,092 [myid:] - INFO  [main:JMXEnv@199] - bean:org.apache.ZooKeeperService:name0=ReplicatedServer_id2,name1=replica.2,name2=Follower
+2020-06-20 12:19:45,092 [myid:] - INFO  [main:JMXEnv@199] - bean:org.apache.ZooKeeperService:name0=ReplicatedServer_id3,name1=replica.3,name2=Follower
+2020-06-20 12:19:45,093 [myid:] - INFO  [main:JMXEnv@199] - bean:org.apache.ZooKeeperService:name0=ReplicatedServer_id4,name1=replica.1
+2020-06-20 12:19:45,093 [myid:] - INFO  [main:JMXEnv@199] - bean:org.apache.ZooKeeperService:name0=ReplicatedServer_id1,name1=replica.5
+2020-06-20 12:19:45,093 [myid:] - INFO  [main:JMXEnv@199] - bean:org.apache.ZooKeeperService:name0=ReplicatedServer_id4,name1=replica.5
+2020-06-20 12:19:45,093 [myid:] - INFO  [main:JMXEnv@199] - bean:org.apache.ZooKeeperService:name0=ReplicatedServer_id1,name1=replica.2
+2020-06-20 12:19:45,093 [myid:] - INFO  [main:JMXEnv@199] - bean:org.apache.ZooKeeperService:name0=ReplicatedServer_id4,name1=replica.4
+2020-06-20 12:19:45,093 [myid:] - INFO  [main:JMXEnv@199] - bean:org.apache.ZooKeeperService:name0=ReplicatedServer_id1,name1=replica.1
+2020-06-20 12:19:45,093 [myid:] - INFO  [main:JMXEnv@199] - bean:org.apache.ZooKeeperService:name0=ReplicatedServer_id4,name1=replica.3
+2020-06-20 12:19:45,093 [myid:] - INFO  [main:JMXEnv@199] - bean:org.apache.ZooKeeperService:name0=ReplicatedServer_id1,name1=replica.4
+2020-06-20 12:19:45,094 [myid:] - INFO  [main:JMXEnv@199] - bean:org.apache.ZooKeeperService:name0=ReplicatedServer_id4,name1=replica.2
+2020-06-20 12:19:45,094 [myid:] - INFO  [main:JMXEnv@199] - bean:org.apache.ZooKeeperService:name0=ReplicatedServer_id3,name1=replica.3,name2=Follower,name3=InMemoryDataTree
+2020-06-20 12:19:45,094 [myid:] - INFO  [main:JMXEnv@199] - bean:org.apache.ZooKeeperService:name0=ReplicatedServer_id1,name1=replica.3
+2020-06-20 12:19:45,094 [myid:] - INFO  [main:JMXEnv@199] - bean:org.apache.ZooKeeperService:name0=ReplicatedServer_id5,name1=replica.5,name2=Leader,name3=Learner_Connections,name4="127.0.0.1:59599",name5="id:3"
+2020-06-20 12:19:45,094 [myid:] - INFO  [main:JMXEnv@199] - bean:org.apache.ZooKeeperService:name0=ReplicatedServer_id3,name1=replica.2
+2020-06-20 12:19:45,094 [myid:] - INFO  [main:JMXEnv@199] - bean:org.apache.ZooKeeperService:name0=ReplicatedServer_id5,name1=replica.5,name2=Leader,name3=Learner_Connections,name4="127.0.0.1:59600",name5="id:1"
+2020-06-20 12:19:45,095 [myid:] - INFO  [main:JMXEnv@199] - bean:org.apache.ZooKeeperService:name0=ReplicatedServer_id3,name1=replica.1
+2020-06-20 12:19:45,095 [myid:] - INFO  [main:JMXEnv@199] - bean:org.apache.ZooKeeperService:name0=ReplicatedServer_id5,name1=replica.5,name2=Leader,name3=Learner_Connections,name4="127.0.0.1:59601",name5="id:2"
+2020-06-20 12:19:45,095 [myid:] - INFO  [main:JMXEnv@199] - bean:org.apache.ZooKeeperService:name0=ReplicatedServer_id3,name1=replica.4
+2020-06-20 12:19:45,095 [myid:] - INFO  [main:JMXEnv@199] - bean:org.apache.ZooKeeperService:name0=ReplicatedServer_id3,name1=replica.3
+2020-06-20 12:19:45,095 [myid:] - INFO  [main:JMXEnv@199] - bean:org.apache.ZooKeeperService:name0=ReplicatedServer_id3,name1=replica.5
+2020-06-20 12:19:45,100 [myid:] - INFO  [main:JMXEnv@116] - expect:InMemoryDataTree
+2020-06-20 12:19:45,100 [myid:] - INFO  [main:JMXEnv@119] - found:InMemoryDataTree org.apache.ZooKeeperService:name0=ReplicatedServer_id1,name1=replica.1,name2=Follower,name3=InMemoryDataTree
+2020-06-20 12:19:45,100 [myid:] - INFO  [main:JMXEnv@116] - expect:name0=ReplicatedServer_id1,name1=replica.1,name2=
+2020-06-20 12:19:45,101 [myid:] - INFO  [main:JMXEnv@119] - found:name0=ReplicatedServer_id1,name1=replica.1,name2= org.apache.ZooKeeperService:name0=ReplicatedServer_id1,name1=replica.1,name2=Follower
+2020-06-20 12:19:45,101 [myid:] - INFO  [main:JMXEnv@116] - expect:name0=ReplicatedServer_id2,name1=replica.2,name2=
+2020-06-20 12:19:45,101 [myid:] - INFO  [main:JMXEnv@119] - found:name0=ReplicatedServer_id2,name1=replica.2,name2= org.apache.ZooKeeperService:name0=ReplicatedServer_id2,name1=replica.2,name2=Follower,name3=InMemoryDataTree
+2020-06-20 12:19:45,101 [myid:] - INFO  [main:JMXEnv@116] - expect:name0=ReplicatedServer_id3,name1=replica.3,name2=
+2020-06-20 12:19:45,101 [myid:] - INFO  [main:JMXEnv@119] - found:name0=ReplicatedServer_id3,name1=replica.3,name2= org.apache.ZooKeeperService:name0=ReplicatedServer_id3,name1=replica.3,name2=Follower
+2020-06-20 12:19:45,102 [myid:] - INFO  [main:JMXEnv@116] - expect:name0=ReplicatedServer_id4,name1=replica.4,name2=
+2020-06-20 12:19:45,102 [myid:] - INFO  [main:JMXEnv@119] - found:name0=ReplicatedServer_id4,name1=replica.4,name2= org.apache.ZooKeeperService:name0=ReplicatedServer_id4,name1=replica.4,name2=Follower,name3=InMemoryDataTree
+2020-06-20 12:19:45,102 [myid:] - INFO  [main:JMXEnv@116] - expect:name0=ReplicatedServer_id5,name1=replica.5,name2=
+2020-06-20 12:19:45,102 [myid:] - INFO  [main:JMXEnv@119] - found:name0=ReplicatedServer_id5,name1=replica.5,name2= org.apache.ZooKeeperService:name0=ReplicatedServer_id5,name1=replica.5,name2=Leader
+2020-06-20 12:19:45,102 [myid:] - INFO  [main:JMXEnv@116] - expect:name0=ReplicatedServer_id1,name1=replica.1
+2020-06-20 12:19:45,102 [myid:] - INFO  [main:JMXEnv@119] - found:name0=ReplicatedServer_id1,name1=replica.1 org.apache.ZooKeeperService:name0=ReplicatedServer_id1,name1=replica.1
+2020-06-20 12:19:45,103 [myid:] - INFO  [main:JMXEnv@116] - expect:name0=ReplicatedServer_id1,name1=replica.2
+2020-06-20 12:19:45,103 [myid:] - INFO  [main:JMXEnv@119] - found:name0=ReplicatedServer_id1,name1=replica.2 org.apache.ZooKeeperService:name0=ReplicatedServer_id1,name1=replica.2
+2020-06-20 12:19:45,103 [myid:] - INFO  [main:JMXEnv@116] - expect:name0=ReplicatedServer_id1,name1=replica.3
+2020-06-20 12:19:45,103 [myid:] - INFO  [main:JMXEnv@119] - found:name0=ReplicatedServer_id1,name1=replica.3 org.apache.ZooKeeperService:name0=ReplicatedServer_id1,name1=replica.3
+2020-06-20 12:19:45,104 [myid:] - INFO  [main:JMXEnv@116] - expect:name0=ReplicatedServer_id1,name1=replica.4
+2020-06-20 12:19:45,104 [myid:] - INFO  [main:JMXEnv@119] - found:name0=ReplicatedServer_id1,name1=replica.4 org.apache.ZooKeeperService:name0=ReplicatedServer_id1,name1=replica.4
+2020-06-20 12:19:45,104 [myid:] - INFO  [main:JMXEnv@116] - expect:name0=ReplicatedServer_id1,name1=replica.5
+2020-06-20 12:19:45,104 [myid:] - INFO  [main:JMXEnv@119] - found:name0=ReplicatedServer_id1,name1=replica.5 org.apache.ZooKeeperService:name0=ReplicatedServer_id1,name1=replica.5
+2020-06-20 12:19:45,104 [myid:] - INFO  [main:JMXEnv@116] - expect:name0=ReplicatedServer_id2,name1=replica.1
+2020-06-20 12:19:45,104 [myid:] - INFO  [main:JMXEnv@119] - found:name0=ReplicatedServer_id2,name1=replica.1 org.apache.ZooKeeperService:name0=ReplicatedServer_id2,name1=replica.1
+2020-06-20 12:19:45,105 [myid:] - INFO  [main:JMXEnv@116] - expect:name0=ReplicatedServer_id2,name1=replica.2
+2020-06-20 12:19:45,105 [myid:] - INFO  [main:JMXEnv@119] - found:name0=ReplicatedServer_id2,name1=replica.2 org.apache.ZooKeeperService:name0=ReplicatedServer_id2,name1=replica.2
+2020-06-20 12:19:45,105 [myid:] - INFO  [main:JMXEnv@116] - expect:name0=ReplicatedServer_id2,name1=replica.3
+2020-06-20 12:19:45,105 [myid:] - INFO  [main:JMXEnv@119] - found:name0=ReplicatedServer_id2,name1=replica.3 org.apache.ZooKeeperService:name0=ReplicatedServer_id2,name1=replica.3
+2020-06-20 12:19:45,105 [myid:] - INFO  [main:JMXEnv@116] - expect:name0=ReplicatedServer_id2,name1=replica.4
+2020-06-20 12:19:45,105 [myid:] - INFO  [main:JMXEnv@119] - found:name0=ReplicatedServer_id2,name1=replica.4 org.apache.ZooKeeperService:name0=ReplicatedServer_id2,name1=replica.4
+2020-06-20 12:19:45,105 [myid:] - INFO  [main:JMXEnv@116] - expect:name0=ReplicatedServer_id2,name1=replica.5
+2020-06-20 12:19:45,106 [myid:] - INFO  [main:JMXEnv@119] - found:name0=ReplicatedServer_id2,name1=replica.5 org.apache.ZooKeeperService:name0=ReplicatedServer_id2,name1=replica.5
+2020-06-20 12:19:45,106 [myid:] - INFO  [main:JMXEnv@116] - expect:name0=ReplicatedServer_id3,name1=replica.1
+2020-06-20 12:19:45,106 [myid:] - INFO  [main:JMXEnv@119] - found:name0=ReplicatedServer_id3,name1=replica.1 org.apache.ZooKeeperService:name0=ReplicatedServer_id3,name1=replica.1
+2020-06-20 12:19:45,106 [myid:] - INFO  [main:JMXEnv@116] - expect:name0=ReplicatedServer_id3,name1=replica.2
+2020-06-20 12:19:45,106 [myid:] - INFO  [main:JMXEnv@119] - found:name0=ReplicatedServer_id3,name1=replica.2 org.apache.ZooKeeperService:name0=ReplicatedServer_id3,name1=replica.2
+2020-06-20 12:19:45,107 [myid:] - INFO  [main:JMXEnv@116] - expect:name0=ReplicatedServer_id3,name1=replica.3
+2020-06-20 12:19:45,107 [myid:] - INFO  [main:JMXEnv@119] - found:name0=ReplicatedServer_id3,name1=replica.3 org.apache.ZooKeeperService:name0=ReplicatedServer_id3,name1=replica.3,name2=Follower,name3=InMemoryDataTree
+2020-06-20 12:19:45,107 [myid:] - INFO  [main:JMXEnv@116] - expect:name0=ReplicatedServer_id3,name1=replica.4
+2020-06-20 12:19:45,107 [myid:] - INFO  [main:JMXEnv@119] - found:name0=ReplicatedServer_id3,name1=replica.4 org.apache.ZooKeeperService:name0=ReplicatedServer_id3,name1=replica.4
+2020-06-20 12:19:45,108 [myid:] - INFO  [main:JMXEnv@116] - expect:name0=ReplicatedServer_id3,name1=replica.5
+2020-06-20 12:19:45,108 [myid:] - INFO  [main:JMXEnv@119] - found:name0=ReplicatedServer_id3,name1=replica.5 org.apache.ZooKeeperService:name0=ReplicatedServer_id3,name1=replica.5
+2020-06-20 12:19:45,108 [myid:] - INFO  [main:JMXEnv@116] - expect:name0=ReplicatedServer_id4,name1=replica.1
+2020-06-20 12:19:45,108 [myid:] - INFO  [main:JMXEnv@119] - found:name0=ReplicatedServer_id4,name1=replica.1 org.apache.ZooKeeperService:name0=ReplicatedServer_id4,name1=replica.1
+2020-06-20 12:19:45,108 [myid:] - INFO  [main:JMXEnv@116] - expect:name0=ReplicatedServer_id4,name1=replica.2
+2020-06-20 12:19:45,109 [myid:] - INFO  [main:JMXEnv@119] - found:name0=ReplicatedServer_id4,name1=replica.2 org.apache.ZooKeeperService:name0=ReplicatedServer_id4,name1=replica.2
+2020-06-20 12:19:45,109 [myid:] - INFO  [main:JMXEnv@116] - expect:name0=ReplicatedServer_id4,name1=replica.3
+2020-06-20 12:19:45,109 [myid:] - INFO  [main:JMXEnv@119] - found:name0=ReplicatedServer_id4,name1=replica.3 org.apache.ZooKeeperService:name0=ReplicatedServer_id4,name1=replica.3
+2020-06-20 12:19:45,109 [myid:] - INFO  [main:JMXEnv@116] - expect:name0=ReplicatedServer_id4,name1=replica.4
+2020-06-20 12:19:45,110 [myid:] - INFO  [main:JMXEnv@119] - found:name0=ReplicatedServer_id4,name1=replica.4 org.apache.ZooKeeperService:name0=ReplicatedServer_id4,name1=replica.4,name2=Follower
+2020-06-20 12:19:45,110 [myid:] - INFO  [main:JMXEnv@116] - expect:name0=ReplicatedServer_id4,name1=replica.5
+2020-06-20 12:19:45,111 [myid:] - INFO  [main:JMXEnv@119] - found:name0=ReplicatedServer_id4,name1=replica.5 org.apache.ZooKeeperService:name0=ReplicatedServer_id4,name1=replica.5
+2020-06-20 12:19:45,111 [myid:] - INFO  [main:JMXEnv@116] - expect:name0=ReplicatedServer_id5,name1=replica.1
+2020-06-20 12:19:45,112 [myid:] - INFO  [main:JMXEnv@119] - found:name0=ReplicatedServer_id5,name1=replica.1 org.apache.ZooKeeperService:name0=ReplicatedServer_id5,name1=replica.1
+2020-06-20 12:19:45,112 [myid:] - INFO  [main:JMXEnv@116] - expect:name0=ReplicatedServer_id5,name1=replica.2
+2020-06-20 12:19:45,112 [myid:] - INFO  [main:JMXEnv@119] - found:name0=ReplicatedServer_id5,name1=replica.2 org.apache.ZooKeeperService:name0=ReplicatedServer_id5,name1=replica.2
+2020-06-20 12:19:45,112 [myid:] - INFO  [main:JMXEnv@116] - expect:name0=ReplicatedServer_id5,name1=replica.3
+2020-06-20 12:19:45,112 [myid:] - INFO  [main:JMXEnv@119] - found:name0=ReplicatedServer_id5,name1=replica.3 org.apache.ZooKeeperService:name0=ReplicatedServer_id5,name1=replica.3
+2020-06-20 12:19:45,113 [myid:] - INFO  [main:JMXEnv@116] - expect:name0=ReplicatedServer_id5,name1=replica.4
+2020-06-20 12:19:45,113 [myid:] - INFO  [main:JMXEnv@119] - found:name0=ReplicatedServer_id5,name1=replica.4 org.apache.ZooKeeperService:name0=ReplicatedServer_id5,name1=replica.4
+2020-06-20 12:19:45,113 [myid:] - INFO  [main:JMXEnv@116] - expect:name0=ReplicatedServer_id5,name1=replica.5
+2020-06-20 12:19:45,113 [myid:] - INFO  [main:JMXEnv@119] - found:name0=ReplicatedServer_id5,name1=replica.5 org.apache.ZooKeeperService:name0=ReplicatedServer_id5,name1=replica.5
+2020-06-20 12:19:45,113 [myid:] - INFO  [main:JMXEnv@116] - expect:name0=ReplicatedServer_id1
+2020-06-20 12:19:45,113 [myid:] - INFO  [main:JMXEnv@119] - found:name0=ReplicatedServer_id1 org.apache.ZooKeeperService:name0=ReplicatedServer_id1
+2020-06-20 12:19:45,113 [myid:] - INFO  [main:JMXEnv@116] - expect:name0=ReplicatedServer_id2
+2020-06-20 12:19:45,114 [myid:] - INFO  [main:JMXEnv@119] - found:name0=ReplicatedServer_id2 org.apache.ZooKeeperService:name0=ReplicatedServer_id2
+2020-06-20 12:19:45,114 [myid:] - INFO  [main:JMXEnv@116] - expect:name0=ReplicatedServer_id3
+2020-06-20 12:19:45,114 [myid:] - INFO  [main:JMXEnv@119] - found:name0=ReplicatedServer_id3 org.apache.ZooKeeperService:name0=ReplicatedServer_id3
+2020-06-20 12:19:45,114 [myid:] - INFO  [main:JMXEnv@116] - expect:name0=ReplicatedServer_id4
+2020-06-20 12:19:45,114 [myid:] - INFO  [main:JMXEnv@119] - found:name0=ReplicatedServer_id4 org.apache.ZooKeeperService:name0=ReplicatedServer_id4
+2020-06-20 12:19:45,114 [myid:] - INFO  [main:JMXEnv@116] - expect:name0=ReplicatedServer_id5
+2020-06-20 12:19:45,114 [myid:] - INFO  [main:JMXEnv@119] - found:name0=ReplicatedServer_id5 org.apache.ZooKeeperService:name0=ReplicatedServer_id5
+2020-06-20 12:19:45,116 [myid:] - INFO  [main:QuorumBase@131] - Initial fdcount is: 179
+2020-06-20 12:19:45,116 [myid:] - INFO  [main:QuorumBase@134] - Setup finished
+2020-06-20 12:19:45,116 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testQuotaWithQuorum
+2020-06-20 12:19:45,123 [myid:] - INFO  [main:Environment@98] - Client environment:zookeeper.version=3.6.1-SNAPSHOT-88650b8fe4a8dd606149302d55bdd69353408da9-dirty, built on 06/20/2020 04:19 GMT
+2020-06-20 12:19:45,123 [myid:] - INFO  [main:Environment@98] - Client environment:host.name=192.168.1.100
+2020-06-20 12:19:45,123 [myid:] - INFO  [main:Environment@98] - Client environment:java.version=1.8.0_181
+2020-06-20 12:19:45,123 [myid:] - INFO  [main:Environment@98] - Client environment:java.vendor=Oracle Corporation
+2020-06-20 12:19:45,124 [myid:] - INFO  [main:Environment@98] - Client environment:java.home=/Library/Java/JavaVirtualMachines/jdk8.jdk/Contents/Home/jre
+2020-06-20 12:19:45,124 [myid:] - INFO  [main:Environment@98] - Client environment:java.class.path=/Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/test-classes:/Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/classes:/Users/dylan/environment/repo/com/github/spotbugs/spotbugs-annotations/3.1.9/spotbugs-annotations-3.1.9.jar:/Users/dylan/environment/repo/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/dylan/environment/repo/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar:/Users/dylan/environment/repo/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/dylan/environment/repo/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/dylan/environment/repo/org/apache/zookeeper/zookeeper-jute/3.6.1-SNAPSHOT/zookeeper-jute-3.6.1-SNAPSHOT.jar:/Users/dylan/environment/repo/commons-cli/commons-cli/1.2/commons-cli-1.2.jar:/Users/dylan/environment/repo/org/apache/yetus/audience-annotations/0.5.0/audience-annotations-0.5.0.jar:/Users/dylan/environment/repo/io/netty/netty-handler/4.1.45.Final/netty-handler-4.1.45.Final.jar:/Users/dylan/environment/repo/io/netty/netty-common/4.1.45.Final/netty-common-4.1.45.Final.jar:/Users/dylan/environment/repo/io/netty/netty-buffer/4.1.45.Final/netty-buffer-4.1.45.Final.jar:/Users/dylan/environment/repo/io/netty/netty-transport/4.1.45.Final/netty-transport-4.1.45.Final.jar:/Users/dylan/environment/repo/io/netty/netty-resolver/4.1.45.Final/netty-resolver-4.1.45.Final.jar:/Users/dylan/environment/repo/io/netty/netty-codec/4.1.45.Final/netty-codec-4.1.45.Final.jar:/Users/dylan/environment/repo/io/netty/netty-transport-native-epoll/4.1.45.Final/netty-transport-native-epoll-4.1.45.Final.jar:/Users/dylan/environment/repo/io/netty/netty-transport-native-unix-common/4.1.45.Final/netty-transport-native-unix-common-4.1.45.Final.jar:/Users/dylan/environment/repo/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/dylan/environment/repo/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar:/Users/dylan/environment/repo/org/eclipse/jetty/jetty-server/9.4.24.v20191120/jetty-server-9.4.24.v20191120.jar:/Users/dylan/environment/repo/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/dylan/environment/repo/org/eclipse/jetty/jetty-http/9.4.24.v20191120/jetty-http-9.4.24.v20191120.jar:/Users/dylan/environment/repo/org/eclipse/jetty/jetty-util/9.4.24.v20191120/jetty-util-9.4.24.v20191120.jar:/Users/dylan/environment/repo/org/eclipse/jetty/jetty-io/9.4.24.v20191120/jetty-io-9.4.24.v20191120.jar:/Users/dylan/environment/repo/org/eclipse/jetty/jetty-servlet/9.4.24.v20191120/jetty-servlet-9.4.24.v20191120.jar:/Users/dylan/environment/repo/org/eclipse/jetty/jetty-security/9.4.24.v20191120/jetty-security-9.4.24.v20191120.jar:/Users/dylan/environment/repo/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/dylan/environment/repo/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/dylan/environment/repo/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/dylan/environment/repo/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/dylan/environment/repo/org/bouncycastle/bcprov-jdk15on/1.60/bcprov-jdk15on-1.60.jar:/Users/dylan/environment/repo/org/bouncycastle/bcpkix-jdk15on/1.60/bcpkix-jdk15on-1.60.jar:/Users/dylan/environment/repo/jline/jline/2.11/jline-2.11.jar:/Users/dylan/environment/repo/io/dropwizard/metrics/metrics-core/3.2.5/metrics-core-3.2.5.jar:/Users/dylan/environment/repo/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-core/2.0.0/kerb-core-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerby-pkix/2.0.0/kerby-pkix-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerby-asn1/2.0.0/kerby-asn1-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerby-util/2.0.0/kerby-util-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-simplekdc/2.0.0/kerb-simplekdc-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-client/2.0.0/kerb-client-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-common/2.0.0/kerb-common-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-crypto/2.0.0/kerb-crypto-2.0.0.jar:/Users/dylan/environment/repo/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-util/2.0.0/kerb-util-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/token-provider/2.0.0/token-provider-2.0.0.jar:/Users/dylan/environment/repo/com/nimbusds/nimbus-jose-jwt/4.41.2/nimbus-jose-jwt-4.41.2.jar:/Users/dylan/environment/repo/com/github/stephenc/jcip/jcip-annotations/1.0-1/jcip-annotations-1.0-1.jar:/Users/dylan/environment/repo/net/minidev/json-smart/2.3/json-smart-2.3.jar:/Users/dylan/environment/repo/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar:/Users/dylan/environment/repo/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-admin/2.0.0/kerb-admin-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-server/2.0.0/kerb-server-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-identity/2.0.0/kerb-identity-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerby-xdr/2.0.0/kerby-xdr-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerby-config/2.0.0/kerby-config-2.0.0.jar:/Users/dylan/environment/repo/org/mockito/mockito-core/2.27.0/mockito-core-2.27.0.jar:/Users/dylan/environment/repo/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.jar:/Users/dylan/environment/repo/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.jar:/Users/dylan/environment/repo/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/Users/dylan/environment/repo/org/jmockit/jmockit/1.48/jmockit-1.48.jar:/Users/dylan/environment/repo/junit/junit/4.12/junit-4.12.jar:/Users/dylan/environment/repo/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/dylan/environment/repo/org/xerial/snappy/snappy-java/1.1.7/snappy-java-1.1.7.jar:
+2020-06-20 12:19:45,124 [myid:] - INFO  [main:Environment@98] - Client environment:java.library.path=/Users/dylan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+2020-06-20 12:19:45,124 [myid:] - INFO  [main:Environment@98] - Client environment:java.io.tmpdir=/var/folders/ff/jrkzw6gx39jd5s2rmrzy1tc00000gn/T/
+2020-06-20 12:19:45,124 [myid:] - INFO  [main:Environment@98] - Client environment:java.compiler=<NA>
+2020-06-20 12:19:45,124 [myid:] - INFO  [main:Environment@98] - Client environment:os.name=Mac OS X
+2020-06-20 12:19:45,125 [myid:] - INFO  [main:Environment@98] - Client environment:os.arch=x86_64
+2020-06-20 12:19:45,125 [myid:] - INFO  [main:Environment@98] - Client environment:os.version=10.13.6
+2020-06-20 12:19:45,125 [myid:] - INFO  [main:Environment@98] - Client environment:user.name=dylan
+2020-06-20 12:19:45,125 [myid:] - INFO  [main:Environment@98] - Client environment:user.home=/Users/dylan
+2020-06-20 12:19:45,125 [myid:] - INFO  [main:Environment@98] - Client environment:user.dir=/Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server
+2020-06-20 12:19:45,125 [myid:] - INFO  [main:Environment@98] - Client environment:os.memory.free=226MB
+2020-06-20 12:19:45,125 [myid:] - INFO  [main:Environment@98] - Client environment:os.memory.max=455MB
+2020-06-20 12:19:45,125 [myid:] - INFO  [main:Environment@98] - Client environment:os.memory.total=245MB
+2020-06-20 12:19:45,129 [myid:] - INFO  [main:ZooKeeper@1042] - Initiating client connection, connectString=127.0.0.1:24698,127.0.0.1:24699,127.0.0.1:24700,127.0.0.1:24701,127.0.0.1:24702 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@24a35978
+2020-06-20 12:19:45,135 [myid:] - INFO  [main:ClientCnxnSocket@247] - jute.maxbuffer value is 1048575 Bytes
+2020-06-20 12:19:45,161 [myid:] - INFO  [main:ClientCnxn@1812] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-20 12:19:45,171 [myid:127.0.0.1:24701] - INFO  [main-SendThread(127.0.0.1:24701):ClientCnxn$SendThread@1213] - Opening socket connection to server localhost/127.0.0.1:24701.
+2020-06-20 12:19:45,171 [myid:127.0.0.1:24701] - INFO  [main-SendThread(127.0.0.1:24701):ClientCnxn$SendThread@1215] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-20 12:19:45,175 [myid:127.0.0.1:24701] - INFO  [main-SendThread(127.0.0.1:24701):ClientCnxn$SendThread@1035] - Socket connection established, initiating session, client: /127.0.0.1:59608, server: localhost/127.0.0.1:24701
+2020-06-20 12:19:45,182 [myid:] - INFO  [SyncThread:5:FileTxnLog@288] - Creating new log file: log.100000001
+2020-06-20 12:19:45,182 [myid:] - WARN  [QuorumPeer[myid=4](plain=127.0.0.1:24701)(secure=disabled):Follower@191] - Got zxid 0x100000001 expected 0x1
+2020-06-20 12:19:45,182 [myid:] - WARN  [QuorumPeer[myid=1](plain=127.0.0.1:24698)(secure=disabled):Follower@191] - Got zxid 0x100000001 expected 0x1
+2020-06-20 12:19:45,182 [myid:] - WARN  [QuorumPeer[myid=2](plain=127.0.0.1:24699)(secure=disabled):Follower@191] - Got zxid 0x100000001 expected 0x1
+2020-06-20 12:19:45,182 [myid:] - INFO  [SyncThread:1:FileTxnLog@288] - Creating new log file: log.100000001
+2020-06-20 12:19:45,182 [myid:] - WARN  [QuorumPeer[myid=3](plain=127.0.0.1:24700)(secure=disabled):Follower@191] - Got zxid 0x100000001 expected 0x1
+2020-06-20 12:19:45,183 [myid:] - INFO  [SyncThread:2:FileTxnLog@288] - Creating new log file: log.100000001
+2020-06-20 12:19:45,182 [myid:] - INFO  [SyncThread:4:FileTxnLog@288] - Creating new log file: log.100000001
+2020-06-20 12:19:45,183 [myid:] - INFO  [SyncThread:3:FileTxnLog@288] - Creating new log file: log.100000001
+2020-06-20 12:19:45,202 [myid:] - INFO  [CommitProcessor:4:LearnerSessionTracker@116] - Committing global session 0x4004de968140000
+2020-06-20 12:19:45,202 [myid:] - INFO  [CommitProcessor:2:LearnerSessionTracker@116] - Committing global session 0x4004de968140000
+2020-06-20 12:19:45,202 [myid:] - INFO  [CommitProcessor:3:LearnerSessionTracker@116] - Committing global session 0x4004de968140000
+2020-06-20 12:19:45,202 [myid:] - INFO  [CommitProcessor:1:LearnerSessionTracker@116] - Committing global session 0x4004de968140000
+2020-06-20 12:19:45,202 [myid:] - INFO  [CommitProcessor:5:LeaderSessionTracker@105] - Committing global session 0x4004de968140000
+2020-06-20 12:19:45,206 [myid:] - INFO  [CommitProcessor:4:ZKAuditProvider@42] - ZooKeeper audit is disabled.
+2020-06-20 12:19:45,210 [myid:127.0.0.1:24701] - INFO  [main-SendThread(127.0.0.1:24701):ClientCnxn$SendThread@1512] - Session establishment complete on server localhost/127.0.0.1:24701, session id = 0x4004de968140000, negotiated timeout = 30000
+2020-06-20 12:19:45,251 [myid:] - INFO  [main:JMXEnv@116] - expect:0x4004de968140000
+2020-06-20 12:19:45,252 [myid:] - INFO  [main:JMXEnv@119] - found:0x4004de968140000 org.apache.ZooKeeperService:name0=ReplicatedServer_id4,name1=replica.4,name2=Follower,name3=Connections,name4=127.0.0.1,name5=0x4004de968140000
+2020-06-20 12:19:46,232 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1208 limit=1000
+2020-06-20 12:19:46,232 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1208 limit=1000
+2020-06-20 12:19:46,232 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1208 limit=1000
+2020-06-20 12:19:46,232 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1208 limit=1000
+2020-06-20 12:19:46,232 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1208 limit=1000
+2020-06-20 12:19:46,235 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1212 limit=1000
+2020-06-20 12:19:46,235 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1212 limit=1000
+2020-06-20 12:19:46,235 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1212 limit=1000
+2020-06-20 12:19:46,235 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1212 limit=1000
+2020-06-20 12:19:46,235 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1212 limit=1000
+2020-06-20 12:19:46,237 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1216 limit=1000
+2020-06-20 12:19:46,237 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1216 limit=1000
+2020-06-20 12:19:46,237 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1216 limit=1000
+2020-06-20 12:19:46,237 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1216 limit=1000
+2020-06-20 12:19:46,237 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1216 limit=1000
+2020-06-20 12:19:46,239 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1220 limit=1000
+2020-06-20 12:19:46,239 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1220 limit=1000
+2020-06-20 12:19:46,239 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1220 limit=1000
+2020-06-20 12:19:46,239 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1220 limit=1000
+2020-06-20 12:19:46,239 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1220 limit=1000
+2020-06-20 12:19:46,242 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1224 limit=1000
+2020-06-20 12:19:46,242 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1224 limit=1000
+2020-06-20 12:19:46,242 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1224 limit=1000
+2020-06-20 12:19:46,242 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1224 limit=1000
+2020-06-20 12:19:46,242 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1224 limit=1000
+2020-06-20 12:19:46,244 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1228 limit=1000
+2020-06-20 12:19:46,244 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1228 limit=1000
+2020-06-20 12:19:46,244 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1228 limit=1000
+2020-06-20 12:19:46,244 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1228 limit=1000
+2020-06-20 12:19:46,245 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1228 limit=1000
+2020-06-20 12:19:46,259 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1232 limit=1000
+2020-06-20 12:19:46,259 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1232 limit=1000
+2020-06-20 12:19:46,259 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1232 limit=1000
+2020-06-20 12:19:46,259 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1232 limit=1000
+2020-06-20 12:19:46,260 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1232 limit=1000
+2020-06-20 12:19:46,262 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1236 limit=1000
+2020-06-20 12:19:46,262 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1236 limit=1000
+2020-06-20 12:19:46,262 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1236 limit=1000
+2020-06-20 12:19:46,262 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1236 limit=1000
+2020-06-20 12:19:46,262 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1236 limit=1000
+2020-06-20 12:19:46,265 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1240 limit=1000
+2020-06-20 12:19:46,265 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1240 limit=1000
+2020-06-20 12:19:46,265 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1240 limit=1000
+2020-06-20 12:19:46,266 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1240 limit=1000
+2020-06-20 12:19:46,265 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1240 limit=1000
+2020-06-20 12:19:46,270 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1244 limit=1000
+2020-06-20 12:19:46,271 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1244 limit=1000
+2020-06-20 12:19:46,271 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1244 limit=1000
+2020-06-20 12:19:46,271 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1244 limit=1000
+2020-06-20 12:19:46,274 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1244 limit=1000
+2020-06-20 12:19:46,276 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1248 limit=1000
+2020-06-20 12:19:46,276 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1248 limit=1000
+2020-06-20 12:19:46,276 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1248 limit=1000
+2020-06-20 12:19:46,276 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1248 limit=1000
+2020-06-20 12:19:46,276 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1248 limit=1000
+2020-06-20 12:19:46,279 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1252 limit=1000
+2020-06-20 12:19:46,279 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1252 limit=1000
+2020-06-20 12:19:46,279 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1252 limit=1000
+2020-06-20 12:19:46,279 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1252 limit=1000
+2020-06-20 12:19:46,280 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1252 limit=1000
+2020-06-20 12:19:46,282 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1256 limit=1000
+2020-06-20 12:19:46,282 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1256 limit=1000
+2020-06-20 12:19:46,282 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1256 limit=1000
+2020-06-20 12:19:46,282 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1256 limit=1000
+2020-06-20 12:19:46,282 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1256 limit=1000
+2020-06-20 12:19:46,287 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1260 limit=1000
+2020-06-20 12:19:46,288 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1260 limit=1000
+2020-06-20 12:19:46,288 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1260 limit=1000
+2020-06-20 12:19:46,288 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1260 limit=1000
+2020-06-20 12:19:46,288 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1260 limit=1000
+2020-06-20 12:19:46,294 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1264 limit=1000
+2020-06-20 12:19:46,294 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1264 limit=1000
+2020-06-20 12:19:46,294 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1264 limit=1000
+2020-06-20 12:19:46,294 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1264 limit=1000
+2020-06-20 12:19:46,294 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1264 limit=1000
+2020-06-20 12:19:46,298 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1268 limit=1000
+2020-06-20 12:19:46,299 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1268 limit=1000
+2020-06-20 12:19:46,299 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1268 limit=1000
+2020-06-20 12:19:46,301 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1268 limit=1000
+2020-06-20 12:19:46,301 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1268 limit=1000
+2020-06-20 12:19:46,306 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1272 limit=1000
+2020-06-20 12:19:46,306 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1272 limit=1000
+2020-06-20 12:19:46,307 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1272 limit=1000
+2020-06-20 12:19:46,307 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1272 limit=1000
+2020-06-20 12:19:46,306 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1272 limit=1000
+2020-06-20 12:19:46,310 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1276 limit=1000
+2020-06-20 12:19:46,310 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1276 limit=1000
+2020-06-20 12:19:46,310 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1276 limit=1000
+2020-06-20 12:19:46,310 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1276 limit=1000
+2020-06-20 12:19:46,310 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1276 limit=1000
+2020-06-20 12:19:46,311 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1280 limit=1000
+2020-06-20 12:19:46,311 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1280 limit=1000
+2020-06-20 12:19:46,311 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1280 limit=1000
+2020-06-20 12:19:46,311 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1280 limit=1000
+2020-06-20 12:19:46,311 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1280 limit=1000
+2020-06-20 12:19:46,313 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1284 limit=1000
+2020-06-20 12:19:46,314 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1284 limit=1000
+2020-06-20 12:19:46,314 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1284 limit=1000
+2020-06-20 12:19:46,314 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1284 limit=1000
+2020-06-20 12:19:46,314 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1284 limit=1000
+2020-06-20 12:19:46,316 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1288 limit=1000
+2020-06-20 12:19:46,316 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1288 limit=1000
+2020-06-20 12:19:46,316 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1288 limit=1000
+2020-06-20 12:19:46,316 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1288 limit=1000
+2020-06-20 12:19:46,316 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1288 limit=1000
+2020-06-20 12:19:46,318 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1292 limit=1000
+2020-06-20 12:19:46,319 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1292 limit=1000
+2020-06-20 12:19:46,318 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1292 limit=1000
+2020-06-20 12:19:46,318 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1292 limit=1000
+2020-06-20 12:19:46,318 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1292 limit=1000
+2020-06-20 12:19:46,321 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1296 limit=1000
+2020-06-20 12:19:46,321 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1296 limit=1000
+2020-06-20 12:19:46,321 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1296 limit=1000
+2020-06-20 12:19:46,321 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1296 limit=1000
+2020-06-20 12:19:46,321 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1296 limit=1000
+2020-06-20 12:19:46,323 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1300 limit=1000
+2020-06-20 12:19:46,323 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1300 limit=1000
+2020-06-20 12:19:46,323 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1300 limit=1000
+2020-06-20 12:19:46,323 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1300 limit=1000
+2020-06-20 12:19:46,323 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1300 limit=1000
+2020-06-20 12:19:46,325 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1304 limit=1000
+2020-06-20 12:19:46,325 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1304 limit=1000
+2020-06-20 12:19:46,325 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1304 limit=1000
+2020-06-20 12:19:46,325 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1304 limit=1000
+2020-06-20 12:19:46,325 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1304 limit=1000
+2020-06-20 12:19:46,327 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1308 limit=1000
+2020-06-20 12:19:46,327 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1308 limit=1000
+2020-06-20 12:19:46,327 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1308 limit=1000
+2020-06-20 12:19:46,328 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1308 limit=1000
+2020-06-20 12:19:46,327 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1308 limit=1000
+2020-06-20 12:19:46,329 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1312 limit=1000
+2020-06-20 12:19:46,329 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1312 limit=1000
+2020-06-20 12:19:46,329 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1312 limit=1000
+2020-06-20 12:19:46,329 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1312 limit=1000
+2020-06-20 12:19:46,329 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1312 limit=1000
+2020-06-20 12:19:46,333 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1316 limit=1000
+2020-06-20 12:19:46,333 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1316 limit=1000
+2020-06-20 12:19:46,334 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1316 limit=1000
+2020-06-20 12:19:46,334 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1316 limit=1000
+2020-06-20 12:19:46,334 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1316 limit=1000
+2020-06-20 12:19:46,337 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1320 limit=1000
+2020-06-20 12:19:46,337 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1320 limit=1000
+2020-06-20 12:19:46,337 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1320 limit=1000
+2020-06-20 12:19:46,337 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1320 limit=1000
+2020-06-20 12:19:46,337 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1320 limit=1000
+2020-06-20 12:19:46,340 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1324 limit=1000
+2020-06-20 12:19:46,340 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1324 limit=1000
+2020-06-20 12:19:46,340 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1324 limit=1000
+2020-06-20 12:19:46,340 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1324 limit=1000
+2020-06-20 12:19:46,340 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1324 limit=1000
+2020-06-20 12:19:46,342 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1328 limit=1000
+2020-06-20 12:19:46,342 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1328 limit=1000
+2020-06-20 12:19:46,342 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1328 limit=1000
+2020-06-20 12:19:46,342 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1328 limit=1000
+2020-06-20 12:19:46,342 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1328 limit=1000
+2020-06-20 12:19:46,344 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1332 limit=1000
+2020-06-20 12:19:46,344 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1332 limit=1000
+2020-06-20 12:19:46,344 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1332 limit=1000
+2020-06-20 12:19:46,344 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1332 limit=1000
+2020-06-20 12:19:46,344 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1332 limit=1000
+2020-06-20 12:19:46,346 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1336 limit=1000
+2020-06-20 12:19:46,346 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1336 limit=1000
+2020-06-20 12:19:46,346 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1336 limit=1000
+2020-06-20 12:19:46,346 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1336 limit=1000
+2020-06-20 12:19:46,346 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1336 limit=1000
+2020-06-20 12:19:46,349 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1340 limit=1000
+2020-06-20 12:19:46,349 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1340 limit=1000
+2020-06-20 12:19:46,349 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1340 limit=1000
+2020-06-20 12:19:46,349 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1340 limit=1000
+2020-06-20 12:19:46,349 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1340 limit=1000
+2020-06-20 12:19:46,351 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1344 limit=1000
+2020-06-20 12:19:46,351 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1344 limit=1000
+2020-06-20 12:19:46,351 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1344 limit=1000
+2020-06-20 12:19:46,351 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1344 limit=1000
+2020-06-20 12:19:46,351 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1344 limit=1000
+2020-06-20 12:19:46,353 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1348 limit=1000
+2020-06-20 12:19:46,353 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1348 limit=1000
+2020-06-20 12:19:46,353 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1348 limit=1000
+2020-06-20 12:19:46,353 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1348 limit=1000
+2020-06-20 12:19:46,353 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1348 limit=1000
+2020-06-20 12:19:46,355 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1352 limit=1000
+2020-06-20 12:19:46,355 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1352 limit=1000
+2020-06-20 12:19:46,355 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1352 limit=1000
+2020-06-20 12:19:46,355 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1352 limit=1000
+2020-06-20 12:19:46,355 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1352 limit=1000
+2020-06-20 12:19:46,357 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1356 limit=1000
+2020-06-20 12:19:46,357 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1356 limit=1000
+2020-06-20 12:19:46,357 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1356 limit=1000
+2020-06-20 12:19:46,357 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1356 limit=1000
+2020-06-20 12:19:46,357 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1356 limit=1000
+2020-06-20 12:19:46,359 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1360 limit=1000
+2020-06-20 12:19:46,359 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1360 limit=1000
+2020-06-20 12:19:46,359 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1360 limit=1000
+2020-06-20 12:19:46,359 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1360 limit=1000
+2020-06-20 12:19:46,359 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1360 limit=1000
+2020-06-20 12:19:46,361 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1364 limit=1000
+2020-06-20 12:19:46,361 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1364 limit=1000
+2020-06-20 12:19:46,361 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1364 limit=1000
+2020-06-20 12:19:46,361 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1364 limit=1000
+2020-06-20 12:19:46,361 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1364 limit=1000
+2020-06-20 12:19:46,363 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1368 limit=1000
+2020-06-20 12:19:46,363 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1368 limit=1000
+2020-06-20 12:19:46,363 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1368 limit=1000
+2020-06-20 12:19:46,363 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1368 limit=1000
+2020-06-20 12:19:46,363 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1368 limit=1000
+2020-06-20 12:19:46,365 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1372 limit=1000
+2020-06-20 12:19:46,365 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1372 limit=1000
+2020-06-20 12:19:46,365 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1372 limit=1000
+2020-06-20 12:19:46,365 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1372 limit=1000
+2020-06-20 12:19:46,365 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1372 limit=1000
+2020-06-20 12:19:46,368 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1376 limit=1000
+2020-06-20 12:19:46,368 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1376 limit=1000
+2020-06-20 12:19:46,368 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1376 limit=1000
+2020-06-20 12:19:46,368 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1376 limit=1000
+2020-06-20 12:19:46,368 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1376 limit=1000
+2020-06-20 12:19:46,370 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1380 limit=1000
+2020-06-20 12:19:46,371 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1380 limit=1000
+2020-06-20 12:19:46,371 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1380 limit=1000
+2020-06-20 12:19:46,371 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1380 limit=1000
+2020-06-20 12:19:46,371 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1380 limit=1000
+2020-06-20 12:19:46,373 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1384 limit=1000
+2020-06-20 12:19:46,373 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1384 limit=1000
+2020-06-20 12:19:46,373 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1384 limit=1000
+2020-06-20 12:19:46,373 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1384 limit=1000
+2020-06-20 12:19:46,373 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1384 limit=1000
+2020-06-20 12:19:46,377 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1388 limit=1000
+2020-06-20 12:19:46,377 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1388 limit=1000
+2020-06-20 12:19:46,377 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1388 limit=1000
+2020-06-20 12:19:46,377 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1388 limit=1000
+2020-06-20 12:19:46,377 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1388 limit=1000
+2020-06-20 12:19:46,379 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1392 limit=1000
+2020-06-20 12:19:46,379 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1392 limit=1000
+2020-06-20 12:19:46,379 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1392 limit=1000
+2020-06-20 12:19:46,379 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1392 limit=1000
+2020-06-20 12:19:46,379 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1392 limit=1000
+2020-06-20 12:19:46,381 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1396 limit=1000
+2020-06-20 12:19:46,381 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1396 limit=1000
+2020-06-20 12:19:46,381 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1396 limit=1000
+2020-06-20 12:19:46,381 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1396 limit=1000
+2020-06-20 12:19:46,381 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1396 limit=1000
+2020-06-20 12:19:46,383 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1400 limit=1000
+2020-06-20 12:19:46,383 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1400 limit=1000
+2020-06-20 12:19:46,383 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1400 limit=1000
+2020-06-20 12:19:46,383 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1400 limit=1000
+2020-06-20 12:19:46,383 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1400 limit=1000
+2020-06-20 12:19:46,385 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1404 limit=1000
+2020-06-20 12:19:46,385 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1404 limit=1000
+2020-06-20 12:19:46,385 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1404 limit=1000
+2020-06-20 12:19:46,385 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1404 limit=1000
+2020-06-20 12:19:46,385 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1404 limit=1000
+2020-06-20 12:19:46,387 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1408 limit=1000
+2020-06-20 12:19:46,387 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1408 limit=1000
+2020-06-20 12:19:46,387 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1408 limit=1000
+2020-06-20 12:19:46,387 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1408 limit=1000
+2020-06-20 12:19:46,387 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1408 limit=1000
+2020-06-20 12:19:46,389 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1412 limit=1000
+2020-06-20 12:19:46,389 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1412 limit=1000
+2020-06-20 12:19:46,389 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1412 limit=1000
+2020-06-20 12:19:46,389 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1412 limit=1000
+2020-06-20 12:19:46,390 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1412 limit=1000
+2020-06-20 12:19:46,392 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1416 limit=1000
+2020-06-20 12:19:46,392 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1416 limit=1000
+2020-06-20 12:19:46,392 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1416 limit=1000
+2020-06-20 12:19:46,392 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1416 limit=1000
+2020-06-20 12:19:46,392 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1416 limit=1000
+2020-06-20 12:19:46,394 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1420 limit=1000
+2020-06-20 12:19:46,394 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1420 limit=1000
+2020-06-20 12:19:46,394 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1420 limit=1000
+2020-06-20 12:19:46,394 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1420 limit=1000
+2020-06-20 12:19:46,394 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1420 limit=1000
+2020-06-20 12:19:46,396 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1424 limit=1000
+2020-06-20 12:19:46,396 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1424 limit=1000
+2020-06-20 12:19:46,396 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1424 limit=1000
+2020-06-20 12:19:46,396 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1424 limit=1000
+2020-06-20 12:19:46,396 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1424 limit=1000
+2020-06-20 12:19:46,398 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1428 limit=1000
+2020-06-20 12:19:46,398 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1428 limit=1000
+2020-06-20 12:19:46,398 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1428 limit=1000
+2020-06-20 12:19:46,398 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1428 limit=1000
+2020-06-20 12:19:46,398 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1428 limit=1000
+2020-06-20 12:19:46,401 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1432 limit=1000
+2020-06-20 12:19:46,401 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1432 limit=1000
+2020-06-20 12:19:46,401 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1432 limit=1000
+2020-06-20 12:19:46,401 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1432 limit=1000
+2020-06-20 12:19:46,401 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1432 limit=1000
+2020-06-20 12:19:46,403 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1436 limit=1000
+2020-06-20 12:19:46,403 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1436 limit=1000
+2020-06-20 12:19:46,403 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1436 limit=1000
+2020-06-20 12:19:46,403 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1436 limit=1000
+2020-06-20 12:19:46,403 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1436 limit=1000
+2020-06-20 12:19:46,405 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1440 limit=1000
+2020-06-20 12:19:46,405 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1440 limit=1000
+2020-06-20 12:19:46,405 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1440 limit=1000
+2020-06-20 12:19:46,405 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1440 limit=1000
+2020-06-20 12:19:46,405 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1440 limit=1000
+2020-06-20 12:19:46,407 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1444 limit=1000
+2020-06-20 12:19:46,407 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1444 limit=1000
+2020-06-20 12:19:46,407 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1444 limit=1000
+2020-06-20 12:19:46,407 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1444 limit=1000
+2020-06-20 12:19:46,407 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1444 limit=1000
+2020-06-20 12:19:46,409 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1448 limit=1000
+2020-06-20 12:19:46,409 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1448 limit=1000
+2020-06-20 12:19:46,409 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1448 limit=1000
+2020-06-20 12:19:46,409 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1448 limit=1000
+2020-06-20 12:19:46,409 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1448 limit=1000
+2020-06-20 12:19:46,412 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1452 limit=1000
+2020-06-20 12:19:46,412 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1452 limit=1000
+2020-06-20 12:19:46,412 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1452 limit=1000
+2020-06-20 12:19:46,412 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1452 limit=1000
+2020-06-20 12:19:46,412 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1452 limit=1000
+2020-06-20 12:19:46,414 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1456 limit=1000
+2020-06-20 12:19:46,414 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1456 limit=1000
+2020-06-20 12:19:46,414 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1456 limit=1000
+2020-06-20 12:19:46,414 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1456 limit=1000
+2020-06-20 12:19:46,414 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1456 limit=1000
+2020-06-20 12:19:46,416 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1460 limit=1000
+2020-06-20 12:19:46,416 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1460 limit=1000
+2020-06-20 12:19:46,416 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1460 limit=1000
+2020-06-20 12:19:46,416 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1460 limit=1000
+2020-06-20 12:19:46,416 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1460 limit=1000
+2020-06-20 12:19:46,418 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1464 limit=1000
+2020-06-20 12:19:46,418 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1464 limit=1000
+2020-06-20 12:19:46,418 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1464 limit=1000
+2020-06-20 12:19:46,418 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1464 limit=1000
+2020-06-20 12:19:46,418 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1464 limit=1000
+2020-06-20 12:19:46,420 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1468 limit=1000
+2020-06-20 12:19:46,420 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1468 limit=1000
+2020-06-20 12:19:46,420 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1468 limit=1000
+2020-06-20 12:19:46,420 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1468 limit=1000
+2020-06-20 12:19:46,420 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1468 limit=1000
+2020-06-20 12:19:46,422 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1472 limit=1000
+2020-06-20 12:19:46,422 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1472 limit=1000
+2020-06-20 12:19:46,422 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1472 limit=1000
+2020-06-20 12:19:46,422 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1472 limit=1000
+2020-06-20 12:19:46,422 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1472 limit=1000
+2020-06-20 12:19:46,424 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1476 limit=1000
+2020-06-20 12:19:46,424 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1476 limit=1000
+2020-06-20 12:19:46,424 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1476 limit=1000
+2020-06-20 12:19:46,424 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1476 limit=1000
+2020-06-20 12:19:46,424 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1476 limit=1000
+2020-06-20 12:19:46,427 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1480 limit=1000
+2020-06-20 12:19:46,427 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1480 limit=1000
+2020-06-20 12:19:46,427 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1480 limit=1000
+2020-06-20 12:19:46,427 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1480 limit=1000
+2020-06-20 12:19:46,427 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1480 limit=1000
+2020-06-20 12:19:46,429 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1484 limit=1000
+2020-06-20 12:19:46,430 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1484 limit=1000
+2020-06-20 12:19:46,430 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1484 limit=1000
+2020-06-20 12:19:46,429 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1484 limit=1000
+2020-06-20 12:19:46,429 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1484 limit=1000
+2020-06-20 12:19:46,432 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1488 limit=1000
+2020-06-20 12:19:46,432 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1488 limit=1000
+2020-06-20 12:19:46,432 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1488 limit=1000
+2020-06-20 12:19:46,432 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1488 limit=1000
+2020-06-20 12:19:46,432 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1488 limit=1000
+2020-06-20 12:19:46,434 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1492 limit=1000
+2020-06-20 12:19:46,434 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1492 limit=1000
+2020-06-20 12:19:46,434 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1492 limit=1000
+2020-06-20 12:19:46,434 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1492 limit=1000
+2020-06-20 12:19:46,434 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1492 limit=1000
+2020-06-20 12:19:46,436 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1496 limit=1000
+2020-06-20 12:19:46,437 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1496 limit=1000
+2020-06-20 12:19:46,437 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1496 limit=1000
+2020-06-20 12:19:46,437 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1496 limit=1000
+2020-06-20 12:19:46,437 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1496 limit=1000
+2020-06-20 12:19:46,439 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1500 limit=1000
+2020-06-20 12:19:46,439 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1500 limit=1000
+2020-06-20 12:19:46,439 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1500 limit=1000
+2020-06-20 12:19:46,439 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1500 limit=1000
+2020-06-20 12:19:46,439 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1500 limit=1000
+2020-06-20 12:19:46,442 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1504 limit=1000
+2020-06-20 12:19:46,442 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1504 limit=1000
+2020-06-20 12:19:46,442 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1504 limit=1000
+2020-06-20 12:19:46,442 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1504 limit=1000
+2020-06-20 12:19:46,442 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1504 limit=1000
+2020-06-20 12:19:46,444 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1508 limit=1000
+2020-06-20 12:19:46,444 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1508 limit=1000
+2020-06-20 12:19:46,444 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1508 limit=1000
+2020-06-20 12:19:46,444 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1508 limit=1000
+2020-06-20 12:19:46,444 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1508 limit=1000
+2020-06-20 12:19:46,446 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1512 limit=1000
+2020-06-20 12:19:46,446 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1512 limit=1000
+2020-06-20 12:19:46,446 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1512 limit=1000
+2020-06-20 12:19:46,446 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1512 limit=1000
+2020-06-20 12:19:46,446 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1512 limit=1000
+2020-06-20 12:19:46,448 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1516 limit=1000
+2020-06-20 12:19:46,448 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1516 limit=1000
+2020-06-20 12:19:46,448 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1516 limit=1000
+2020-06-20 12:19:46,448 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1516 limit=1000
+2020-06-20 12:19:46,448 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1516 limit=1000
+2020-06-20 12:19:46,451 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1520 limit=1000
+2020-06-20 12:19:46,451 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1520 limit=1000
+2020-06-20 12:19:46,451 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1520 limit=1000
+2020-06-20 12:19:46,451 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1520 limit=1000
+2020-06-20 12:19:46,451 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1520 limit=1000
+2020-06-20 12:19:46,452 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1524 limit=1000
+2020-06-20 12:19:46,452 [myid:] - WARN  [CommitProcessor:1:DataTree@420] - Quota exceeded: /a bytes=1524 limit=1000
+2020-06-20 12:19:46,452 [myid:] - WARN  [CommitProcessor:2:DataTree@420] - Quota exceeded: /a bytes=1524 limit=1000
+2020-06-20 12:19:46,452 [myid:] - WARN  [CommitProcessor:3:DataTree@420] - Quota exceeded: /a bytes=1524 limit=1000
+2020-06-20 12:19:46,452 [myid:] - WARN  [CommitProcessor:4:DataTree@420] - Quota exceeded: /a bytes=1524 limit=1000
+2020-06-20 12:19:46,454 [myid:] - WARN  [CommitProcessor:5:DataTree@420] - Quota exceeded: /a bytes=1528 limit=1000

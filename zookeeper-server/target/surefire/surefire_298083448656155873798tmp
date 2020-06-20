@@ -1,0 +1,9 @@
+#surefire_29
+#Sat Jun 13 22:55:10 CST 2020
+zookeeper.DigestAuthenticationProvider.superDigest=super\:D/InIHSb7yEEbrWz8b9l71RjZJU\=
+user.dir=/Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server
+maven.repo.local=/Users/dylan/environment/repo
+localRepository=/Users/dylan/environment/repo
+build.test.dir=/Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/surefire
+idea.version2019.2.2=true
+basedir=/Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server

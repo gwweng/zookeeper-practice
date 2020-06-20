@@ -1,0 +1,2061 @@
+2020-06-20 12:19:42,799 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-20 12:19:42,811 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-20 12:19:43,094 [myid:] - INFO  [main:PortAssignment@154] - Test process 4/8 using ports from 19300 - 21992.
+2020-06-20 12:19:43,212 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 19301 from range 19300 - 21992.
+2020-06-20 12:19:43,235 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testISROEnabledWhenReadOnlyModeEnabled
+2020-06-20 12:19:43,401 [myid:] - INFO  [main:ClientBase@486] - Initial fdcount is: 76
+2020-06-20 12:19:44,106 [myid:] - INFO  [main:JMXEnv@58] - connecting to addr service:jmx:rmi://127.0.0.1/stub/rO0ABXNyAC5qYXZheC5tYW5hZ2VtZW50LnJlbW90ZS5ybWkuUk1JU2VydmVySW1wbF9TdHViAAAAAAAAAAICAAB4cgAaamF2YS5ybWkuc2VydmVyLlJlbW90ZVN0dWLp/tzJi+FlGgIAAHhyABxqYXZhLnJtaS5zZXJ2ZXIuUmVtb3RlT2JqZWN002G0kQxhMx4DAAB4cHc4AAtVbmljYXN0UmVmMgAADTE5Mi4xNjguMS4xMDAAAOiM4nhjPdxMhGekarIkAAABcs/0Jn6AAQB4
+2020-06-20 12:19:44,231 [myid:] - INFO  [main:ClientBase@514] - STARTING server
+2020-06-20 12:19:44,231 [myid:] - INFO  [main:ClientBase@423] - CREATING server instance 127.0.0.1:19301
+2020-06-20 12:19:44,282 [myid:] - INFO  [main:ServerCnxnFactory@171] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
+2020-06-20 12:19:44,297 [myid:] - WARN  [main:ServerCnxnFactory@311] - maxCnxns is not configured, using default value 0.
+2020-06-20 12:19:44,300 [myid:] - INFO  [main:NIOServerCnxnFactory@701] - Configuring NIO connection handler with 10s sessionless connection timeout, 2 selector thread(s), 24 worker threads, and 64 kB direct buffers.
+2020-06-20 12:19:44,492 [myid:] - INFO  [main:NIOServerCnxnFactory@709] - binding to port 0.0.0.0/0.0.0.0:19301
+2020-06-20 12:19:44,620 [myid:] - INFO  [main:ClientBase@395] - STARTING server instance 127.0.0.1:19301
+2020-06-20 12:19:44,654 [myid:] - INFO  [main:ZookeeperBanner@42] - 
+2020-06-20 12:19:44,654 [myid:] - INFO  [main:ZookeeperBanner@42] -   ______                  _                                          
+2020-06-20 12:19:44,656 [myid:] - INFO  [main:ZookeeperBanner@42] -  |___  /                 | |                                         
+2020-06-20 12:19:44,656 [myid:] - INFO  [main:ZookeeperBanner@42] -     / /    ___     ___   | | __   ___    ___   _ __     ___   _ __   
+2020-06-20 12:19:44,656 [myid:] - INFO  [main:ZookeeperBanner@42] -    / /    / _ \   / _ \  | |/ /  / _ \  / _ \ | '_ \   / _ \ | '__|
+2020-06-20 12:19:44,656 [myid:] - INFO  [main:ZookeeperBanner@42] -   / /__  | (_) | | (_) | |   <  |  __/ |  __/ | |_) | |  __/ | |    
+2020-06-20 12:19:44,657 [myid:] - INFO  [main:ZookeeperBanner@42] -  /_____|  \___/   \___/  |_|\_\  \___|  \___| | .__/   \___| |_|
+2020-06-20 12:19:44,657 [myid:] - INFO  [main:ZookeeperBanner@42] -                                               | |                     
+2020-06-20 12:19:44,657 [myid:] - INFO  [main:ZookeeperBanner@42] -                                               |_|                     
+2020-06-20 12:19:44,657 [myid:] - INFO  [main:ZookeeperBanner@42] - 
+2020-06-20 12:19:44,688 [myid:] - INFO  [main:Environment@98] - Server environment:zookeeper.version=3.6.1-SNAPSHOT-88650b8fe4a8dd606149302d55bdd69353408da9-dirty, built on 06/20/2020 04:19 GMT
+2020-06-20 12:19:44,689 [myid:] - INFO  [main:Environment@98] - Server environment:host.name=192.168.1.100
+2020-06-20 12:19:44,690 [myid:] - INFO  [main:Environment@98] - Server environment:java.version=1.8.0_181
+2020-06-20 12:19:44,690 [myid:] - INFO  [main:Environment@98] - Server environment:java.vendor=Oracle Corporation
+2020-06-20 12:19:44,690 [myid:] - INFO  [main:Environment@98] - Server environment:java.home=/Library/Java/JavaVirtualMachines/jdk8.jdk/Contents/Home/jre
+2020-06-20 12:19:44,690 [myid:] - INFO  [main:Environment@98] - Server environment:java.class.path=/Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/test-classes:/Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/classes:/Users/dylan/environment/repo/com/github/spotbugs/spotbugs-annotations/3.1.9/spotbugs-annotations-3.1.9.jar:/Users/dylan/environment/repo/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/dylan/environment/repo/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar:/Users/dylan/environment/repo/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/dylan/environment/repo/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/dylan/environment/repo/org/apache/zookeeper/zookeeper-jute/3.6.1-SNAPSHOT/zookeeper-jute-3.6.1-SNAPSHOT.jar:/Users/dylan/environment/repo/commons-cli/commons-cli/1.2/commons-cli-1.2.jar:/Users/dylan/environment/repo/org/apache/yetus/audience-annotations/0.5.0/audience-annotations-0.5.0.jar:/Users/dylan/environment/repo/io/netty/netty-handler/4.1.45.Final/netty-handler-4.1.45.Final.jar:/Users/dylan/environment/repo/io/netty/netty-common/4.1.45.Final/netty-common-4.1.45.Final.jar:/Users/dylan/environment/repo/io/netty/netty-buffer/4.1.45.Final/netty-buffer-4.1.45.Final.jar:/Users/dylan/environment/repo/io/netty/netty-transport/4.1.45.Final/netty-transport-4.1.45.Final.jar:/Users/dylan/environment/repo/io/netty/netty-resolver/4.1.45.Final/netty-resolver-4.1.45.Final.jar:/Users/dylan/environment/repo/io/netty/netty-codec/4.1.45.Final/netty-codec-4.1.45.Final.jar:/Users/dylan/environment/repo/io/netty/netty-transport-native-epoll/4.1.45.Final/netty-transport-native-epoll-4.1.45.Final.jar:/Users/dylan/environment/repo/io/netty/netty-transport-native-unix-common/4.1.45.Final/netty-transport-native-unix-common-4.1.45.Final.jar:/Users/dylan/environment/repo/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/dylan/environment/repo/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar:/Users/dylan/environment/repo/org/eclipse/jetty/jetty-server/9.4.24.v20191120/jetty-server-9.4.24.v20191120.jar:/Users/dylan/environment/repo/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/dylan/environment/repo/org/eclipse/jetty/jetty-http/9.4.24.v20191120/jetty-http-9.4.24.v20191120.jar:/Users/dylan/environment/repo/org/eclipse/jetty/jetty-util/9.4.24.v20191120/jetty-util-9.4.24.v20191120.jar:/Users/dylan/environment/repo/org/eclipse/jetty/jetty-io/9.4.24.v20191120/jetty-io-9.4.24.v20191120.jar:/Users/dylan/environment/repo/org/eclipse/jetty/jetty-servlet/9.4.24.v20191120/jetty-servlet-9.4.24.v20191120.jar:/Users/dylan/environment/repo/org/eclipse/jetty/jetty-security/9.4.24.v20191120/jetty-security-9.4.24.v20191120.jar:/Users/dylan/environment/repo/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/dylan/environment/repo/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/dylan/environment/repo/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/dylan/environment/repo/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/dylan/environment/repo/org/bouncycastle/bcprov-jdk15on/1.60/bcprov-jdk15on-1.60.jar:/Users/dylan/environment/repo/org/bouncycastle/bcpkix-jdk15on/1.60/bcpkix-jdk15on-1.60.jar:/Users/dylan/environment/repo/jline/jline/2.11/jline-2.11.jar:/Users/dylan/environment/repo/io/dropwizard/metrics/metrics-core/3.2.5/metrics-core-3.2.5.jar:/Users/dylan/environment/repo/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-core/2.0.0/kerb-core-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerby-pkix/2.0.0/kerby-pkix-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerby-asn1/2.0.0/kerby-asn1-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerby-util/2.0.0/kerby-util-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-simplekdc/2.0.0/kerb-simplekdc-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-client/2.0.0/kerb-client-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-common/2.0.0/kerb-common-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-crypto/2.0.0/kerb-crypto-2.0.0.jar:/Users/dylan/environment/repo/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-util/2.0.0/kerb-util-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/token-provider/2.0.0/token-provider-2.0.0.jar:/Users/dylan/environment/repo/com/nimbusds/nimbus-jose-jwt/4.41.2/nimbus-jose-jwt-4.41.2.jar:/Users/dylan/environment/repo/com/github/stephenc/jcip/jcip-annotations/1.0-1/jcip-annotations-1.0-1.jar:/Users/dylan/environment/repo/net/minidev/json-smart/2.3/json-smart-2.3.jar:/Users/dylan/environment/repo/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar:/Users/dylan/environment/repo/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-admin/2.0.0/kerb-admin-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-server/2.0.0/kerb-server-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-identity/2.0.0/kerb-identity-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerby-xdr/2.0.0/kerby-xdr-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerby-config/2.0.0/kerby-config-2.0.0.jar:/Users/dylan/environment/repo/org/mockito/mockito-core/2.27.0/mockito-core-2.27.0.jar:/Users/dylan/environment/repo/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.jar:/Users/dylan/environment/repo/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.jar:/Users/dylan/environment/repo/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/Users/dylan/environment/repo/org/jmockit/jmockit/1.48/jmockit-1.48.jar:/Users/dylan/environment/repo/junit/junit/4.12/junit-4.12.jar:/Users/dylan/environment/repo/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/dylan/environment/repo/org/xerial/snappy/snappy-java/1.1.7/snappy-java-1.1.7.jar:
+2020-06-20 12:19:44,691 [myid:] - INFO  [main:Environment@98] - Server environment:java.library.path=/Users/dylan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+2020-06-20 12:19:44,691 [myid:] - INFO  [main:Environment@98] - Server environment:java.io.tmpdir=/var/folders/ff/jrkzw6gx39jd5s2rmrzy1tc00000gn/T/
+2020-06-20 12:19:44,691 [myid:] - INFO  [main:Environment@98] - Server environment:java.compiler=<NA>
+2020-06-20 12:19:44,693 [myid:] - INFO  [main:Environment@98] - Server environment:os.name=Mac OS X
+2020-06-20 12:19:44,694 [myid:] - INFO  [main:Environment@98] - Server environment:os.arch=x86_64
+2020-06-20 12:19:44,694 [myid:] - INFO  [main:Environment@98] - Server environment:os.version=10.13.6
+2020-06-20 12:19:44,694 [myid:] - INFO  [main:Environment@98] - Server environment:user.name=dylan
+2020-06-20 12:19:44,694 [myid:] - INFO  [main:Environment@98] - Server environment:user.home=/Users/dylan
+2020-06-20 12:19:44,694 [myid:] - INFO  [main:Environment@98] - Server environment:user.dir=/Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server
+2020-06-20 12:19:44,694 [myid:] - INFO  [main:Environment@98] - Server environment:os.memory.free=234MB
+2020-06-20 12:19:44,695 [myid:] - INFO  [main:Environment@98] - Server environment:os.memory.max=455MB
+2020-06-20 12:19:44,695 [myid:] - INFO  [main:Environment@98] - Server environment:os.memory.total=245MB
+2020-06-20 12:19:44,695 [myid:] - INFO  [main:ZooKeeperServer@128] - zookeeper.enableEagerACLCheck = false
+2020-06-20 12:19:44,695 [myid:] - INFO  [main:ZooKeeperServer@136] - zookeeper.digest.enabled = true
+2020-06-20 12:19:44,695 [myid:] - INFO  [main:ZooKeeperServer@140] - zookeeper.closeSessionTxn.enabled = true
+2020-06-20 12:19:44,696 [myid:] - INFO  [main:ZooKeeperServer@1496] - zookeeper.flushDelay=0
+2020-06-20 12:19:44,696 [myid:] - INFO  [main:ZooKeeperServer@1505] - zookeeper.maxWriteQueuePollTime=0
+2020-06-20 12:19:44,696 [myid:] - INFO  [main:ZooKeeperServer@1514] - zookeeper.maxBatchSize=1000
+2020-06-20 12:19:44,696 [myid:] - INFO  [main:ZooKeeperServer@243] - zookeeper.intBufferStartingSizeBytes = 1024
+2020-06-20 12:19:44,702 [myid:] - INFO  [main:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-06-20 12:19:44,885 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-20 12:19:44,886 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-20 12:19:44,892 [myid:] - INFO  [main:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-06-20 12:19:44,893 [myid:] - INFO  [main:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-06-20 12:19:44,896 [myid:] - INFO  [main:BlueThrottle@141] - Weighed connection throttling is disabled
+2020-06-20 12:19:44,901 [myid:] - INFO  [main:ZooKeeperServer@1285] - minSessionTimeout set to 6000
+2020-06-20 12:19:44,902 [myid:] - INFO  [main:ZooKeeperServer@1294] - maxSessionTimeout set to 60000
+2020-06-20 12:19:44,963 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-20 12:19:44,963 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-20 12:19:44,965 [myid:] - INFO  [main:RequestPathMetricsCollector@111] - zookeeper.pathStats.slotCapacity = 60
+2020-06-20 12:19:44,965 [myid:] - INFO  [main:RequestPathMetricsCollector@112] - zookeeper.pathStats.slotDuration = 15
+2020-06-20 12:19:44,965 [myid:] - INFO  [main:RequestPathMetricsCollector@113] - zookeeper.pathStats.maxDepth = 6
+2020-06-20 12:19:44,966 [myid:] - INFO  [main:RequestPathMetricsCollector@114] - zookeeper.pathStats.initialDelay = 5
+2020-06-20 12:19:44,966 [myid:] - INFO  [main:RequestPathMetricsCollector@115] - zookeeper.pathStats.delay = 5
+2020-06-20 12:19:44,966 [myid:] - INFO  [main:RequestPathMetricsCollector@116] - zookeeper.pathStats.enabled = false
+2020-06-20 12:19:44,968 [myid:] - INFO  [main:ZooKeeperServer@1533] - The max bytes for all large requests are set to 104857600
+2020-06-20 12:19:44,969 [myid:] - INFO  [main:ZooKeeperServer@1547] - The large request threshold is set to -1
+2020-06-20 12:19:44,969 [myid:] - INFO  [main:ZooKeeperServer@332] - Created server with tickTime 3000 minSessionTimeout 6000 maxSessionTimeout 60000 clientPortListenBacklog -1 datadir /Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/surefire/test6062170383943684784.junit.dir/version-2 snapdir /Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/surefire/test6062170383943684784.junit.dir/version-2
+2020-06-20 12:19:45,006 [myid:] - INFO  [main:FileTxnSnapLog@253] - Initialize file found, an empty database will not block voting participation
+2020-06-20 12:19:45,013 [myid:] - INFO  [main:SnapStream@61] - zookeeper.snapshot.compression.method = CHECKED
+2020-06-20 12:19:45,014 [myid:] - INFO  [main:FileTxnSnapLog@476] - Snapshotting: 0x0 to /Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/surefire/test6062170383943684784.junit.dir/version-2/snapshot.0
+2020-06-20 12:19:45,052 [myid:] - INFO  [main:ZKDatabase@289] - Snapshot loaded in 80 ms, highest zxid is 0x0, digest is 1371985504
+2020-06-20 12:19:45,053 [myid:] - INFO  [main:FileTxnSnapLog@476] - Snapshotting: 0x0 to /Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/surefire/test6062170383943684784.junit.dir/version-2/snapshot.0
+2020-06-20 12:19:45,116 [myid:] - INFO  [main:ZooKeeperServer@525] - Snapshot taken in 63 ms
+2020-06-20 12:19:45,267 [myid:] - INFO  [main:RequestThrottler@74] - zookeeper.request_throttler.shutdownTimeout = 10000
+2020-06-20 12:19:45,312 [myid:] - INFO  [main:FourLetterWordMain@93] - connecting to 127.0.0.1 19301
+2020-06-20 12:19:45,338 [myid:] - INFO  [NIOWorkerThread-1:FourLetterCommands@223] - The list of known four letter word commands is : [{1936881266=srvr, 1937006964=stat, 2003003491=wchc, 1685417328=dump, 1668445044=crst, 1936880500=srst, 1701738089=envi, 1668247142=conf, -720899=telnet close, 1751217000=hash, 2003003507=wchs, 2003003504=wchp, 1684632179=dirs, 1668247155=cons, 1835955314=mntr, 1769173615=isro, 1920298859=ruok, 1735683435=gtmk, 1937010027=stmk}]
+2020-06-20 12:19:45,338 [myid:] - INFO  [NIOWorkerThread-1:FourLetterCommands@224] - The list of enabled four letter word commands is : [[wchs, stat, wchp, dirs, stmk, conf, ruok, mntr, srvr, wchc, envi, srst, isro, dump, gtmk, telnet close, crst, hash, cons]]
+2020-06-20 12:19:45,338 [myid:] - INFO  [NIOWorkerThread-1:NIOServerCnxn@531] - Processing stat command from /127.0.0.1:59609
+2020-06-20 12:19:45,343 [myid:] - INFO  [NIOWorkerThread-1:StatCommand@52] - Stat command output
+2020-06-20 12:19:45,349 [myid:] - INFO  [main:JMXEnv@219] - ensureParent:[InMemoryDataTree, StandaloneServer_port]
+2020-06-20 12:19:45,354 [myid:] - INFO  [main:JMXEnv@235] - expect:InMemoryDataTree
+2020-06-20 12:19:45,355 [myid:] - INFO  [main:JMXEnv@239] - found:InMemoryDataTree org.apache.ZooKeeperService:name0=StandaloneServer_port19301,name1=InMemoryDataTree
+2020-06-20 12:19:45,355 [myid:] - INFO  [main:JMXEnv@235] - expect:StandaloneServer_port
+2020-06-20 12:19:45,355 [myid:] - INFO  [main:JMXEnv@239] - found:StandaloneServer_port org.apache.ZooKeeperService:name0=StandaloneServer_port19301
+2020-06-20 12:19:45,355 [myid:] - INFO  [main:ClientBase@501] - Client test setup finished
+2020-06-20 12:19:45,356 [myid:] - INFO  [Time-limited test:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testISROEnabledWhenReadOnlyModeEnabled
+2020-06-20 12:19:45,357 [myid:] - INFO  [Time-limited test:ClientBase@557] - STOPPING server
+2020-06-20 12:19:45,357 [myid:] - INFO  [ConnnectionExpirer:NIOServerCnxnFactory$ConnectionExpirerThread@613] - ConnnectionExpirerThread interrupted
+2020-06-20 12:19:45,361 [myid:] - INFO  [NIOServerCxnFactory.AcceptThread:0.0.0.0/0.0.0.0:19301:NIOServerCnxnFactory$AcceptThread@209] - accept thread exitted run method
+2020-06-20 12:19:45,364 [myid:] - INFO  [NIOServerCxnFactory.SelectorThread-1:NIOServerCnxnFactory$SelectorThread@423] - selector thread exitted run method
+2020-06-20 12:19:45,364 [myid:] - INFO  [NIOServerCxnFactory.SelectorThread-0:NIOServerCnxnFactory$SelectorThread@423] - selector thread exitted run method
+2020-06-20 12:19:45,365 [myid:] - INFO  [Time-limited test:ZooKeeperServer@807] - shutting down
+2020-06-20 12:19:45,365 [myid:] - INFO  [Time-limited test:RequestThrottler@252] - Shutting down
+2020-06-20 12:19:45,365 [myid:] - INFO  [RequestThrottler:RequestThrottler@212] - Draining request throttler queue
+2020-06-20 12:19:45,365 [myid:] - INFO  [RequestThrottler:RequestThrottler@188] - RequestThrottler shutdown. Dropped 0 requests
+2020-06-20 12:19:45,365 [myid:] - INFO  [Time-limited test:SessionTrackerImpl@254] - Shutting down
+2020-06-20 12:19:45,366 [myid:] - INFO  [Time-limited test:PrepRequestProcessor@1111] - Shutting down
+2020-06-20 12:19:45,366 [myid:] - INFO  [Time-limited test:SyncRequestProcessor@293] - Shutting down
+2020-06-20 12:19:45,366 [myid:] - INFO  [ProcessThread(sid:0 cport:19301)::PrepRequestProcessor@162] - PrepRequestProcessor exited loop!
+2020-06-20 12:19:45,366 [myid:] - INFO  [SyncThread:0:SyncRequestProcessor@257] - SyncRequestProcessor exited!
+2020-06-20 12:19:45,366 [myid:] - INFO  [Time-limited test:FinalRequestProcessor@672] - shutdown of request processor complete
+2020-06-20 12:19:45,367 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19301
+2020-06-20 12:19:45,368 [myid:] - INFO  [Time-limited test:JMXEnv@142] - ensureOnly:[]
+2020-06-20 12:19:45,369 [myid:] - INFO  [Time-limited test:ClientBase@514] - STARTING server
+2020-06-20 12:19:45,370 [myid:] - INFO  [Time-limited test:ClientBase@423] - CREATING server instance 127.0.0.1:19301
+2020-06-20 12:19:45,370 [myid:] - INFO  [Time-limited test:ServerCnxnFactory@171] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
+2020-06-20 12:19:45,370 [myid:] - WARN  [Time-limited test:ServerCnxnFactory@311] - maxCnxns is not configured, using default value 0.
+2020-06-20 12:19:45,370 [myid:] - INFO  [Time-limited test:NIOServerCnxnFactory@701] - Configuring NIO connection handler with 10s sessionless connection timeout, 2 selector thread(s), 24 worker threads, and 64 kB direct buffers.
+2020-06-20 12:19:45,371 [myid:] - INFO  [Time-limited test:NIOServerCnxnFactory@709] - binding to port 0.0.0.0/0.0.0.0:19301
+2020-06-20 12:19:45,371 [myid:] - INFO  [Time-limited test:ClientBase@395] - STARTING server instance 127.0.0.1:19301
+2020-06-20 12:19:45,371 [myid:] - INFO  [Time-limited test:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-06-20 12:19:45,372 [myid:] - INFO  [Time-limited test:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-20 12:19:45,372 [myid:] - INFO  [Time-limited test:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-20 12:19:45,372 [myid:] - INFO  [Time-limited test:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-06-20 12:19:45,372 [myid:] - INFO  [Time-limited test:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-06-20 12:19:45,372 [myid:] - INFO  [Time-limited test:ZooKeeperServer@1285] - minSessionTimeout set to 6000
+2020-06-20 12:19:45,372 [myid:] - INFO  [Time-limited test:ZooKeeperServer@1294] - maxSessionTimeout set to 60000
+2020-06-20 12:19:45,373 [myid:] - INFO  [Time-limited test:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-20 12:19:45,373 [myid:] - INFO  [Time-limited test:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-20 12:19:45,373 [myid:] - INFO  [Time-limited test:RequestPathMetricsCollector@111] - zookeeper.pathStats.slotCapacity = 60
+2020-06-20 12:19:45,373 [myid:] - INFO  [Time-limited test:RequestPathMetricsCollector@112] - zookeeper.pathStats.slotDuration = 15
+2020-06-20 12:19:45,373 [myid:] - INFO  [Time-limited test:RequestPathMetricsCollector@113] - zookeeper.pathStats.maxDepth = 6
+2020-06-20 12:19:45,373 [myid:] - INFO  [Time-limited test:RequestPathMetricsCollector@114] - zookeeper.pathStats.initialDelay = 5
+2020-06-20 12:19:45,374 [myid:] - INFO  [Time-limited test:RequestPathMetricsCollector@115] - zookeeper.pathStats.delay = 5
+2020-06-20 12:19:45,374 [myid:] - INFO  [Time-limited test:RequestPathMetricsCollector@116] - zookeeper.pathStats.enabled = false
+2020-06-20 12:19:45,374 [myid:] - INFO  [Time-limited test:ZooKeeperServer@1533] - The max bytes for all large requests are set to 104857600
+2020-06-20 12:19:45,374 [myid:] - INFO  [Time-limited test:ZooKeeperServer@1547] - The large request threshold is set to -1
+2020-06-20 12:19:45,374 [myid:] - INFO  [Time-limited test:ZooKeeperServer@332] - Created server with tickTime 3000 minSessionTimeout 6000 maxSessionTimeout 60000 clientPortListenBacklog -1 datadir /Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/surefire/test6062170383943684784.junit.dir/version-2 snapdir /Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/surefire/test6062170383943684784.junit.dir/version-2
+2020-06-20 12:19:45,376 [myid:] - INFO  [Time-limited test:FileSnap@85] - Reading snapshot /Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/surefire/test6062170383943684784.junit.dir/version-2/snapshot.0
+2020-06-20 12:19:45,378 [myid:] - INFO  [Time-limited test:DataTree@1767] - The digest value is empty in snapshot
+2020-06-20 12:19:45,379 [myid:] - INFO  [Time-limited test:ZKDatabase@289] - Snapshot loaded in 5 ms, highest zxid is 0x0, digest is 1371985504
+2020-06-20 12:19:45,380 [myid:] - INFO  [Time-limited test:FileTxnSnapLog@476] - Snapshotting: 0x0 to /Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/surefire/test6062170383943684784.junit.dir/version-2/snapshot.0
+2020-06-20 12:19:45,383 [myid:] - INFO  [Time-limited test:ZooKeeperServer@525] - Snapshot taken in 4 ms
+2020-06-20 12:19:45,384 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19301
+2020-06-20 12:19:45,386 [myid:] - INFO  [NIOWorkerThread-1:FourLetterCommands@223] - The list of known four letter word commands is : [{1936881266=srvr, 1937006964=stat, 2003003491=wchc, 1685417328=dump, 1668445044=crst, 1936880500=srst, 1701738089=envi, 1668247142=conf, -720899=telnet close, 1751217000=hash, 2003003507=wchs, 2003003504=wchp, 1684632179=dirs, 1668247155=cons, 1835955314=mntr, 1769173615=isro, 1920298859=ruok, 1735683435=gtmk, 1937010027=stmk}]
+2020-06-20 12:19:45,386 [myid:] - INFO  [NIOWorkerThread-1:FourLetterCommands@224] - The list of enabled four letter word commands is : [[stat, srvr, isro]]
+2020-06-20 12:19:45,386 [myid:] - INFO  [NIOWorkerThread-1:NIOServerCnxn@531] - Processing stat command from /127.0.0.1:59611
+2020-06-20 12:19:45,386 [myid:] - INFO  [NIOWorkerThread-1:StatCommand@52] - Stat command output
+2020-06-20 12:19:45,387 [myid:] - INFO  [Time-limited test:JMXEnv@219] - ensureParent:[InMemoryDataTree, StandaloneServer_port]
+2020-06-20 12:19:45,389 [myid:] - INFO  [Time-limited test:JMXEnv@235] - expect:InMemoryDataTree
+2020-06-20 12:19:45,389 [myid:] - INFO  [Time-limited test:JMXEnv@239] - found:InMemoryDataTree org.apache.ZooKeeperService:name0=StandaloneServer_port19301,name1=InMemoryDataTree
+2020-06-20 12:19:45,389 [myid:] - INFO  [Time-limited test:JMXEnv@235] - expect:StandaloneServer_port
+2020-06-20 12:19:45,389 [myid:] - INFO  [Time-limited test:JMXEnv@239] - found:StandaloneServer_port org.apache.ZooKeeperService:name0=StandaloneServer_port19301
+2020-06-20 12:19:45,390 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19301
+2020-06-20 12:19:45,391 [myid:] - INFO  [NIOWorkerThread-2:NIOServerCnxn@531] - Processing isro command from /127.0.0.1:59612
+2020-06-20 12:19:45,392 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@243] - cmd isro expected an exact match of rw; got rw
+
+2020-06-20 12:19:45,397 [myid:] - INFO  [Time-limited test:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 23889
+2020-06-20 12:19:45,397 [myid:] - INFO  [Time-limited test:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 27
+2020-06-20 12:19:45,397 [myid:] - INFO  [Time-limited test:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testISROEnabledWhenReadOnlyModeEnabled
+2020-06-20 12:19:45,398 [myid:] - INFO  [main:ClientBase@583] - tearDown starting
+2020-06-20 12:19:45,398 [myid:] - INFO  [main:ClientBase@557] - STOPPING server
+2020-06-20 12:19:45,398 [myid:] - INFO  [ConnnectionExpirer:NIOServerCnxnFactory$ConnectionExpirerThread@613] - ConnnectionExpirerThread interrupted
+2020-06-20 12:19:45,398 [myid:] - INFO  [NIOServerCxnFactory.AcceptThread:0.0.0.0/0.0.0.0:19301:NIOServerCnxnFactory$AcceptThread@209] - accept thread exitted run method
+2020-06-20 12:19:45,398 [myid:] - INFO  [NIOServerCxnFactory.SelectorThread-1:NIOServerCnxnFactory$SelectorThread@423] - selector thread exitted run method
+2020-06-20 12:19:45,398 [myid:] - INFO  [NIOServerCxnFactory.SelectorThread-0:NIOServerCnxnFactory$SelectorThread@423] - selector thread exitted run method
+2020-06-20 12:19:45,398 [myid:] - INFO  [main:ZooKeeperServer@807] - shutting down
+2020-06-20 12:19:45,399 [myid:] - INFO  [main:RequestThrottler@252] - Shutting down
+2020-06-20 12:19:45,399 [myid:] - INFO  [RequestThrottler:RequestThrottler@212] - Draining request throttler queue
+2020-06-20 12:19:45,399 [myid:] - INFO  [RequestThrottler:RequestThrottler@188] - RequestThrottler shutdown. Dropped 0 requests
+2020-06-20 12:19:45,399 [myid:] - INFO  [main:SessionTrackerImpl@254] - Shutting down
+2020-06-20 12:19:45,399 [myid:] - INFO  [main:PrepRequestProcessor@1111] - Shutting down
+2020-06-20 12:19:45,399 [myid:] - INFO  [main:SyncRequestProcessor@293] - Shutting down
+2020-06-20 12:19:45,399 [myid:] - INFO  [ProcessThread(sid:0 cport:19301)::PrepRequestProcessor@162] - PrepRequestProcessor exited loop!
+2020-06-20 12:19:45,400 [myid:] - INFO  [SyncThread:0:SyncRequestProcessor@257] - SyncRequestProcessor exited!
+2020-06-20 12:19:45,400 [myid:] - INFO  [main:FinalRequestProcessor@672] - shutdown of request processor complete
+2020-06-20 12:19:45,400 [myid:] - INFO  [main:FourLetterWordMain@93] - connecting to 127.0.0.1 19301
+2020-06-20 12:19:45,401 [myid:] - INFO  [main:JMXEnv@142] - ensureOnly:[]
+2020-06-20 12:19:45,404 [myid:] - INFO  [main:ClientBase@607] - fdcount after test is: 89 at start it was 76
+2020-06-20 12:19:45,405 [myid:] - INFO  [main:ClientBase@609] - sleeping for 20 secs
+2020-06-20 12:19:45,405 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testISROEnabledWhenReadOnlyModeEnabled
+2020-06-20 12:19:45,406 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testISROEnabledWhenReadOnlyModeEnabled
+2020-06-20 12:19:45,407 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 19302 from range 19300 - 21992.
+2020-06-20 12:19:45,407 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testFourLetterWordsEnableSomeCommands
+2020-06-20 12:19:45,408 [myid:] - INFO  [main:ClientBase@486] - Initial fdcount is: 89
+2020-06-20 12:19:45,409 [myid:] - INFO  [main:JMXEnv@58] - connecting to addr service:jmx:rmi://127.0.0.1/stub/rO0ABXNyAC5qYXZheC5tYW5hZ2VtZW50LnJlbW90ZS5ybWkuUk1JU2VydmVySW1wbF9TdHViAAAAAAAAAAICAAB4cgAaamF2YS5ybWkuc2VydmVyLlJlbW90ZVN0dWLp/tzJi+FlGgIAAHhyABxqYXZhLnJtaS5zZXJ2ZXIuUmVtb3RlT2JqZWN002G0kQxhMx4DAAB4cHc4AAtVbmljYXN0UmVmMgAADTE5Mi4xNjguMS4xMDAAAOiMNYK53hGL5G2karIkAAABcs/0Jn6ADQB4
+2020-06-20 12:19:45,415 [myid:] - INFO  [main:ClientBase@514] - STARTING server
+2020-06-20 12:19:45,416 [myid:] - INFO  [main:ClientBase@423] - CREATING server instance 127.0.0.1:19302
+2020-06-20 12:19:45,416 [myid:] - INFO  [main:ServerCnxnFactory@171] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
+2020-06-20 12:19:45,416 [myid:] - WARN  [main:ServerCnxnFactory@311] - maxCnxns is not configured, using default value 0.
+2020-06-20 12:19:45,416 [myid:] - INFO  [main:NIOServerCnxnFactory@701] - Configuring NIO connection handler with 10s sessionless connection timeout, 2 selector thread(s), 24 worker threads, and 64 kB direct buffers.
+2020-06-20 12:19:45,417 [myid:] - INFO  [main:NIOServerCnxnFactory@709] - binding to port 0.0.0.0/0.0.0.0:19302
+2020-06-20 12:19:45,417 [myid:] - INFO  [main:ClientBase@395] - STARTING server instance 127.0.0.1:19302
+2020-06-20 12:19:45,417 [myid:] - INFO  [main:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-06-20 12:19:45,418 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-20 12:19:45,418 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-20 12:19:45,418 [myid:] - INFO  [main:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-06-20 12:19:45,419 [myid:] - INFO  [main:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-06-20 12:19:45,419 [myid:] - INFO  [main:ZooKeeperServer@1285] - minSessionTimeout set to 6000
+2020-06-20 12:19:45,419 [myid:] - INFO  [main:ZooKeeperServer@1294] - maxSessionTimeout set to 60000
+2020-06-20 12:19:45,419 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-20 12:19:45,419 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-20 12:19:45,419 [myid:] - INFO  [main:RequestPathMetricsCollector@111] - zookeeper.pathStats.slotCapacity = 60
+2020-06-20 12:19:45,420 [myid:] - INFO  [main:RequestPathMetricsCollector@112] - zookeeper.pathStats.slotDuration = 15
+2020-06-20 12:19:45,420 [myid:] - INFO  [main:RequestPathMetricsCollector@113] - zookeeper.pathStats.maxDepth = 6
+2020-06-20 12:19:45,420 [myid:] - INFO  [main:RequestPathMetricsCollector@114] - zookeeper.pathStats.initialDelay = 5
+2020-06-20 12:19:45,420 [myid:] - INFO  [main:RequestPathMetricsCollector@115] - zookeeper.pathStats.delay = 5
+2020-06-20 12:19:45,420 [myid:] - INFO  [main:RequestPathMetricsCollector@116] - zookeeper.pathStats.enabled = false
+2020-06-20 12:19:45,421 [myid:] - INFO  [main:ZooKeeperServer@1533] - The max bytes for all large requests are set to 104857600
+2020-06-20 12:19:45,421 [myid:] - INFO  [main:ZooKeeperServer@1547] - The large request threshold is set to -1
+2020-06-20 12:19:45,421 [myid:] - INFO  [main:ZooKeeperServer@332] - Created server with tickTime 3000 minSessionTimeout 6000 maxSessionTimeout 60000 clientPortListenBacklog -1 datadir /Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/surefire/test4304643073960084907.junit.dir/version-2 snapdir /Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/surefire/test4304643073960084907.junit.dir/version-2
+2020-06-20 12:19:45,422 [myid:] - INFO  [main:FileTxnSnapLog@253] - Initialize file found, an empty database will not block voting participation
+2020-06-20 12:19:45,422 [myid:] - INFO  [main:FileTxnSnapLog@476] - Snapshotting: 0x0 to /Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/surefire/test4304643073960084907.junit.dir/version-2/snapshot.0
+2020-06-20 12:19:45,423 [myid:] - INFO  [main:ZKDatabase@289] - Snapshot loaded in 1 ms, highest zxid is 0x0, digest is 1371985504
+2020-06-20 12:19:45,423 [myid:] - INFO  [main:FileTxnSnapLog@476] - Snapshotting: 0x0 to /Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/surefire/test4304643073960084907.junit.dir/version-2/snapshot.0
+2020-06-20 12:19:45,424 [myid:] - INFO  [main:ZooKeeperServer@525] - Snapshot taken in 0 ms
+2020-06-20 12:19:45,425 [myid:] - INFO  [main:FourLetterWordMain@93] - connecting to 127.0.0.1 19302
+2020-06-20 12:19:45,427 [myid:] - INFO  [NIOWorkerThread-1:NIOServerCnxn@531] - Processing stat command from /127.0.0.1:59614
+2020-06-20 12:19:45,427 [myid:] - INFO  [NIOWorkerThread-1:StatCommand@52] - Stat command output
+2020-06-20 12:19:45,427 [myid:] - INFO  [main:JMXEnv@219] - ensureParent:[InMemoryDataTree, StandaloneServer_port]
+2020-06-20 12:19:45,429 [myid:] - INFO  [main:JMXEnv@235] - expect:InMemoryDataTree
+2020-06-20 12:19:45,429 [myid:] - INFO  [main:JMXEnv@239] - found:InMemoryDataTree org.apache.ZooKeeperService:name0=StandaloneServer_port19302,name1=InMemoryDataTree
+2020-06-20 12:19:45,429 [myid:] - INFO  [main:JMXEnv@235] - expect:StandaloneServer_port
+2020-06-20 12:19:45,430 [myid:] - INFO  [main:JMXEnv@239] - found:StandaloneServer_port org.apache.ZooKeeperService:name0=StandaloneServer_port19302
+2020-06-20 12:19:45,430 [myid:] - INFO  [main:ClientBase@501] - Client test setup finished
+2020-06-20 12:19:45,430 [myid:] - INFO  [Time-limited test:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testFourLetterWordsEnableSomeCommands
+2020-06-20 12:19:45,430 [myid:] - INFO  [Time-limited test:ClientBase@557] - STOPPING server
+2020-06-20 12:19:45,431 [myid:] - INFO  [ConnnectionExpirer:NIOServerCnxnFactory$ConnectionExpirerThread@613] - ConnnectionExpirerThread interrupted
+2020-06-20 12:19:45,431 [myid:] - INFO  [NIOServerCxnFactory.SelectorThread-1:NIOServerCnxnFactory$SelectorThread@423] - selector thread exitted run method
+2020-06-20 12:19:45,431 [myid:] - INFO  [NIOServerCxnFactory.SelectorThread-0:NIOServerCnxnFactory$SelectorThread@423] - selector thread exitted run method
+2020-06-20 12:19:45,431 [myid:] - INFO  [NIOServerCxnFactory.AcceptThread:0.0.0.0/0.0.0.0:19302:NIOServerCnxnFactory$AcceptThread@209] - accept thread exitted run method
+2020-06-20 12:19:45,431 [myid:] - INFO  [Time-limited test:ZooKeeperServer@807] - shutting down
+2020-06-20 12:19:45,431 [myid:] - INFO  [Time-limited test:RequestThrottler@252] - Shutting down
+2020-06-20 12:19:45,431 [myid:] - INFO  [RequestThrottler:RequestThrottler@212] - Draining request throttler queue
+2020-06-20 12:19:45,431 [myid:] - INFO  [RequestThrottler:RequestThrottler@188] - RequestThrottler shutdown. Dropped 0 requests
+2020-06-20 12:19:45,432 [myid:] - INFO  [Time-limited test:SessionTrackerImpl@254] - Shutting down
+2020-06-20 12:19:45,432 [myid:] - INFO  [Time-limited test:PrepRequestProcessor@1111] - Shutting down
+2020-06-20 12:19:45,432 [myid:] - INFO  [Time-limited test:SyncRequestProcessor@293] - Shutting down
+2020-06-20 12:19:45,432 [myid:] - INFO  [ProcessThread(sid:0 cport:19302)::PrepRequestProcessor@162] - PrepRequestProcessor exited loop!
+2020-06-20 12:19:45,432 [myid:] - INFO  [SyncThread:0:SyncRequestProcessor@257] - SyncRequestProcessor exited!
+2020-06-20 12:19:45,432 [myid:] - INFO  [Time-limited test:FinalRequestProcessor@672] - shutdown of request processor complete
+2020-06-20 12:19:45,433 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19302
+2020-06-20 12:19:45,433 [myid:] - INFO  [Time-limited test:JMXEnv@142] - ensureOnly:[]
+2020-06-20 12:19:45,434 [myid:] - INFO  [Time-limited test:ClientBase@514] - STARTING server
+2020-06-20 12:19:45,434 [myid:] - INFO  [Time-limited test:ClientBase@423] - CREATING server instance 127.0.0.1:19302
+2020-06-20 12:19:45,435 [myid:] - INFO  [Time-limited test:ServerCnxnFactory@171] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
+2020-06-20 12:19:45,435 [myid:] - WARN  [Time-limited test:ServerCnxnFactory@311] - maxCnxns is not configured, using default value 0.
+2020-06-20 12:19:45,435 [myid:] - INFO  [Time-limited test:NIOServerCnxnFactory@701] - Configuring NIO connection handler with 10s sessionless connection timeout, 2 selector thread(s), 24 worker threads, and 64 kB direct buffers.
+2020-06-20 12:19:45,435 [myid:] - INFO  [Time-limited test:NIOServerCnxnFactory@709] - binding to port 0.0.0.0/0.0.0.0:19302
+2020-06-20 12:19:45,436 [myid:] - INFO  [Time-limited test:ClientBase@395] - STARTING server instance 127.0.0.1:19302
+2020-06-20 12:19:45,436 [myid:] - INFO  [Time-limited test:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-06-20 12:19:45,436 [myid:] - INFO  [Time-limited test:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-20 12:19:45,436 [myid:] - INFO  [Time-limited test:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-20 12:19:45,436 [myid:] - INFO  [Time-limited test:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-06-20 12:19:45,437 [myid:] - INFO  [Time-limited test:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-06-20 12:19:45,437 [myid:] - INFO  [Time-limited test:ZooKeeperServer@1285] - minSessionTimeout set to 6000
+2020-06-20 12:19:45,437 [myid:] - INFO  [Time-limited test:ZooKeeperServer@1294] - maxSessionTimeout set to 60000
+2020-06-20 12:19:45,437 [myid:] - INFO  [Time-limited test:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-20 12:19:45,437 [myid:] - INFO  [Time-limited test:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-20 12:19:45,437 [myid:] - INFO  [Time-limited test:RequestPathMetricsCollector@111] - zookeeper.pathStats.slotCapacity = 60
+2020-06-20 12:19:45,437 [myid:] - INFO  [Time-limited test:RequestPathMetricsCollector@112] - zookeeper.pathStats.slotDuration = 15
+2020-06-20 12:19:45,437 [myid:] - INFO  [Time-limited test:RequestPathMetricsCollector@113] - zookeeper.pathStats.maxDepth = 6
+2020-06-20 12:19:45,438 [myid:] - INFO  [Time-limited test:RequestPathMetricsCollector@114] - zookeeper.pathStats.initialDelay = 5
+2020-06-20 12:19:45,438 [myid:] - INFO  [Time-limited test:RequestPathMetricsCollector@115] - zookeeper.pathStats.delay = 5
+2020-06-20 12:19:45,438 [myid:] - INFO  [Time-limited test:RequestPathMetricsCollector@116] - zookeeper.pathStats.enabled = false
+2020-06-20 12:19:45,438 [myid:] - INFO  [Time-limited test:ZooKeeperServer@1533] - The max bytes for all large requests are set to 104857600
+2020-06-20 12:19:45,438 [myid:] - INFO  [Time-limited test:ZooKeeperServer@1547] - The large request threshold is set to -1
+2020-06-20 12:19:45,438 [myid:] - INFO  [Time-limited test:ZooKeeperServer@332] - Created server with tickTime 3000 minSessionTimeout 6000 maxSessionTimeout 60000 clientPortListenBacklog -1 datadir /Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/surefire/test4304643073960084907.junit.dir/version-2 snapdir /Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/surefire/test4304643073960084907.junit.dir/version-2
+2020-06-20 12:19:45,439 [myid:] - INFO  [Time-limited test:FileSnap@85] - Reading snapshot /Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/surefire/test4304643073960084907.junit.dir/version-2/snapshot.0
+2020-06-20 12:19:45,440 [myid:] - INFO  [Time-limited test:DataTree@1767] - The digest value is empty in snapshot
+2020-06-20 12:19:45,440 [myid:] - INFO  [Time-limited test:ZKDatabase@289] - Snapshot loaded in 1 ms, highest zxid is 0x0, digest is 1371985504
+2020-06-20 12:19:45,440 [myid:] - INFO  [Time-limited test:FileTxnSnapLog@476] - Snapshotting: 0x0 to /Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/surefire/test4304643073960084907.junit.dir/version-2/snapshot.0
+2020-06-20 12:19:45,441 [myid:] - INFO  [Time-limited test:ZooKeeperServer@525] - Snapshot taken in 0 ms
+2020-06-20 12:19:45,442 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19302
+2020-06-20 12:19:45,443 [myid:] - INFO  [NIOWorkerThread-1:FourLetterCommands@223] - The list of known four letter word commands is : [{1936881266=srvr, 1937006964=stat, 2003003491=wchc, 1685417328=dump, 1668445044=crst, 1936880500=srst, 1701738089=envi, 1668247142=conf, -720899=telnet close, 1751217000=hash, 2003003507=wchs, 2003003504=wchp, 1684632179=dirs, 1668247155=cons, 1835955314=mntr, 1769173615=isro, 1920298859=ruok, 1735683435=gtmk, 1937010027=stmk}]
+2020-06-20 12:19:45,443 [myid:] - INFO  [NIOWorkerThread-1:FourLetterCommands@224] - The list of enabled four letter word commands is : [[stat, ruok, srvr, isro]]
+2020-06-20 12:19:45,444 [myid:] - INFO  [NIOWorkerThread-1:NIOServerCnxn@531] - Processing stat command from /127.0.0.1:59616
+2020-06-20 12:19:45,444 [myid:] - INFO  [NIOWorkerThread-1:StatCommand@52] - Stat command output
+2020-06-20 12:19:45,444 [myid:] - INFO  [Time-limited test:JMXEnv@219] - ensureParent:[InMemoryDataTree, StandaloneServer_port]
+2020-06-20 12:19:45,446 [myid:] - INFO  [Time-limited test:JMXEnv@235] - expect:InMemoryDataTree
+2020-06-20 12:19:45,446 [myid:] - INFO  [Time-limited test:JMXEnv@239] - found:InMemoryDataTree org.apache.ZooKeeperService:name0=StandaloneServer_port19302,name1=InMemoryDataTree
+2020-06-20 12:19:45,446 [myid:] - INFO  [Time-limited test:JMXEnv@235] - expect:StandaloneServer_port
+2020-06-20 12:19:45,446 [myid:] - INFO  [Time-limited test:JMXEnv@239] - found:StandaloneServer_port org.apache.ZooKeeperService:name0=StandaloneServer_port19302
+2020-06-20 12:19:45,446 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19302
+2020-06-20 12:19:45,447 [myid:] - INFO  [NIOWorkerThread-2:NIOServerCnxn@531] - Processing stat command from /127.0.0.1:59617
+2020-06-20 12:19:45,448 [myid:] - INFO  [NIOWorkerThread-2:StatCommand@52] - Stat command output
+2020-06-20 12:19:45,448 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd stat expected Outstanding got Zookeeper version: 3.6.1-SNAPSHOT-88650b8fe4a8dd606149302d55bdd69353408da9-dirty, built on 06/20/2020 04:19 GMT
+Clients:
+ /127.0.0.1:59617[0](queued=0,recved=1,sent=0)
+
+Latency min/avg/max: 0/0.0/0
+Received: 2
+Sent: 1
+Connections: 1
+Outstanding: 0
+Zxid: 0x0
+Mode: standalone
+Node count: 5
+
+2020-06-20 12:19:45,448 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19302
+2020-06-20 12:19:45,450 [myid:] - INFO  [NIOWorkerThread-3:NIOServerCnxn@531] - Processing ruok command from /127.0.0.1:59618
+2020-06-20 12:19:45,450 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@243] - cmd ruok expected an exact match of imok; got imok
+
+2020-06-20 12:19:45,450 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19302
+2020-06-20 12:19:45,453 [myid:] - INFO  [NIOWorkerThread-4:NIOServerCnxn@531] - Processing isro command from /127.0.0.1:59619
+2020-06-20 12:19:45,454 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@243] - cmd isro expected an exact match of rw; got rw
+
+2020-06-20 12:19:45,454 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19302
+2020-06-20 12:19:45,456 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@243] - cmd conf expected an exact match of conf is not executed because it is not in the whitelist.; got conf is not executed because it is not in the whitelist.
+
+2020-06-20 12:19:45,456 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19302
+2020-06-20 12:19:45,458 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@243] - cmd cons expected an exact match of cons is not executed because it is not in the whitelist.; got cons is not executed because it is not in the whitelist.
+
+2020-06-20 12:19:45,458 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19302
+2020-06-20 12:19:45,460 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@243] - cmd crst expected an exact match of crst is not executed because it is not in the whitelist.; got crst is not executed because it is not in the whitelist.
+
+2020-06-20 12:19:45,460 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19302
+2020-06-20 12:19:45,461 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@243] - cmd dirs expected an exact match of dirs is not executed because it is not in the whitelist.; got dirs is not executed because it is not in the whitelist.
+
+2020-06-20 12:19:45,461 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19302
+2020-06-20 12:19:45,463 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@243] - cmd dump expected an exact match of dump is not executed because it is not in the whitelist.; got dump is not executed because it is not in the whitelist.
+
+2020-06-20 12:19:45,463 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19302
+2020-06-20 12:19:45,466 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@243] - cmd envi expected an exact match of envi is not executed because it is not in the whitelist.; got envi is not executed because it is not in the whitelist.
+
+2020-06-20 12:19:45,466 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19302
+2020-06-20 12:19:45,468 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@243] - cmd gtmk expected an exact match of gtmk is not executed because it is not in the whitelist.; got gtmk is not executed because it is not in the whitelist.
+
+2020-06-20 12:19:45,468 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19302
+2020-06-20 12:19:45,470 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@243] - cmd stmk expected an exact match of stmk is not executed because it is not in the whitelist.; got stmk is not executed because it is not in the whitelist.
+
+2020-06-20 12:19:45,470 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19302
+2020-06-20 12:19:45,472 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@243] - cmd srst expected an exact match of srst is not executed because it is not in the whitelist.; got srst is not executed because it is not in the whitelist.
+
+2020-06-20 12:19:45,472 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19302
+2020-06-20 12:19:45,473 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@243] - cmd wchc expected an exact match of wchc is not executed because it is not in the whitelist.; got wchc is not executed because it is not in the whitelist.
+
+2020-06-20 12:19:45,474 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19302
+2020-06-20 12:19:45,477 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@243] - cmd wchp expected an exact match of wchp is not executed because it is not in the whitelist.; got wchp is not executed because it is not in the whitelist.
+
+2020-06-20 12:19:45,477 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19302
+2020-06-20 12:19:45,479 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@243] - cmd wchs expected an exact match of wchs is not executed because it is not in the whitelist.; got wchs is not executed because it is not in the whitelist.
+
+2020-06-20 12:19:45,479 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19302
+2020-06-20 12:19:45,480 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@243] - cmd mntr expected an exact match of mntr is not executed because it is not in the whitelist.; got mntr is not executed because it is not in the whitelist.
+
+2020-06-20 12:19:45,481 [myid:] - INFO  [Time-limited test:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 39190
+2020-06-20 12:19:45,481 [myid:] - INFO  [Time-limited test:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 44
+2020-06-20 12:19:45,481 [myid:] - INFO  [Time-limited test:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testFourLetterWordsEnableSomeCommands
+2020-06-20 12:19:45,486 [myid:] - INFO  [main:ClientBase@583] - tearDown starting
+2020-06-20 12:19:45,486 [myid:] - INFO  [main:ClientBase@557] - STOPPING server
+2020-06-20 12:19:45,486 [myid:] - INFO  [ConnnectionExpirer:NIOServerCnxnFactory$ConnectionExpirerThread@613] - ConnnectionExpirerThread interrupted
+2020-06-20 12:19:45,487 [myid:] - INFO  [NIOServerCxnFactory.AcceptThread:0.0.0.0/0.0.0.0:19302:NIOServerCnxnFactory$AcceptThread@209] - accept thread exitted run method
+2020-06-20 12:19:45,487 [myid:] - INFO  [NIOServerCxnFactory.SelectorThread-0:NIOServerCnxnFactory$SelectorThread@423] - selector thread exitted run method
+2020-06-20 12:19:45,487 [myid:] - INFO  [NIOServerCxnFactory.SelectorThread-1:NIOServerCnxnFactory$SelectorThread@423] - selector thread exitted run method
+2020-06-20 12:19:45,497 [myid:] - INFO  [main:ZooKeeperServer@807] - shutting down
+2020-06-20 12:19:45,498 [myid:] - INFO  [main:RequestThrottler@252] - Shutting down
+2020-06-20 12:19:45,501 [myid:] - INFO  [RequestThrottler:RequestThrottler@212] - Draining request throttler queue
+2020-06-20 12:19:45,502 [myid:] - INFO  [RequestThrottler:RequestThrottler@188] - RequestThrottler shutdown. Dropped 0 requests
+2020-06-20 12:19:45,502 [myid:] - INFO  [main:SessionTrackerImpl@254] - Shutting down
+2020-06-20 12:19:45,502 [myid:] - INFO  [main:PrepRequestProcessor@1111] - Shutting down
+2020-06-20 12:19:45,502 [myid:] - INFO  [main:SyncRequestProcessor@293] - Shutting down
+2020-06-20 12:19:45,502 [myid:] - INFO  [ProcessThread(sid:0 cport:19302)::PrepRequestProcessor@162] - PrepRequestProcessor exited loop!
+2020-06-20 12:19:45,502 [myid:] - INFO  [SyncThread:0:SyncRequestProcessor@257] - SyncRequestProcessor exited!
+2020-06-20 12:19:45,561 [myid:] - INFO  [main:FinalRequestProcessor@672] - shutdown of request processor complete
+2020-06-20 12:19:45,576 [myid:] - INFO  [main:FourLetterWordMain@93] - connecting to 127.0.0.1 19302
+2020-06-20 12:19:45,577 [myid:] - INFO  [main:JMXEnv@142] - ensureOnly:[]
+2020-06-20 12:19:45,593 [myid:] - INFO  [main:ClientBase@607] - fdcount after test is: 89 at start it was 89
+2020-06-20 12:19:45,593 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testFourLetterWordsEnableSomeCommands
+2020-06-20 12:19:45,593 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testFourLetterWordsEnableSomeCommands
+2020-06-20 12:19:45,593 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 19303 from range 19300 - 21992.
+2020-06-20 12:19:45,594 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testFourLetterWordsEnableAllCommandsThroughAsterisk
+2020-06-20 12:19:45,594 [myid:] - INFO  [main:ClientBase@486] - Initial fdcount is: 89
+2020-06-20 12:19:45,597 [myid:] - INFO  [main:JMXEnv@58] - connecting to addr service:jmx:rmi://127.0.0.1/stub/rO0ABXNyAC5qYXZheC5tYW5hZ2VtZW50LnJlbW90ZS5ybWkuUk1JU2VydmVySW1wbF9TdHViAAAAAAAAAAICAAB4cgAaamF2YS5ybWkuc2VydmVyLlJlbW90ZVN0dWLp/tzJi+FlGgIAAHhyABxqYXZhLnJtaS5zZXJ2ZXIuUmVtb3RlT2JqZWN002G0kQxhMx4DAAB4cHc4AAtVbmljYXN0UmVmMgAADTE5Mi4xNjguMS4xMDAAAOiMl2T8ws+72FSkarIkAAABcs/0Jn6AGAB4
+2020-06-20 12:19:45,608 [myid:] - INFO  [main:ClientBase@514] - STARTING server
+2020-06-20 12:19:45,609 [myid:] - INFO  [main:ClientBase@423] - CREATING server instance 127.0.0.1:19303
+2020-06-20 12:19:45,609 [myid:] - INFO  [main:ServerCnxnFactory@171] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
+2020-06-20 12:19:45,609 [myid:] - WARN  [main:ServerCnxnFactory@311] - maxCnxns is not configured, using default value 0.
+2020-06-20 12:19:45,610 [myid:] - INFO  [main:NIOServerCnxnFactory@701] - Configuring NIO connection handler with 10s sessionless connection timeout, 2 selector thread(s), 24 worker threads, and 64 kB direct buffers.
+2020-06-20 12:19:45,611 [myid:] - INFO  [main:NIOServerCnxnFactory@709] - binding to port 0.0.0.0/0.0.0.0:19303
+2020-06-20 12:19:45,611 [myid:] - INFO  [main:ClientBase@395] - STARTING server instance 127.0.0.1:19303
+2020-06-20 12:19:45,612 [myid:] - INFO  [main:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-06-20 12:19:45,613 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-20 12:19:45,614 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-20 12:19:45,615 [myid:] - INFO  [main:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-06-20 12:19:45,615 [myid:] - INFO  [main:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-06-20 12:19:45,615 [myid:] - INFO  [main:ZooKeeperServer@1285] - minSessionTimeout set to 6000
+2020-06-20 12:19:45,615 [myid:] - INFO  [main:ZooKeeperServer@1294] - maxSessionTimeout set to 60000
+2020-06-20 12:19:45,616 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-20 12:19:45,616 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-20 12:19:45,616 [myid:] - INFO  [main:RequestPathMetricsCollector@111] - zookeeper.pathStats.slotCapacity = 60
+2020-06-20 12:19:45,616 [myid:] - INFO  [main:RequestPathMetricsCollector@112] - zookeeper.pathStats.slotDuration = 15
+2020-06-20 12:19:45,616 [myid:] - INFO  [main:RequestPathMetricsCollector@113] - zookeeper.pathStats.maxDepth = 6
+2020-06-20 12:19:45,616 [myid:] - INFO  [main:RequestPathMetricsCollector@114] - zookeeper.pathStats.initialDelay = 5
+2020-06-20 12:19:45,617 [myid:] - INFO  [main:RequestPathMetricsCollector@115] - zookeeper.pathStats.delay = 5
+2020-06-20 12:19:45,617 [myid:] - INFO  [main:RequestPathMetricsCollector@116] - zookeeper.pathStats.enabled = false
+2020-06-20 12:19:45,617 [myid:] - INFO  [main:ZooKeeperServer@1533] - The max bytes for all large requests are set to 104857600
+2020-06-20 12:19:45,618 [myid:] - INFO  [main:ZooKeeperServer@1547] - The large request threshold is set to -1
+2020-06-20 12:19:45,618 [myid:] - INFO  [main:ZooKeeperServer@332] - Created server with tickTime 3000 minSessionTimeout 6000 maxSessionTimeout 60000 clientPortListenBacklog -1 datadir /Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/surefire/test3675562467655657713.junit.dir/version-2 snapdir /Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/surefire/test3675562467655657713.junit.dir/version-2
+2020-06-20 12:19:45,620 [myid:] - INFO  [main:FileTxnSnapLog@253] - Initialize file found, an empty database will not block voting participation
+2020-06-20 12:19:45,620 [myid:] - INFO  [main:FileTxnSnapLog@476] - Snapshotting: 0x0 to /Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/surefire/test3675562467655657713.junit.dir/version-2/snapshot.0
+2020-06-20 12:19:45,624 [myid:] - INFO  [main:ZKDatabase@289] - Snapshot loaded in 5 ms, highest zxid is 0x0, digest is 1371985504
+2020-06-20 12:19:45,624 [myid:] - INFO  [main:FileTxnSnapLog@476] - Snapshotting: 0x0 to /Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/surefire/test3675562467655657713.junit.dir/version-2/snapshot.0
+2020-06-20 12:19:45,628 [myid:] - INFO  [main:ZooKeeperServer@525] - Snapshot taken in 3 ms
+2020-06-20 12:19:45,630 [myid:] - INFO  [main:FourLetterWordMain@93] - connecting to 127.0.0.1 19303
+2020-06-20 12:19:45,632 [myid:] - INFO  [NIOWorkerThread-1:NIOServerCnxn@531] - Processing stat command from /127.0.0.1:59634
+2020-06-20 12:19:45,632 [myid:] - INFO  [NIOWorkerThread-1:StatCommand@52] - Stat command output
+2020-06-20 12:19:45,633 [myid:] - INFO  [main:JMXEnv@219] - ensureParent:[InMemoryDataTree, StandaloneServer_port]
+2020-06-20 12:19:45,641 [myid:] - INFO  [main:JMXEnv@235] - expect:InMemoryDataTree
+2020-06-20 12:19:45,642 [myid:] - INFO  [main:JMXEnv@239] - found:InMemoryDataTree org.apache.ZooKeeperService:name0=StandaloneServer_port19303,name1=InMemoryDataTree
+2020-06-20 12:19:45,643 [myid:] - INFO  [main:JMXEnv@235] - expect:StandaloneServer_port
+2020-06-20 12:19:45,643 [myid:] - INFO  [main:JMXEnv@239] - found:StandaloneServer_port org.apache.ZooKeeperService:name0=StandaloneServer_port19303
+2020-06-20 12:19:45,643 [myid:] - INFO  [main:ClientBase@501] - Client test setup finished
+2020-06-20 12:19:45,644 [myid:] - INFO  [Time-limited test:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testFourLetterWordsEnableAllCommandsThroughAsterisk
+2020-06-20 12:19:45,644 [myid:] - INFO  [Time-limited test:ClientBase@557] - STOPPING server
+2020-06-20 12:19:45,644 [myid:] - INFO  [ConnnectionExpirer:NIOServerCnxnFactory$ConnectionExpirerThread@613] - ConnnectionExpirerThread interrupted
+2020-06-20 12:19:45,644 [myid:] - INFO  [NIOServerCxnFactory.SelectorThread-1:NIOServerCnxnFactory$SelectorThread@423] - selector thread exitted run method
+2020-06-20 12:19:45,644 [myid:] - INFO  [NIOServerCxnFactory.SelectorThread-0:NIOServerCnxnFactory$SelectorThread@423] - selector thread exitted run method
+2020-06-20 12:19:45,644 [myid:] - INFO  [NIOServerCxnFactory.AcceptThread:0.0.0.0/0.0.0.0:19303:NIOServerCnxnFactory$AcceptThread@209] - accept thread exitted run method
+2020-06-20 12:19:45,645 [myid:] - INFO  [Time-limited test:ZooKeeperServer@807] - shutting down
+2020-06-20 12:19:45,645 [myid:] - INFO  [Time-limited test:RequestThrottler@252] - Shutting down
+2020-06-20 12:19:45,645 [myid:] - INFO  [RequestThrottler:RequestThrottler@212] - Draining request throttler queue
+2020-06-20 12:19:45,645 [myid:] - INFO  [RequestThrottler:RequestThrottler@188] - RequestThrottler shutdown. Dropped 0 requests
+2020-06-20 12:19:45,645 [myid:] - INFO  [Time-limited test:SessionTrackerImpl@254] - Shutting down
+2020-06-20 12:19:45,645 [myid:] - INFO  [Time-limited test:PrepRequestProcessor@1111] - Shutting down
+2020-06-20 12:19:45,646 [myid:] - INFO  [Time-limited test:SyncRequestProcessor@293] - Shutting down
+2020-06-20 12:19:45,646 [myid:] - INFO  [ProcessThread(sid:0 cport:19303)::PrepRequestProcessor@162] - PrepRequestProcessor exited loop!
+2020-06-20 12:19:45,646 [myid:] - INFO  [SyncThread:0:SyncRequestProcessor@257] - SyncRequestProcessor exited!
+2020-06-20 12:19:45,646 [myid:] - INFO  [Time-limited test:FinalRequestProcessor@672] - shutdown of request processor complete
+2020-06-20 12:19:45,646 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19303
+2020-06-20 12:19:45,648 [myid:] - INFO  [Time-limited test:JMXEnv@142] - ensureOnly:[]
+2020-06-20 12:19:45,650 [myid:] - INFO  [Time-limited test:ClientBase@514] - STARTING server
+2020-06-20 12:19:45,650 [myid:] - INFO  [Time-limited test:ClientBase@423] - CREATING server instance 127.0.0.1:19303
+2020-06-20 12:19:45,650 [myid:] - INFO  [Time-limited test:ServerCnxnFactory@171] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
+2020-06-20 12:19:45,650 [myid:] - WARN  [Time-limited test:ServerCnxnFactory@311] - maxCnxns is not configured, using default value 0.
+2020-06-20 12:19:45,650 [myid:] - INFO  [Time-limited test:NIOServerCnxnFactory@701] - Configuring NIO connection handler with 10s sessionless connection timeout, 2 selector thread(s), 24 worker threads, and 64 kB direct buffers.
+2020-06-20 12:19:45,651 [myid:] - INFO  [Time-limited test:NIOServerCnxnFactory@709] - binding to port 0.0.0.0/0.0.0.0:19303
+2020-06-20 12:19:45,651 [myid:] - INFO  [Time-limited test:ClientBase@395] - STARTING server instance 127.0.0.1:19303
+2020-06-20 12:19:45,651 [myid:] - INFO  [Time-limited test:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-06-20 12:19:45,652 [myid:] - INFO  [Time-limited test:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-20 12:19:45,652 [myid:] - INFO  [Time-limited test:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-20 12:19:45,652 [myid:] - INFO  [Time-limited test:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-06-20 12:19:45,652 [myid:] - INFO  [Time-limited test:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-06-20 12:19:45,652 [myid:] - INFO  [Time-limited test:ZooKeeperServer@1285] - minSessionTimeout set to 6000
+2020-06-20 12:19:45,653 [myid:] - INFO  [Time-limited test:ZooKeeperServer@1294] - maxSessionTimeout set to 60000
+2020-06-20 12:19:45,653 [myid:] - INFO  [Time-limited test:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-20 12:19:45,653 [myid:] - INFO  [Time-limited test:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-20 12:19:45,653 [myid:] - INFO  [Time-limited test:RequestPathMetricsCollector@111] - zookeeper.pathStats.slotCapacity = 60
+2020-06-20 12:19:45,653 [myid:] - INFO  [Time-limited test:RequestPathMetricsCollector@112] - zookeeper.pathStats.slotDuration = 15
+2020-06-20 12:19:45,653 [myid:] - INFO  [Time-limited test:RequestPathMetricsCollector@113] - zookeeper.pathStats.maxDepth = 6
+2020-06-20 12:19:45,653 [myid:] - INFO  [Time-limited test:RequestPathMetricsCollector@114] - zookeeper.pathStats.initialDelay = 5
+2020-06-20 12:19:45,654 [myid:] - INFO  [Time-limited test:RequestPathMetricsCollector@115] - zookeeper.pathStats.delay = 5
+2020-06-20 12:19:45,654 [myid:] - INFO  [Time-limited test:RequestPathMetricsCollector@116] - zookeeper.pathStats.enabled = false
+2020-06-20 12:19:45,654 [myid:] - INFO  [Time-limited test:ZooKeeperServer@1533] - The max bytes for all large requests are set to 104857600
+2020-06-20 12:19:45,654 [myid:] - INFO  [Time-limited test:ZooKeeperServer@1547] - The large request threshold is set to -1
+2020-06-20 12:19:45,654 [myid:] - INFO  [Time-limited test:ZooKeeperServer@332] - Created server with tickTime 3000 minSessionTimeout 6000 maxSessionTimeout 60000 clientPortListenBacklog -1 datadir /Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/surefire/test3675562467655657713.junit.dir/version-2 snapdir /Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/surefire/test3675562467655657713.junit.dir/version-2
+2020-06-20 12:19:45,655 [myid:] - INFO  [Time-limited test:FileSnap@85] - Reading snapshot /Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/surefire/test3675562467655657713.junit.dir/version-2/snapshot.0
+2020-06-20 12:19:45,656 [myid:] - INFO  [Time-limited test:DataTree@1767] - The digest value is empty in snapshot
+2020-06-20 12:19:45,656 [myid:] - INFO  [Time-limited test:ZKDatabase@289] - Snapshot loaded in 1 ms, highest zxid is 0x0, digest is 1371985504
+2020-06-20 12:19:45,656 [myid:] - INFO  [Time-limited test:FileTxnSnapLog@476] - Snapshotting: 0x0 to /Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/surefire/test3675562467655657713.junit.dir/version-2/snapshot.0
+2020-06-20 12:19:45,657 [myid:] - INFO  [Time-limited test:ZooKeeperServer@525] - Snapshot taken in 0 ms
+2020-06-20 12:19:45,658 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19303
+2020-06-20 12:19:45,660 [myid:] - INFO  [NIOWorkerThread-1:FourLetterCommands@223] - The list of known four letter word commands is : [{1936881266=srvr, 1937006964=stat, 2003003491=wchc, 1685417328=dump, 1668445044=crst, 1936880500=srst, 1701738089=envi, 1668247142=conf, -720899=telnet close, 1751217000=hash, 2003003507=wchs, 2003003504=wchp, 1684632179=dirs, 1668247155=cons, 1835955314=mntr, 1769173615=isro, 1920298859=ruok, 1735683435=gtmk, 1937010027=stmk}]
+2020-06-20 12:19:45,660 [myid:] - INFO  [NIOWorkerThread-1:FourLetterCommands@224] - The list of enabled four letter word commands is : [[wchs, stat, wchp, dirs, stmk, conf, ruok, mntr, srvr, wchc, envi, srst, isro, dump, gtmk, telnet close, crst, hash, cons]]
+2020-06-20 12:19:45,660 [myid:] - INFO  [NIOWorkerThread-1:NIOServerCnxn@531] - Processing stat command from /127.0.0.1:59636
+2020-06-20 12:19:45,660 [myid:] - INFO  [NIOWorkerThread-1:StatCommand@52] - Stat command output
+2020-06-20 12:19:45,660 [myid:] - INFO  [Time-limited test:JMXEnv@219] - ensureParent:[InMemoryDataTree, StandaloneServer_port]
+2020-06-20 12:19:45,662 [myid:] - INFO  [Time-limited test:JMXEnv@235] - expect:InMemoryDataTree
+2020-06-20 12:19:45,662 [myid:] - INFO  [Time-limited test:JMXEnv@239] - found:InMemoryDataTree org.apache.ZooKeeperService:name0=StandaloneServer_port19303,name1=InMemoryDataTree
+2020-06-20 12:19:45,662 [myid:] - INFO  [Time-limited test:JMXEnv@235] - expect:StandaloneServer_port
+2020-06-20 12:19:45,662 [myid:] - INFO  [Time-limited test:JMXEnv@239] - found:StandaloneServer_port org.apache.ZooKeeperService:name0=StandaloneServer_port19303
+2020-06-20 12:19:45,663 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19303
+2020-06-20 12:19:45,664 [myid:] - INFO  [NIOWorkerThread-2:NIOServerCnxn@531] - Processing ruok command from /127.0.0.1:59637
+2020-06-20 12:19:45,664 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@243] - cmd ruok expected an exact match of imok; got imok
+
+2020-06-20 12:19:45,664 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19303
+2020-06-20 12:19:45,666 [myid:] - INFO  [NIOWorkerThread-3:NIOServerCnxn@531] - Processing envi command from /127.0.0.1:59638
+2020-06-20 12:19:45,667 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd envi expected java.version got Environment:
+zookeeper.version=3.6.1-SNAPSHOT-88650b8fe4a8dd606149302d55bdd69353408da9-dirty, built on 06/20/2020 04:19 GMT
+host.name=192.168.1.100
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+java.home=/Library/Java/JavaVirtualMachines/jdk8.jdk/Contents/Home/jre
+java.class.path=/Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/test-classes:/Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/classes:/Users/dylan/environment/repo/com/github/spotbugs/spotbugs-annotations/3.1.9/spotbugs-annotations-3.1.9.jar:/Users/dylan/environment/repo/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/dylan/environment/repo/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar:/Users/dylan/environment/repo/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/dylan/environment/repo/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/dylan/environment/repo/org/apache/zookeeper/zookeeper-jute/3.6.1-SNAPSHOT/zookeeper-jute-3.6.1-SNAPSHOT.jar:/Users/dylan/environment/repo/commons-cli/commons-cli/1.2/commons-cli-1.2.jar:/Users/dylan/environment/repo/org/apache/yetus/audience-annotations/0.5.0/audience-annotations-0.5.0.jar:/Users/dylan/environment/repo/io/netty/netty-handler/4.1.45.Final/netty-handler-4.1.45.Final.jar:/Users/dylan/environment/repo/io/netty/netty-common/4.1.45.Final/netty-common-4.1.45.Final.jar:/Users/dylan/environment/repo/io/netty/netty-buffer/4.1.45.Final/netty-buffer-4.1.45.Final.jar:/Users/dylan/environment/repo/io/netty/netty-transport/4.1.45.Final/netty-transport-4.1.45.Final.jar:/Users/dylan/environment/repo/io/netty/netty-resolver/4.1.45.Final/netty-resolver-4.1.45.Final.jar:/Users/dylan/environment/repo/io/netty/netty-codec/4.1.45.Final/netty-codec-4.1.45.Final.jar:/Users/dylan/environment/repo/io/netty/netty-transport-native-epoll/4.1.45.Final/netty-transport-native-epoll-4.1.45.Final.jar:/Users/dylan/environment/repo/io/netty/netty-transport-native-unix-common/4.1.45.Final/netty-transport-native-unix-common-4.1.45.Final.jar:/Users/dylan/environment/repo/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/dylan/environment/repo/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar:/Users/dylan/environment/repo/org/eclipse/jetty/jetty-server/9.4.24.v20191120/jetty-server-9.4.24.v20191120.jar:/Users/dylan/environment/repo/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/dylan/environment/repo/org/eclipse/jetty/jetty-http/9.4.24.v20191120/jetty-http-9.4.24.v20191120.jar:/Users/dylan/environment/repo/org/eclipse/jetty/jetty-util/9.4.24.v20191120/jetty-util-9.4.24.v20191120.jar:/Users/dylan/environment/repo/org/eclipse/jetty/jetty-io/9.4.24.v20191120/jetty-io-9.4.24.v20191120.jar:/Users/dylan/environment/repo/org/eclipse/jetty/jetty-servlet/9.4.24.v20191120/jetty-servlet-9.4.24.v20191120.jar:/Users/dylan/environment/repo/org/eclipse/jetty/jetty-security/9.4.24.v20191120/jetty-security-9.4.24.v20191120.jar:/Users/dylan/environment/repo/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/dylan/environment/repo/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/dylan/environment/repo/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/dylan/environment/repo/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/dylan/environment/repo/org/bouncycastle/bcprov-jdk15on/1.60/bcprov-jdk15on-1.60.jar:/Users/dylan/environment/repo/org/bouncycastle/bcpkix-jdk15on/1.60/bcpkix-jdk15on-1.60.jar:/Users/dylan/environment/repo/jline/jline/2.11/jline-2.11.jar:/Users/dylan/environment/repo/io/dropwizard/metrics/metrics-core/3.2.5/metrics-core-3.2.5.jar:/Users/dylan/environment/repo/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-core/2.0.0/kerb-core-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerby-pkix/2.0.0/kerby-pkix-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerby-asn1/2.0.0/kerby-asn1-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerby-util/2.0.0/kerby-util-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-simplekdc/2.0.0/kerb-simplekdc-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-client/2.0.0/kerb-client-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-common/2.0.0/kerb-common-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-crypto/2.0.0/kerb-crypto-2.0.0.jar:/Users/dylan/environment/repo/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-util/2.0.0/kerb-util-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/token-provider/2.0.0/token-provider-2.0.0.jar:/Users/dylan/environment/repo/com/nimbusds/nimbus-jose-jwt/4.41.2/nimbus-jose-jwt-4.41.2.jar:/Users/dylan/environment/repo/com/github/stephenc/jcip/jcip-annotations/1.0-1/jcip-annotations-1.0-1.jar:/Users/dylan/environment/repo/net/minidev/json-smart/2.3/json-smart-2.3.jar:/Users/dylan/environment/repo/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar:/Users/dylan/environment/repo/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-admin/2.0.0/kerb-admin-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-server/2.0.0/kerb-server-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-identity/2.0.0/kerb-identity-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerby-xdr/2.0.0/kerby-xdr-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerby-config/2.0.0/kerby-config-2.0.0.jar:/Users/dylan/environment/repo/org/mockito/mockito-core/2.27.0/mockito-core-2.27.0.jar:/Users/dylan/environment/repo/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.jar:/Users/dylan/environment/repo/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.jar:/Users/dylan/environment/repo/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/Users/dylan/environment/repo/org/jmockit/jmockit/1.48/jmockit-1.48.jar:/Users/dylan/environment/repo/junit/junit/4.12/junit-4.12.jar:/Users/dylan/environment/repo/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/dylan/environment/repo/org/xerial/snappy/snappy-java/1.1.7/snappy-java-1.1.7.jar:
+java.library.path=/Users/dylan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+java.io.tmpdir=/var/folders/ff/jrkzw6gx39jd5s2rmrzy1tc00000gn/T/
+java.compiler=<NA>
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.13.6
+user.name=dylan
+user.home=/Users/dylan
+user.dir=/Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server
+os.memory.free=199MB
+os.memory.max=455MB
+os.memory.total=245MB
+
+2020-06-20 12:19:45,667 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19303
+2020-06-20 12:19:45,669 [myid:] - INFO  [NIOWorkerThread-4:NIOServerCnxn@531] - Processing conf command from /127.0.0.1:59639
+2020-06-20 12:19:45,670 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd conf expected clientPort got clientPort=19303
+secureClientPort=-1
+dataDir=/Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/surefire/test3675562467655657713.junit.dir/version-2
+dataDirSize=457
+dataLogDir=/Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/surefire/test3675562467655657713.junit.dir/version-2
+dataLogSize=457
+tickTime=3000
+maxClientCnxns=0
+minSessionTimeout=6000
+maxSessionTimeout=60000
+clientPortListenBacklog=-1
+serverId=0
+
+2020-06-20 12:19:45,670 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19303
+2020-06-20 12:19:45,672 [myid:] - INFO  [NIOWorkerThread-5:NIOServerCnxn@531] - Processing stat command from /127.0.0.1:59640
+2020-06-20 12:19:45,672 [myid:] - INFO  [NIOWorkerThread-5:StatCommand@52] - Stat command output
+2020-06-20 12:19:45,673 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd stat expected Outstanding got Zookeeper version: 3.6.1-SNAPSHOT-88650b8fe4a8dd606149302d55bdd69353408da9-dirty, built on 06/20/2020 04:19 GMT
+Clients:
+ /127.0.0.1:59640[0](queued=0,recved=1,sent=0)
+
+Latency min/avg/max: 0/0.0/0
+Received: 5
+Sent: 4
+Connections: 1
+Outstanding: 0
+Zxid: 0x0
+Mode: standalone
+Node count: 5
+
+2020-06-20 12:19:45,673 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19303
+2020-06-20 12:19:45,674 [myid:] - INFO  [NIOWorkerThread-6:NIOServerCnxn@531] - Processing srvr command from /127.0.0.1:59641
+2020-06-20 12:19:45,675 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd srvr expected Outstanding got Zookeeper version: 3.6.1-SNAPSHOT-88650b8fe4a8dd606149302d55bdd69353408da9-dirty, built on 06/20/2020 04:19 GMT
+Latency min/avg/max: 0/0.0/0
+Received: 6
+Sent: 5
+Connections: 1
+Outstanding: 0
+Zxid: 0x0
+Mode: standalone
+Node count: 5
+
+2020-06-20 12:19:45,675 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19303
+2020-06-20 12:19:45,676 [myid:] - INFO  [NIOWorkerThread-7:NIOServerCnxn@531] - Processing cons command from /127.0.0.1:59642
+2020-06-20 12:19:45,677 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd cons expected queued got  /127.0.0.1:59642[0](queued=0,recved=1,sent=0)
+
+
+2020-06-20 12:19:45,677 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19303
+2020-06-20 12:19:45,678 [myid:] - INFO  [NIOWorkerThread-8:NIOServerCnxn@531] - Processing dump command from /127.0.0.1:59643
+2020-06-20 12:19:45,683 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd dump expected Session got SessionTracker dump:
+Session Sets (0)/(0):
+ephemeral nodes dump:
+Sessions with Ephemerals (0):
+Connections dump:
+Connections Sets (1)/(1):
+1 expire at Sat Jun 20 12:20:02 CST 2020:
+	ip: /127.0.0.1:59643 sessionId: 0x0
+
+2020-06-20 12:19:45,683 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19303
+2020-06-20 12:19:45,685 [myid:] - INFO  [NIOWorkerThread-9:NIOServerCnxn@531] - Processing wchs command from /127.0.0.1:59644
+2020-06-20 12:19:45,685 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd wchs expected watches got 0 connections watching 0 paths
+Total watches:0
+
+2020-06-20 12:19:45,686 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19303
+2020-06-20 12:19:45,687 [myid:] - INFO  [NIOWorkerThread-10:NIOServerCnxn@531] - Processing wchp command from /127.0.0.1:59645
+2020-06-20 12:19:45,687 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd wchp expected  got 
+
+2020-06-20 12:19:45,688 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19303
+2020-06-20 12:19:45,690 [myid:] - INFO  [NIOWorkerThread-11:NIOServerCnxn@531] - Processing wchc command from /127.0.0.1:59646
+2020-06-20 12:19:45,691 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd wchc expected  got 
+
+2020-06-20 12:19:45,691 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19303
+2020-06-20 12:19:45,692 [myid:] - INFO  [NIOWorkerThread-12:NIOServerCnxn@531] - Processing srst command from /127.0.0.1:59647
+2020-06-20 12:19:45,697 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd srst expected reset got Server stats reset.
+
+2020-06-20 12:19:45,697 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19303
+2020-06-20 12:19:45,698 [myid:] - INFO  [NIOWorkerThread-13:NIOServerCnxn@531] - Processing crst command from /127.0.0.1:59648
+2020-06-20 12:19:45,699 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd crst expected reset got Connection stats reset.
+
+2020-06-20 12:19:45,699 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19303
+2020-06-20 12:19:45,700 [myid:] - INFO  [NIOWorkerThread-14:NIOServerCnxn@531] - Processing stat command from /127.0.0.1:59649
+2020-06-20 12:19:45,701 [myid:] - INFO  [NIOWorkerThread-14:StatCommand@52] - Stat command output
+2020-06-20 12:19:45,701 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd stat expected Outstanding got Zookeeper version: 3.6.1-SNAPSHOT-88650b8fe4a8dd606149302d55bdd69353408da9-dirty, built on 06/20/2020 04:19 GMT
+Clients:
+ /127.0.0.1:59649[0](queued=0,recved=1,sent=0)
+
+Latency min/avg/max: 0/0.0/0
+Received: 2
+Sent: 2
+Connections: 1
+Outstanding: 0
+Zxid: 0x0
+Mode: standalone
+Node count: 5
+
+2020-06-20 12:19:45,701 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19303
+2020-06-20 12:19:45,703 [myid:] - INFO  [NIOWorkerThread-15:NIOServerCnxn@531] - Processing srvr command from /127.0.0.1:59650
+2020-06-20 12:19:45,703 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd srvr expected Outstanding got Zookeeper version: 3.6.1-SNAPSHOT-88650b8fe4a8dd606149302d55bdd69353408da9-dirty, built on 06/20/2020 04:19 GMT
+Latency min/avg/max: 0/0.0/0
+Received: 3
+Sent: 3
+Connections: 1
+Outstanding: 0
+Zxid: 0x0
+Mode: standalone
+Node count: 5
+
+2020-06-20 12:19:45,703 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19303
+2020-06-20 12:19:45,706 [myid:] - INFO  [NIOWorkerThread-16:NIOServerCnxn@531] - Processing cons command from /127.0.0.1:59651
+2020-06-20 12:19:45,707 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd cons expected queued got  /127.0.0.1:59651[0](queued=0,recved=1,sent=0)
+
+
+2020-06-20 12:19:45,707 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19303
+2020-06-20 12:19:45,708 [myid:] - INFO  [NIOWorkerThread-17:NIOServerCnxn@531] - Processing gtmk command from /127.0.0.1:59652
+2020-06-20 12:19:45,709 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd gtmk expected 306 got 306
+
+2020-06-20 12:19:45,710 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19303
+2020-06-20 12:19:45,711 [myid:] - INFO  [NIOWorkerThread-18:NIOServerCnxn@531] - Processing isro command from /127.0.0.1:59653
+2020-06-20 12:19:45,711 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd isro expected rw got rw
+
+2020-06-20 12:19:45,719 [myid:] - INFO  [Time-limited test:Environment@98] - Client environment:zookeeper.version=3.6.1-SNAPSHOT-88650b8fe4a8dd606149302d55bdd69353408da9-dirty, built on 06/20/2020 04:19 GMT
+2020-06-20 12:19:45,719 [myid:] - INFO  [Time-limited test:Environment@98] - Client environment:host.name=192.168.1.100
+2020-06-20 12:19:45,719 [myid:] - INFO  [Time-limited test:Environment@98] - Client environment:java.version=1.8.0_181
+2020-06-20 12:19:45,720 [myid:] - INFO  [Time-limited test:Environment@98] - Client environment:java.vendor=Oracle Corporation
+2020-06-20 12:19:45,720 [myid:] - INFO  [Time-limited test:Environment@98] - Client environment:java.home=/Library/Java/JavaVirtualMachines/jdk8.jdk/Contents/Home/jre
+2020-06-20 12:19:45,724 [myid:] - INFO  [Time-limited test:Environment@98] - Client environment:java.class.path=/Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/test-classes:/Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/classes:/Users/dylan/environment/repo/com/github/spotbugs/spotbugs-annotations/3.1.9/spotbugs-annotations-3.1.9.jar:/Users/dylan/environment/repo/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/dylan/environment/repo/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar:/Users/dylan/environment/repo/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/dylan/environment/repo/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/dylan/environment/repo/org/apache/zookeeper/zookeeper-jute/3.6.1-SNAPSHOT/zookeeper-jute-3.6.1-SNAPSHOT.jar:/Users/dylan/environment/repo/commons-cli/commons-cli/1.2/commons-cli-1.2.jar:/Users/dylan/environment/repo/org/apache/yetus/audience-annotations/0.5.0/audience-annotations-0.5.0.jar:/Users/dylan/environment/repo/io/netty/netty-handler/4.1.45.Final/netty-handler-4.1.45.Final.jar:/Users/dylan/environment/repo/io/netty/netty-common/4.1.45.Final/netty-common-4.1.45.Final.jar:/Users/dylan/environment/repo/io/netty/netty-buffer/4.1.45.Final/netty-buffer-4.1.45.Final.jar:/Users/dylan/environment/repo/io/netty/netty-transport/4.1.45.Final/netty-transport-4.1.45.Final.jar:/Users/dylan/environment/repo/io/netty/netty-resolver/4.1.45.Final/netty-resolver-4.1.45.Final.jar:/Users/dylan/environment/repo/io/netty/netty-codec/4.1.45.Final/netty-codec-4.1.45.Final.jar:/Users/dylan/environment/repo/io/netty/netty-transport-native-epoll/4.1.45.Final/netty-transport-native-epoll-4.1.45.Final.jar:/Users/dylan/environment/repo/io/netty/netty-transport-native-unix-common/4.1.45.Final/netty-transport-native-unix-common-4.1.45.Final.jar:/Users/dylan/environment/repo/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/dylan/environment/repo/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar:/Users/dylan/environment/repo/org/eclipse/jetty/jetty-server/9.4.24.v20191120/jetty-server-9.4.24.v20191120.jar:/Users/dylan/environment/repo/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/dylan/environment/repo/org/eclipse/jetty/jetty-http/9.4.24.v20191120/jetty-http-9.4.24.v20191120.jar:/Users/dylan/environment/repo/org/eclipse/jetty/jetty-util/9.4.24.v20191120/jetty-util-9.4.24.v20191120.jar:/Users/dylan/environment/repo/org/eclipse/jetty/jetty-io/9.4.24.v20191120/jetty-io-9.4.24.v20191120.jar:/Users/dylan/environment/repo/org/eclipse/jetty/jetty-servlet/9.4.24.v20191120/jetty-servlet-9.4.24.v20191120.jar:/Users/dylan/environment/repo/org/eclipse/jetty/jetty-security/9.4.24.v20191120/jetty-security-9.4.24.v20191120.jar:/Users/dylan/environment/repo/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/dylan/environment/repo/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/dylan/environment/repo/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/dylan/environment/repo/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/dylan/environment/repo/org/bouncycastle/bcprov-jdk15on/1.60/bcprov-jdk15on-1.60.jar:/Users/dylan/environment/repo/org/bouncycastle/bcpkix-jdk15on/1.60/bcpkix-jdk15on-1.60.jar:/Users/dylan/environment/repo/jline/jline/2.11/jline-2.11.jar:/Users/dylan/environment/repo/io/dropwizard/metrics/metrics-core/3.2.5/metrics-core-3.2.5.jar:/Users/dylan/environment/repo/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-core/2.0.0/kerb-core-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerby-pkix/2.0.0/kerby-pkix-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerby-asn1/2.0.0/kerby-asn1-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerby-util/2.0.0/kerby-util-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-simplekdc/2.0.0/kerb-simplekdc-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-client/2.0.0/kerb-client-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-common/2.0.0/kerb-common-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-crypto/2.0.0/kerb-crypto-2.0.0.jar:/Users/dylan/environment/repo/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-util/2.0.0/kerb-util-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/token-provider/2.0.0/token-provider-2.0.0.jar:/Users/dylan/environment/repo/com/nimbusds/nimbus-jose-jwt/4.41.2/nimbus-jose-jwt-4.41.2.jar:/Users/dylan/environment/repo/com/github/stephenc/jcip/jcip-annotations/1.0-1/jcip-annotations-1.0-1.jar:/Users/dylan/environment/repo/net/minidev/json-smart/2.3/json-smart-2.3.jar:/Users/dylan/environment/repo/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar:/Users/dylan/environment/repo/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-admin/2.0.0/kerb-admin-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-server/2.0.0/kerb-server-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-identity/2.0.0/kerb-identity-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerby-xdr/2.0.0/kerby-xdr-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerby-config/2.0.0/kerby-config-2.0.0.jar:/Users/dylan/environment/repo/org/mockito/mockito-core/2.27.0/mockito-core-2.27.0.jar:/Users/dylan/environment/repo/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.jar:/Users/dylan/environment/repo/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.jar:/Users/dylan/environment/repo/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/Users/dylan/environment/repo/org/jmockit/jmockit/1.48/jmockit-1.48.jar:/Users/dylan/environment/repo/junit/junit/4.12/junit-4.12.jar:/Users/dylan/environment/repo/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/dylan/environment/repo/org/xerial/snappy/snappy-java/1.1.7/snappy-java-1.1.7.jar:
+2020-06-20 12:19:45,725 [myid:] - INFO  [Time-limited test:Environment@98] - Client environment:java.library.path=/Users/dylan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+2020-06-20 12:19:45,725 [myid:] - INFO  [Time-limited test:Environment@98] - Client environment:java.io.tmpdir=/var/folders/ff/jrkzw6gx39jd5s2rmrzy1tc00000gn/T/
+2020-06-20 12:19:45,726 [myid:] - INFO  [Time-limited test:Environment@98] - Client environment:java.compiler=<NA>
+2020-06-20 12:19:45,726 [myid:] - INFO  [Time-limited test:Environment@98] - Client environment:os.name=Mac OS X
+2020-06-20 12:19:45,727 [myid:] - INFO  [Time-limited test:Environment@98] - Client environment:os.arch=x86_64
+2020-06-20 12:19:45,727 [myid:] - INFO  [Time-limited test:Environment@98] - Client environment:os.version=10.13.6
+2020-06-20 12:19:45,727 [myid:] - INFO  [Time-limited test:Environment@98] - Client environment:user.name=dylan
+2020-06-20 12:19:45,727 [myid:] - INFO  [Time-limited test:Environment@98] - Client environment:user.home=/Users/dylan
+2020-06-20 12:19:45,727 [myid:] - INFO  [Time-limited test:Environment@98] - Client environment:user.dir=/Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server
+2020-06-20 12:19:45,727 [myid:] - INFO  [Time-limited test:Environment@98] - Client environment:os.memory.free=193MB
+2020-06-20 12:19:45,727 [myid:] - INFO  [Time-limited test:Environment@98] - Client environment:os.memory.max=455MB
+2020-06-20 12:19:45,728 [myid:] - INFO  [Time-limited test:Environment@98] - Client environment:os.memory.total=245MB
+2020-06-20 12:19:45,837 [myid:] - INFO  [Time-limited test:ZooKeeper@1042] - Initiating client connection, connectString=127.0.0.1:19303 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@2b894982
+2020-06-20 12:19:45,851 [myid:] - INFO  [Time-limited test:X509Util@77] - Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation
+2020-06-20 12:19:45,856 [myid:] - INFO  [Time-limited test:ClientCnxnSocket@247] - jute.maxbuffer value is 1048575 Bytes
+2020-06-20 12:19:45,866 [myid:] - INFO  [Time-limited test:ClientCnxn@1812] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-20 12:19:45,877 [myid:127.0.0.1:19303] - INFO  [Time-limited test-SendThread(127.0.0.1:19303):ClientCnxn$SendThread@1213] - Opening socket connection to server localhost/127.0.0.1:19303.
+2020-06-20 12:19:45,878 [myid:127.0.0.1:19303] - INFO  [Time-limited test-SendThread(127.0.0.1:19303):ClientCnxn$SendThread@1215] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-20 12:19:45,882 [myid:127.0.0.1:19303] - INFO  [Time-limited test-SendThread(127.0.0.1:19303):ClientCnxn$SendThread@1035] - Socket connection established, initiating session, client: /127.0.0.1:59654, server: localhost/127.0.0.1:19303
+2020-06-20 12:19:45,888 [myid:] - INFO  [SyncThread:0:FileTxnLog@288] - Creating new log file: log.1
+2020-06-20 12:19:45,901 [myid:] - INFO  [SyncThread:0:ZKAuditProvider@42] - ZooKeeper audit is disabled.
+2020-06-20 12:19:45,906 [myid:127.0.0.1:19303] - INFO  [Time-limited test-SendThread(127.0.0.1:19303):ClientCnxn$SendThread@1512] - Session establishment complete on server localhost/127.0.0.1:19303, session id = 0x1004de96b880000, negotiated timeout = 30000
+2020-06-20 12:19:45,913 [myid:] - INFO  [Time-limited test:JMXEnv@116] - expect:0x1004de96b880000
+2020-06-20 12:19:45,913 [myid:] - INFO  [Time-limited test:JMXEnv@119] - found:0x1004de96b880000 org.apache.ZooKeeperService:name0=StandaloneServer_port19303,name1=Connections,name2=127.0.0.1,name3=0x1004de96b880000
+2020-06-20 12:19:45,914 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19303
+2020-06-20 12:19:45,918 [myid:] - INFO  [NIOWorkerThread-21:NIOServerCnxn@531] - Processing stat command from /127.0.0.1:59656
+2020-06-20 12:19:45,918 [myid:] - INFO  [NIOWorkerThread-21:StatCommand@52] - Stat command output
+2020-06-20 12:19:45,921 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd stat expected queued got Zookeeper version: 3.6.1-SNAPSHOT-88650b8fe4a8dd606149302d55bdd69353408da9-dirty, built on 06/20/2020 04:19 GMT
+Clients:
+ /127.0.0.1:59656[0](queued=0,recved=1,sent=0)
+ /127.0.0.1:59654[1](queued=0,recved=1,sent=1)
+
+Latency min/avg/max: 16/16.0/16
+Received: 8
+Sent: 8
+Connections: 2
+Outstanding: 0
+Zxid: 0x1
+Mode: standalone
+Node count: 5
+
+2020-06-20 12:19:45,921 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19303
+2020-06-20 12:19:45,923 [myid:] - INFO  [NIOWorkerThread-22:NIOServerCnxn@531] - Processing srvr command from /127.0.0.1:59657
+2020-06-20 12:19:45,923 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd srvr expected Outstanding got Zookeeper version: 3.6.1-SNAPSHOT-88650b8fe4a8dd606149302d55bdd69353408da9-dirty, built on 06/20/2020 04:19 GMT
+Latency min/avg/max: 16/16.0/16
+Received: 9
+Sent: 9
+Connections: 2
+Outstanding: 0
+Zxid: 0x1
+Mode: standalone
+Node count: 5
+
+2020-06-20 12:19:45,924 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19303
+2020-06-20 12:19:45,925 [myid:] - INFO  [NIOWorkerThread-23:NIOServerCnxn@531] - Processing cons command from /127.0.0.1:59658
+2020-06-20 12:19:45,926 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd cons expected 0x1004de96b880000 got  /127.0.0.1:59658[0](queued=0,recved=1,sent=0)
+ /127.0.0.1:59654[1](queued=0,recved=1,sent=1,sid=0x1004de96b880000,lop=SESS,est=1592626785880,to=30000,lcxid=0x0,lzxid=0x1,lresp=1307143292,llat=16,minlat=0,avglat=16,maxlat=16)
+
+
+2020-06-20 12:19:45,927 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19303
+2020-06-20 12:19:45,929 [myid:] - INFO  [NIOWorkerThread-24:NIOServerCnxn@531] - Processing dump command from /127.0.0.1:59659
+2020-06-20 12:19:45,930 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd dump expected 0x1004de96b880000 got SessionTracker dump:
+Session Sets (1)/(1):
+1 expire at Sat Jun 20 12:20:17 CST 2020:
+	0x1004de96b880000
+ephemeral nodes dump:
+Sessions with Ephemerals (0):
+Connections dump:
+Connections Sets (2)/(2):
+1 expire at Sat Jun 20 12:20:02 CST 2020:
+	ip: /127.0.0.1:59659 sessionId: 0x0
+1 expire at Sat Jun 20 12:20:22 CST 2020:
+	ip: /127.0.0.1:59654 sessionId: 0x1004de96b880000
+
+2020-06-20 12:19:45,931 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19303
+2020-06-20 12:19:45,932 [myid:] - INFO  [NIOWorkerThread-1:NIOServerCnxn@531] - Processing dirs command from /127.0.0.1:59660
+2020-06-20 12:19:45,933 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd dirs expected size got datadir_size: 102873
+logdir_size: 102873
+
+2020-06-20 12:19:45,950 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19303
+2020-06-20 12:19:45,954 [myid:] - INFO  [NIOWorkerThread-4:NIOServerCnxn@531] - Processing stat command from /127.0.0.1:59661
+2020-06-20 12:19:45,955 [myid:] - INFO  [NIOWorkerThread-4:StatCommand@52] - Stat command output
+2020-06-20 12:19:45,956 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd stat expected queued got Zookeeper version: 3.6.1-SNAPSHOT-88650b8fe4a8dd606149302d55bdd69353408da9-dirty, built on 06/20/2020 04:19 GMT
+Clients:
+ /127.0.0.1:59661[0](queued=0,recved=1,sent=0)
+ /127.0.0.1:59654[1](queued=0,recved=2,sent=2)
+
+Latency min/avg/max: 2/9.0/16
+Received: 14
+Sent: 14
+Connections: 2
+Outstanding: 0
+Zxid: 0x1
+Mode: standalone
+Node count: 5
+
+2020-06-20 12:19:45,957 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19303
+2020-06-20 12:19:45,959 [myid:] - INFO  [NIOWorkerThread-5:NIOServerCnxn@531] - Processing srvr command from /127.0.0.1:59662
+2020-06-20 12:19:45,961 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd srvr expected Outstanding got Zookeeper version: 3.6.1-SNAPSHOT-88650b8fe4a8dd606149302d55bdd69353408da9-dirty, built on 06/20/2020 04:19 GMT
+Latency min/avg/max: 2/9.0/16
+Received: 15
+Sent: 15
+Connections: 2
+Outstanding: 0
+Zxid: 0x1
+Mode: standalone
+Node count: 5
+
+2020-06-20 12:19:45,962 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19303
+2020-06-20 12:19:45,963 [myid:] - INFO  [NIOWorkerThread-6:NIOServerCnxn@531] - Processing cons command from /127.0.0.1:59663
+2020-06-20 12:19:45,964 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd cons expected 0x1004de96b880000 got  /127.0.0.1:59654[1](queued=0,recved=2,sent=2,sid=0x1004de96b880000,lop=GETD,est=1592626785880,to=30000,lcxid=0x1,lzxid=0x1,lresp=1307143339,llat=2,minlat=0,avglat=9,maxlat=16)
+ /127.0.0.1:59663[0](queued=0,recved=1,sent=0)
+
+
+2020-06-20 12:19:45,965 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19303
+2020-06-20 12:19:45,966 [myid:] - INFO  [NIOWorkerThread-7:NIOServerCnxn@531] - Processing dump command from /127.0.0.1:59664
+2020-06-20 12:19:45,967 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd dump expected 0x1004de96b880000 got SessionTracker dump:
+Session Sets (1)/(1):
+1 expire at Sat Jun 20 12:20:17 CST 2020:
+	0x1004de96b880000
+ephemeral nodes dump:
+Sessions with Ephemerals (0):
+Connections dump:
+Connections Sets (2)/(2):
+1 expire at Sat Jun 20 12:20:02 CST 2020:
+	ip: /127.0.0.1:59664 sessionId: 0x0
+1 expire at Sat Jun 20 12:20:22 CST 2020:
+	ip: /127.0.0.1:59654 sessionId: 0x1004de96b880000
+
+2020-06-20 12:19:45,971 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19303
+2020-06-20 12:19:45,984 [myid:] - INFO  [NIOWorkerThread-8:NIOServerCnxn@531] - Processing wchs command from /127.0.0.1:59665
+2020-06-20 12:19:45,988 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd wchs expected watching 1 got 1 connections watching 1 paths
+Total watches:1
+
+2020-06-20 12:19:45,990 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19303
+2020-06-20 12:19:45,992 [myid:] - INFO  [NIOWorkerThread-9:NIOServerCnxn@531] - Processing wchp command from /127.0.0.1:59666
+2020-06-20 12:19:45,993 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd wchp expected 0x1004de96b880000 got /
+	0x1004de96b880000
+
+
+2020-06-20 12:19:45,993 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19303
+2020-06-20 12:19:45,996 [myid:] - INFO  [NIOWorkerThread-10:NIOServerCnxn@531] - Processing wchc command from /127.0.0.1:59667
+2020-06-20 12:19:45,997 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd wchc expected 0x1004de96b880000 got 0x1004de96b880000
+	/
+
+
+2020-06-20 12:19:46,030 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19303
+2020-06-20 12:19:46,032 [myid:] - INFO  [NIOWorkerThread-11:NIOServerCnxn@531] - Processing dirs command from /127.0.0.1:59668
+2020-06-20 12:19:46,033 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd dirs expected size got datadir_size: 102873
+logdir_size: 102873
+
+2020-06-20 12:19:46,038 [myid:127.0.0.1:19303] - WARN  [Time-limited test-SendThread(127.0.0.1:19303):ClientCnxn$SendThread@1354] - An exception was thrown while closing send thread for session 0x1004de96b880000.
+EndOfStreamException: Unable to read additional data from server sessionid 0x1004de96b880000, likely server has closed socket
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doIO(ClientCnxnSocketNIO.java:82)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:401)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1350)
+2020-06-20 12:19:46,144 [myid:] - INFO  [Time-limited test:ZooKeeper@1657] - Session: 0x1004de96b880000 closed
+2020-06-20 12:19:46,144 [myid:] - INFO  [Time-limited test-EventThread:ClientCnxn$EventThread@580] - EventThread shut down for session: 0x1004de96b880000
+2020-06-20 12:19:46,144 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19303
+2020-06-20 12:19:46,146 [myid:] - INFO  [NIOWorkerThread-14:NIOServerCnxn@531] - Processing ruok command from /127.0.0.1:59669
+2020-06-20 12:19:46,146 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@243] - cmd ruok expected an exact match of imok; got imok
+
+2020-06-20 12:19:46,147 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19303
+2020-06-20 12:19:46,149 [myid:] - INFO  [NIOWorkerThread-15:NIOServerCnxn@531] - Processing envi command from /127.0.0.1:59670
+2020-06-20 12:19:46,150 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd envi expected java.version got Environment:
+zookeeper.version=3.6.1-SNAPSHOT-88650b8fe4a8dd606149302d55bdd69353408da9-dirty, built on 06/20/2020 04:19 GMT
+host.name=192.168.1.100
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+java.home=/Library/Java/JavaVirtualMachines/jdk8.jdk/Contents/Home/jre
+java.class.path=/Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/test-classes:/Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/classes:/Users/dylan/environment/repo/com/github/spotbugs/spotbugs-annotations/3.1.9/spotbugs-annotations-3.1.9.jar:/Users/dylan/environment/repo/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/dylan/environment/repo/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar:/Users/dylan/environment/repo/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/dylan/environment/repo/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/dylan/environment/repo/org/apache/zookeeper/zookeeper-jute/3.6.1-SNAPSHOT/zookeeper-jute-3.6.1-SNAPSHOT.jar:/Users/dylan/environment/repo/commons-cli/commons-cli/1.2/commons-cli-1.2.jar:/Users/dylan/environment/repo/org/apache/yetus/audience-annotations/0.5.0/audience-annotations-0.5.0.jar:/Users/dylan/environment/repo/io/netty/netty-handler/4.1.45.Final/netty-handler-4.1.45.Final.jar:/Users/dylan/environment/repo/io/netty/netty-common/4.1.45.Final/netty-common-4.1.45.Final.jar:/Users/dylan/environment/repo/io/netty/netty-buffer/4.1.45.Final/netty-buffer-4.1.45.Final.jar:/Users/dylan/environment/repo/io/netty/netty-transport/4.1.45.Final/netty-transport-4.1.45.Final.jar:/Users/dylan/environment/repo/io/netty/netty-resolver/4.1.45.Final/netty-resolver-4.1.45.Final.jar:/Users/dylan/environment/repo/io/netty/netty-codec/4.1.45.Final/netty-codec-4.1.45.Final.jar:/Users/dylan/environment/repo/io/netty/netty-transport-native-epoll/4.1.45.Final/netty-transport-native-epoll-4.1.45.Final.jar:/Users/dylan/environment/repo/io/netty/netty-transport-native-unix-common/4.1.45.Final/netty-transport-native-unix-common-4.1.45.Final.jar:/Users/dylan/environment/repo/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/dylan/environment/repo/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar:/Users/dylan/environment/repo/org/eclipse/jetty/jetty-server/9.4.24.v20191120/jetty-server-9.4.24.v20191120.jar:/Users/dylan/environment/repo/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/dylan/environment/repo/org/eclipse/jetty/jetty-http/9.4.24.v20191120/jetty-http-9.4.24.v20191120.jar:/Users/dylan/environment/repo/org/eclipse/jetty/jetty-util/9.4.24.v20191120/jetty-util-9.4.24.v20191120.jar:/Users/dylan/environment/repo/org/eclipse/jetty/jetty-io/9.4.24.v20191120/jetty-io-9.4.24.v20191120.jar:/Users/dylan/environment/repo/org/eclipse/jetty/jetty-servlet/9.4.24.v20191120/jetty-servlet-9.4.24.v20191120.jar:/Users/dylan/environment/repo/org/eclipse/jetty/jetty-security/9.4.24.v20191120/jetty-security-9.4.24.v20191120.jar:/Users/dylan/environment/repo/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/dylan/environment/repo/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/dylan/environment/repo/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/dylan/environment/repo/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/dylan/environment/repo/org/bouncycastle/bcprov-jdk15on/1.60/bcprov-jdk15on-1.60.jar:/Users/dylan/environment/repo/org/bouncycastle/bcpkix-jdk15on/1.60/bcpkix-jdk15on-1.60.jar:/Users/dylan/environment/repo/jline/jline/2.11/jline-2.11.jar:/Users/dylan/environment/repo/io/dropwizard/metrics/metrics-core/3.2.5/metrics-core-3.2.5.jar:/Users/dylan/environment/repo/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-core/2.0.0/kerb-core-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerby-pkix/2.0.0/kerby-pkix-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerby-asn1/2.0.0/kerby-asn1-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerby-util/2.0.0/kerby-util-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-simplekdc/2.0.0/kerb-simplekdc-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-client/2.0.0/kerb-client-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-common/2.0.0/kerb-common-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-crypto/2.0.0/kerb-crypto-2.0.0.jar:/Users/dylan/environment/repo/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-util/2.0.0/kerb-util-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/token-provider/2.0.0/token-provider-2.0.0.jar:/Users/dylan/environment/repo/com/nimbusds/nimbus-jose-jwt/4.41.2/nimbus-jose-jwt-4.41.2.jar:/Users/dylan/environment/repo/com/github/stephenc/jcip/jcip-annotations/1.0-1/jcip-annotations-1.0-1.jar:/Users/dylan/environment/repo/net/minidev/json-smart/2.3/json-smart-2.3.jar:/Users/dylan/environment/repo/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar:/Users/dylan/environment/repo/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-admin/2.0.0/kerb-admin-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-server/2.0.0/kerb-server-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-identity/2.0.0/kerb-identity-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerby-xdr/2.0.0/kerby-xdr-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerby-config/2.0.0/kerby-config-2.0.0.jar:/Users/dylan/environment/repo/org/mockito/mockito-core/2.27.0/mockito-core-2.27.0.jar:/Users/dylan/environment/repo/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.jar:/Users/dylan/environment/repo/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.jar:/Users/dylan/environment/repo/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/Users/dylan/environment/repo/org/jmockit/jmockit/1.48/jmockit-1.48.jar:/Users/dylan/environment/repo/junit/junit/4.12/junit-4.12.jar:/Users/dylan/environment/repo/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/dylan/environment/repo/org/xerial/snappy/snappy-java/1.1.7/snappy-java-1.1.7.jar:
+java.library.path=/Users/dylan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+java.io.tmpdir=/var/folders/ff/jrkzw6gx39jd5s2rmrzy1tc00000gn/T/
+java.compiler=<NA>
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.13.6
+user.name=dylan
+user.home=/Users/dylan
+user.dir=/Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server
+os.memory.free=186MB
+os.memory.max=455MB
+os.memory.total=245MB
+
+2020-06-20 12:19:46,151 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19303
+2020-06-20 12:19:46,152 [myid:] - INFO  [NIOWorkerThread-16:NIOServerCnxn@531] - Processing conf command from /127.0.0.1:59671
+2020-06-20 12:19:46,153 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd conf expected clientPort got clientPort=19303
+secureClientPort=-1
+dataDir=/Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/surefire/test3675562467655657713.junit.dir/version-2
+dataDirSize=102873
+dataLogDir=/Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/surefire/test3675562467655657713.junit.dir/version-2
+dataLogSize=102873
+tickTime=3000
+maxClientCnxns=0
+minSessionTimeout=6000
+maxSessionTimeout=60000
+clientPortListenBacklog=-1
+serverId=0
+
+2020-06-20 12:19:46,154 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19303
+2020-06-20 12:19:46,155 [myid:] - INFO  [NIOWorkerThread-17:NIOServerCnxn@531] - Processing stat command from /127.0.0.1:59672
+2020-06-20 12:19:46,155 [myid:] - INFO  [NIOWorkerThread-17:StatCommand@52] - Stat command output
+2020-06-20 12:19:46,157 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd stat expected Outstanding got Zookeeper version: 3.6.1-SNAPSHOT-88650b8fe4a8dd606149302d55bdd69353408da9-dirty, built on 06/20/2020 04:19 GMT
+Clients:
+ /127.0.0.1:59672[0](queued=0,recved=1,sent=0)
+
+Latency min/avg/max: 2/6.6667/16
+Received: 26
+Sent: 26
+Connections: 1
+Outstanding: 0
+Zxid: 0x2
+Mode: standalone
+Node count: 5
+
+2020-06-20 12:19:46,157 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19303
+2020-06-20 12:19:46,159 [myid:] - INFO  [NIOWorkerThread-18:NIOServerCnxn@531] - Processing srvr command from /127.0.0.1:59673
+2020-06-20 12:19:46,160 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd srvr expected Outstanding got Zookeeper version: 3.6.1-SNAPSHOT-88650b8fe4a8dd606149302d55bdd69353408da9-dirty, built on 06/20/2020 04:19 GMT
+Latency min/avg/max: 2/6.6667/16
+Received: 27
+Sent: 27
+Connections: 1
+Outstanding: 0
+Zxid: 0x2
+Mode: standalone
+Node count: 5
+
+2020-06-20 12:19:46,160 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19303
+2020-06-20 12:19:46,161 [myid:] - INFO  [NIOWorkerThread-19:NIOServerCnxn@531] - Processing cons command from /127.0.0.1:59674
+2020-06-20 12:19:46,162 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd cons expected queued got  /127.0.0.1:59674[0](queued=0,recved=1,sent=0)
+
+
+2020-06-20 12:19:46,162 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19303
+2020-06-20 12:19:46,163 [myid:] - INFO  [NIOWorkerThread-20:NIOServerCnxn@531] - Processing dump command from /127.0.0.1:59675
+2020-06-20 12:19:46,164 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd dump expected Session got SessionTracker dump:
+Session Sets (1)/(0):
+0 expire at Sat Jun 20 12:20:17 CST 2020:
+ephemeral nodes dump:
+Sessions with Ephemerals (0):
+Connections dump:
+Connections Sets (2)/(1):
+1 expire at Sat Jun 20 12:20:02 CST 2020:
+	ip: /127.0.0.1:59675 sessionId: 0x0
+0 expire at Sat Jun 20 12:20:22 CST 2020:
+
+2020-06-20 12:19:46,164 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19303
+2020-06-20 12:19:46,165 [myid:] - INFO  [NIOWorkerThread-21:NIOServerCnxn@531] - Processing wchs command from /127.0.0.1:59676
+2020-06-20 12:19:46,166 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd wchs expected watch got 0 connections watching 0 paths
+Total watches:0
+
+2020-06-20 12:19:46,166 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19303
+2020-06-20 12:19:46,167 [myid:] - INFO  [NIOWorkerThread-22:NIOServerCnxn@531] - Processing wchp command from /127.0.0.1:59677
+2020-06-20 12:19:46,168 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd wchp expected  got 
+
+2020-06-20 12:19:46,168 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19303
+2020-06-20 12:19:46,169 [myid:] - INFO  [NIOWorkerThread-23:NIOServerCnxn@531] - Processing wchc command from /127.0.0.1:59678
+2020-06-20 12:19:46,169 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd wchc expected  got 
+
+2020-06-20 12:19:46,170 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19303
+2020-06-20 12:19:46,170 [myid:] - INFO  [NIOWorkerThread-24:NIOServerCnxn@531] - Processing srst command from /127.0.0.1:59679
+2020-06-20 12:19:46,172 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd srst expected reset got Server stats reset.
+
+2020-06-20 12:19:46,172 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19303
+2020-06-20 12:19:46,173 [myid:] - INFO  [NIOWorkerThread-1:NIOServerCnxn@531] - Processing crst command from /127.0.0.1:59680
+2020-06-20 12:19:46,174 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd crst expected reset got Connection stats reset.
+
+2020-06-20 12:19:46,174 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19303
+2020-06-20 12:19:46,175 [myid:] - INFO  [NIOWorkerThread-2:NIOServerCnxn@531] - Processing stat command from /127.0.0.1:59681
+2020-06-20 12:19:46,175 [myid:] - INFO  [NIOWorkerThread-2:StatCommand@52] - Stat command output
+2020-06-20 12:19:46,175 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd stat expected Outstanding got Zookeeper version: 3.6.1-SNAPSHOT-88650b8fe4a8dd606149302d55bdd69353408da9-dirty, built on 06/20/2020 04:19 GMT
+Clients:
+ /127.0.0.1:59681[0](queued=0,recved=1,sent=0)
+
+Latency min/avg/max: 0/0.0/0
+Received: 2
+Sent: 2
+Connections: 1
+Outstanding: 0
+Zxid: 0x2
+Mode: standalone
+Node count: 5
+
+2020-06-20 12:19:46,175 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19303
+2020-06-20 12:19:46,177 [myid:] - INFO  [NIOWorkerThread-3:NIOServerCnxn@531] - Processing srvr command from /127.0.0.1:59682
+2020-06-20 12:19:46,177 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd srvr expected Outstanding got Zookeeper version: 3.6.1-SNAPSHOT-88650b8fe4a8dd606149302d55bdd69353408da9-dirty, built on 06/20/2020 04:19 GMT
+Latency min/avg/max: 0/0.0/0
+Received: 3
+Sent: 3
+Connections: 1
+Outstanding: 0
+Zxid: 0x2
+Mode: standalone
+Node count: 5
+
+2020-06-20 12:19:46,177 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19303
+2020-06-20 12:19:46,178 [myid:] - INFO  [NIOWorkerThread-4:NIOServerCnxn@531] - Processing cons command from /127.0.0.1:59683
+2020-06-20 12:19:46,179 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd cons expected queued got  /127.0.0.1:59683[0](queued=0,recved=1,sent=0)
+
+
+2020-06-20 12:19:46,179 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19303
+2020-06-20 12:19:46,180 [myid:] - INFO  [NIOWorkerThread-5:NIOServerCnxn@531] - Processing mntr command from /127.0.0.1:59684
+2020-06-20 12:19:46,194 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd mntr expected zk_server_state	standalone got zk_version	3.6.1-SNAPSHOT-88650b8fe4a8dd606149302d55bdd69353408da9-dirty, built on 06/20/2020 04:19 GMT
+zk_server_state	standalone
+zk_ephemerals_count	0
+zk_min_latency	0
+zk_avg_latency	0.0
+zk_num_alive_connections	1
+zk_max_file_descriptor_count	10240
+zk_outstanding_requests	0
+zk_approximate_data_size	44
+zk_znode_count	5
+zk_open_file_descriptor_count	103
+zk_global_sessions	0
+zk_local_sessions	0
+zk_uptime	533
+zk_last_client_response_size	-1
+zk_max_latency	0
+zk_packets_sent	5
+zk_outstanding_tls_handshake	0
+zk_packets_received	5
+zk_max_client_response_size	-1
+zk_connection_drop_probability	0.0
+zk_watch_count	0
+zk_min_client_response_size	-1
+zk_proposal_count	0
+zk_outstanding_changes_removed	0
+zk_stale_requests_dropped	0
+zk_large_requests_rejected	0
+zk_connection_rejected	0
+zk_sessionless_connections_expired	0
+zk_looking_count	0
+zk_dead_watchers_queued	0
+zk_stale_requests	0
+zk_connection_drop_count	0
+zk_learner_proposal_received_count	0
+zk_digest_mismatches_count	0
+zk_dead_watchers_cleared	0
+zk_response_packet_cache_hits	0
+zk_bytes_received_count	20
+zk_add_dead_watcher_stall_time	0
+zk_request_throttle_wait_count	0
+zk_response_packet_cache_misses	0
+zk_ensemble_auth_success	0
+zk_prep_processor_request_queued	0
+zk_learner_commit_received_count	0
+zk_stale_replies	0
+zk_connection_request_count	0
+zk_ensemble_auth_fail	0
+zk_diff_count	0
+zk_response_packet_get_children_cache_misses	0
+zk_connection_revalidate_count	0
+zk_quit_leading_due_to_disloyal_voter	0
+zk_snap_count	0
+zk_unrecoverable_error_count	0
+zk_commit_count	0
+zk_stale_sessions_expired	0
+zk_response_packet_get_children_cache_hits	0
+zk_sync_processor_request_queued	0
+zk_outstanding_changes_queued	0
+zk_request_commit_queued	0
+zk_ensemble_auth_skip	0
+zk_tls_handshake_exceeded	0
+zk_revalidate_count	0
+zk_avg_node_created_watch_count	0.0
+zk_min_node_created_watch_count	0
+zk_max_node_created_watch_count	0
+zk_cnt_node_created_watch_count	0
+zk_sum_node_created_watch_count	0
+zk_avg_session_queues_drained	0.0
+zk_min_session_queues_drained	0
+zk_max_session_queues_drained	0
+zk_cnt_session_queues_drained	0
+zk_sum_session_queues_drained	0
+zk_avg_write_commit_proc_req_queued	0.0
+zk_min_write_commit_proc_req_queued	0
+zk_max_write_commit_proc_req_queued	0
+zk_cnt_write_commit_proc_req_queued	0
+zk_sum_write_commit_proc_req_queued	0
+zk_avg_connection_token_deficit	0.0
+zk_min_connection_token_deficit	0
+zk_max_connection_token_deficit	0
+zk_cnt_connection_token_deficit	0
+zk_sum_connection_token_deficit	0
+zk_avg_read_commit_proc_req_queued	0.0
+zk_min_read_commit_proc_req_queued	0
+zk_max_read_commit_proc_req_queued	0
+zk_cnt_read_commit_proc_req_queued	0
+zk_sum_read_commit_proc_req_queued	0
+zk_avg_node_deleted_watch_count	0.0
+zk_min_node_deleted_watch_count	0
+zk_max_node_deleted_watch_count	0
+zk_cnt_node_deleted_watch_count	0
+zk_sum_node_deleted_watch_count	0
+zk_avg_startup_txns_load_time	0.0
+zk_min_startup_txns_load_time	0
+zk_max_startup_txns_load_time	0
+zk_cnt_startup_txns_load_time	0
+zk_sum_startup_txns_load_time	0
+zk_avg_sync_processor_queue_size	0.0
+zk_min_sync_processor_queue_size	0
+zk_max_sync_processor_queue_size	0
+zk_cnt_sync_processor_queue_size	0
+zk_sum_sync_processor_queue_size	0
+zk_avg_follower_sync_time	0.0
+zk_min_follower_sync_time	0
+zk_max_follower_sync_time	0
+zk_cnt_follower_sync_time	0
+zk_sum_follower_sync_time	0
+zk_avg_prep_processor_queue_size	0.0
+zk_min_prep_processor_queue_size	0
+zk_max_prep_processor_queue_size	0
+zk_cnt_prep_processor_queue_size	0
+zk_sum_prep_processor_queue_size	0
+zk_avg_fsynctime	0.0
+zk_min_fsynctime	0
+zk_max_fsynctime	0
+zk_cnt_fsynctime	0
+zk_sum_fsynctime	0
+zk_avg_reads_issued_from_session_queue	0.0
+zk_min_reads_issued_from_session_queue	0
+zk_max_reads_issued_from_session_queue	0
+zk_cnt_reads_issued_from_session_queue	0
+zk_sum_reads_issued_from_session_queue	0
+zk_avg_snapshottime	0.0
+zk_min_snapshottime	0
+zk_max_snapshottime	0
+zk_cnt_snapshottime	0
+zk_sum_snapshottime	0
+zk_avg_startup_txns_loaded	0.0
+zk_min_startup_txns_loaded	0
+zk_max_startup_txns_loaded	0
+zk_cnt_startup_txns_loaded	0
+zk_sum_startup_txns_loaded	0
+zk_avg_reads_after_write_in_session_queue	0.0
+zk_min_reads_after_write_in_session_queue	0
+zk_max_reads_after_write_in_session_queue	0
+zk_cnt_reads_after_write_in_session_queue	0
+zk_sum_reads_after_write_in_session_queue	0
+zk_avg_requests_in_session_queue	0.0
+zk_min_requests_in_session_queue	0
+zk_max_requests_in_session_queue	0
+zk_cnt_requests_in_session_queue	0
+zk_sum_requests_in_session_queue	0
+zk_avg_write_commit_proc_issued	0.0
+zk_min_write_commit_proc_issued	0
+zk_max_write_commit_proc_issued	0
+zk_cnt_write_commit_proc_issued	0
+zk_sum_write_commit_proc_issued	0
+zk_avg_prep_process_time	0.0
+zk_min_prep_process_time	0
+zk_max_prep_process_time	0
+zk_cnt_prep_process_time	0
+zk_sum_prep_process_time	0
+zk_avg_pending_session_queue_size	0.0
+zk_min_pending_session_queue_size	0
+zk_max_pending_session_queue_size	0
+zk_cnt_pending_session_queue_size	0
+zk_sum_pending_session_queue_size	0
+zk_avg_time_waiting_empty_pool_in_commit_processor_read_ms	0.0
+zk_min_time_waiting_empty_pool_in_commit_processor_read_ms	0
+zk_max_time_waiting_empty_pool_in_commit_processor_read_ms	0
+zk_cnt_time_waiting_empty_pool_in_commit_processor_read_ms	0
+zk_sum_time_waiting_empty_pool_in_commit_processor_read_ms	0
+zk_avg_commit_process_time	0.0
+zk_min_commit_process_time	0
+zk_max_commit_process_time	0
+zk_cnt_commit_process_time	0
+zk_sum_commit_process_time	0
+zk_avg_dbinittime	0.0
+zk_min_dbinittime	0
+zk_max_dbinittime	0
+zk_cnt_dbinittime	0
+zk_sum_dbinittime	0
+zk_avg_netty_queued_buffer_capacity	0.0
+zk_min_netty_queued_buffer_capacity	0
+zk_max_netty_queued_buffer_capacity	0
+zk_cnt_netty_queued_buffer_capacity	0
+zk_sum_netty_queued_buffer_capacity	0
+zk_avg_election_time	0.0
+zk_min_election_time	0
+zk_max_election_time	0
+zk_cnt_election_time	0
+zk_sum_election_time	0
+zk_avg_commit_commit_proc_req_queued	0.0
+zk_min_commit_commit_proc_req_queued	0
+zk_max_commit_commit_proc_req_queued	0
+zk_cnt_commit_commit_proc_req_queued	0
+zk_sum_commit_commit_proc_req_queued	0
+zk_avg_sync_processor_batch_size	0.0
+zk_min_sync_processor_batch_size	0
+zk_max_sync_processor_batch_size	0
+zk_cnt_sync_processor_batch_size	0
+zk_sum_sync_processor_batch_size	0
+zk_avg_node_children_watch_count	0.0
+zk_min_node_children_watch_count	0
+zk_max_node_children_watch_count	0
+zk_cnt_node_children_watch_count	0
+zk_sum_node_children_watch_count	0
+zk_avg_write_batch_time_in_commit_processor	0.0
+zk_min_write_batch_time_in_commit_processor	0
+zk_max_write_batch_time_in_commit_processor	0
+zk_cnt_write_batch_time_in_commit_processor	0
+zk_sum_write_batch_time_in_commit_processor	0
+zk_avg_read_commit_proc_issued	0.0
+zk_min_read_commit_proc_issued	0
+zk_max_read_commit_proc_issued	0
+zk_cnt_read_commit_proc_issued	0
+zk_sum_read_commit_proc_issued	0
+zk_avg_concurrent_request_processing_in_commit_processor	0.0
+zk_min_concurrent_request_processing_in_commit_processor	0
+zk_max_concurrent_request_processing_in_commit_processor	0
+zk_cnt_concurrent_request_processing_in_commit_processor	0
+zk_sum_concurrent_request_processing_in_commit_processor	0
+zk_avg_node_changed_watch_count	0.0
+zk_min_node_changed_watch_count	0
+zk_max_node_changed_watch_count	0
+zk_cnt_node_changed_watch_count	0
+zk_sum_node_changed_watch_count	0
+zk_avg_sync_process_time	0.0
+zk_min_sync_process_time	0
+zk_max_sync_process_time	0
+zk_cnt_sync_process_time	0
+zk_sum_sync_process_time	0
+zk_avg_startup_snap_load_time	0.0
+zk_min_startup_snap_load_time	0
+zk_max_startup_snap_load_time	0
+zk_cnt_startup_snap_load_time	0
+zk_sum_startup_snap_load_time	0
+zk_avg_prep_processor_queue_time_ms	0.0
+zk_min_prep_processor_queue_time_ms	0
+zk_max_prep_processor_queue_time_ms	0
+zk_cnt_prep_processor_queue_time_ms	0
+zk_sum_prep_processor_queue_time_ms	0
+zk_p50_prep_processor_queue_time_ms	0
+zk_p95_prep_processor_queue_time_ms	0
+zk_p99_prep_processor_queue_time_ms	0
+zk_p999_prep_processor_queue_time_ms	0
+zk_avg_close_session_prep_time	0.0
+zk_min_close_session_prep_time	0
+zk_max_close_session_prep_time	0
+zk_cnt_close_session_prep_time	0
+zk_sum_close_session_prep_time	0
+zk_p50_close_session_prep_time	0
+zk_p95_close_session_prep_time	0
+zk_p99_close_session_prep_time	0
+zk_p999_close_session_prep_time	0
+zk_avg_read_commitproc_time_ms	0.0
+zk_min_read_commitproc_time_ms	0
+zk_max_read_commitproc_time_ms	0
+zk_cnt_read_commitproc_time_ms	0
+zk_sum_read_commitproc_time_ms	0
+zk_p50_read_commitproc_time_ms	0
+zk_p95_read_commitproc_time_ms	0
+zk_p99_read_commitproc_time_ms	0
+zk_p999_read_commitproc_time_ms	0
+zk_avg_updatelatency	0.0
+zk_min_updatelatency	0
+zk_max_updatelatency	0
+zk_cnt_updatelatency	0
+zk_sum_updatelatency	0
+zk_p50_updatelatency	0
+zk_p95_updatelatency	0
+zk_p99_updatelatency	0
+zk_p999_updatelatency	0
+zk_avg_local_write_committed_time_ms	0.0
+zk_min_local_write_committed_time_ms	0
+zk_max_local_write_committed_time_ms	0
+zk_cnt_local_write_committed_time_ms	0
+zk_sum_local_write_committed_time_ms	0
+zk_p50_local_write_committed_time_ms	0
+zk_p95_local_write_committed_time_ms	0
+zk_p99_local_write_committed_time_ms	0
+zk_p999_local_write_committed_time_ms	0
+zk_avg_readlatency	0.0
+zk_min_readlatency	0
+zk_max_readlatency	0
+zk_cnt_readlatency	0
+zk_sum_readlatency	0
+zk_p50_readlatency	0
+zk_p95_readlatency	0
+zk_p99_readlatency	0
+zk_p999_readlatency	0
+zk_avg_quorum_ack_latency	0.0
+zk_min_quorum_ack_latency	0
+zk_max_quorum_ack_latency	0
+zk_cnt_quorum_ack_latency	0
+zk_sum_quorum_ack_latency	0
+zk_p50_quorum_ack_latency	0
+zk_p95_quorum_ack_latency	0
+zk_p99_quorum_ack_latency	0
+zk_p999_quorum_ack_latency	0
+zk_avg_om_commit_process_time_ms	0.0
+zk_min_om_commit_process_time_ms	0
+zk_max_om_commit_process_time_ms	0
+zk_cnt_om_commit_process_time_ms	0
+zk_sum_om_commit_process_time_ms	0
+zk_p50_om_commit_process_time_ms	0
+zk_p95_om_commit_process_time_ms	0
+zk_p99_om_commit_process_time_ms	0
+zk_p999_om_commit_process_time_ms	0
+zk_avg_read_final_proc_time_ms	0.0
+zk_min_read_final_proc_time_ms	0
+zk_max_read_final_proc_time_ms	0
+zk_cnt_read_final_proc_time_ms	0
+zk_sum_read_final_proc_time_ms	0
+zk_p50_read_final_proc_time_ms	0
+zk_p95_read_final_proc_time_ms	0
+zk_p99_read_final_proc_time_ms	0
+zk_p999_read_final_proc_time_ms	0
+zk_avg_commit_propagation_latency	0.0
+zk_min_commit_propagation_latency	0
+zk_max_commit_propagation_latency	0
+zk_cnt_commit_propagation_latency	0
+zk_sum_commit_propagation_latency	0
+zk_p50_commit_propagation_latency	0
+zk_p95_commit_propagation_latency	0
+zk_p99_commit_propagation_latency	0
+zk_p999_commit_propagation_latency	0
+zk_avg_dead_watchers_cleaner_latency	0.0
+zk_min_dead_watchers_cleaner_latency	0
+zk_max_dead_watchers_cleaner_latency	0
+zk_cnt_dead_watchers_cleaner_latency	0
+zk_sum_dead_watchers_cleaner_latency	0
+zk_p50_dead_watchers_cleaner_latency	0
+zk_p95_dead_watchers_cleaner_latency	0
+zk_p99_dead_watchers_cleaner_latency	0
+zk_p999_dead_watchers_cleaner_latency	0
+zk_avg_write_final_proc_time_ms	0.0
+zk_min_write_final_proc_time_ms	0
+zk_max_write_final_proc_time_ms	0
+zk_cnt_write_final_proc_time_ms	0
+zk_sum_write_final_proc_time_ms	0
+zk_p50_write_final_proc_time_ms	0
+zk_p95_write_final_proc_time_ms	0
+zk_p99_write_final_proc_time_ms	0
+zk_p999_write_final_proc_time_ms	0
+zk_avg_proposal_ack_creation_latency	0.0
+zk_min_proposal_ack_creation_latency	0
+zk_max_proposal_ack_creation_latency	0
+zk_cnt_proposal_ack_creation_latency	0
+zk_sum_proposal_ack_creation_latency	0
+zk_p50_proposal_ack_creation_latency	0
+zk_p95_proposal_ack_creation_latency	0
+zk_p99_proposal_ack_creation_latency	0
+zk_p999_proposal_ack_creation_latency	0
+zk_avg_proposal_latency	0.0
+zk_min_proposal_latency	0
+zk_max_proposal_latency	0
+zk_cnt_proposal_latency	0
+zk_sum_proposal_latency	0
+zk_p50_proposal_latency	0
+zk_p95_proposal_latency	0
+zk_p99_proposal_latency	0
+zk_p999_proposal_latency	0
+zk_avg_om_proposal_process_time_ms	0.0
+zk_min_om_proposal_process_time_ms	0
+zk_max_om_proposal_process_time_ms	0
+zk_cnt_om_proposal_process_time_ms	0
+zk_sum_om_proposal_process_time_ms	0
+zk_p50_om_proposal_process_time_ms	0
+zk_p95_om_proposal_process_time_ms	0
+zk_p99_om_proposal_process_time_ms	0
+zk_p999_om_proposal_process_time_ms	0
+zk_avg_sync_processor_queue_and_flush_time_ms	0.0
+zk_min_sync_processor_queue_and_flush_time_ms	0
+zk_max_sync_processor_queue_and_flush_time_ms	0
+zk_cnt_sync_processor_queue_and_flush_time_ms	0
+zk_sum_sync_processor_queue_and_flush_time_ms	0
+zk_p50_sync_processor_queue_and_flush_time_ms	0
+zk_p95_sync_processor_queue_and_flush_time_ms	0
+zk_p99_sync_processor_queue_and_flush_time_ms	0
+zk_p999_sync_processor_queue_and_flush_time_ms	0
+zk_avg_propagation_latency	0.0
+zk_min_propagation_latency	0
+zk_max_propagation_latency	0
+zk_cnt_propagation_latency	0
+zk_sum_propagation_latency	0
+zk_p50_propagation_latency	0
+zk_p95_propagation_latency	0
+zk_p99_propagation_latency	0
+zk_p999_propagation_latency	0
+zk_avg_server_write_committed_time_ms	0.0
+zk_min_server_write_committed_time_ms	0
+zk_max_server_write_committed_time_ms	0
+zk_cnt_server_write_committed_time_ms	0
+zk_sum_server_write_committed_time_ms	0
+zk_p50_server_write_committed_time_ms	0
+zk_p95_server_write_committed_time_ms	0
+zk_p99_server_write_committed_time_ms	0
+zk_p999_server_write_committed_time_ms	0
+zk_avg_sync_processor_queue_time_ms	0.0
+zk_min_sync_processor_queue_time_ms	0
+zk_max_sync_processor_queue_time_ms	0
+zk_cnt_sync_processor_queue_time_ms	0
+zk_sum_sync_processor_queue_time_ms	0
+zk_p50_sync_processor_queue_time_ms	0
+zk_p95_sync_processor_queue_time_ms	0
+zk_p99_sync_processor_queue_time_ms	0
+zk_p999_sync_processor_queue_time_ms	0
+zk_avg_sync_processor_queue_flush_time_ms	0.0
+zk_min_sync_processor_queue_flush_time_ms	0
+zk_max_sync_processor_queue_flush_time_ms	0
+zk_cnt_sync_processor_queue_flush_time_ms	0
+zk_sum_sync_processor_queue_flush_time_ms	0
+zk_p50_sync_processor_queue_flush_time_ms	0
+zk_p95_sync_processor_queue_flush_time_ms	0
+zk_p99_sync_processor_queue_flush_time_ms	0
+zk_p999_sync_processor_queue_flush_time_ms	0
+zk_avg_write_commitproc_time_ms	0.0
+zk_min_write_commitproc_time_ms	0
+zk_max_write_commitproc_time_ms	0
+zk_cnt_write_commitproc_time_ms	0
+zk_sum_write_commitproc_time_ms	0
+zk_p50_write_commitproc_time_ms	0
+zk_p95_write_commitproc_time_ms	0
+zk_p99_write_commitproc_time_ms	0
+zk_p999_write_commitproc_time_ms	0
+
+2020-06-20 12:19:46,196 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19303
+2020-06-20 12:19:46,198 [myid:] - INFO  [NIOWorkerThread-6:NIOServerCnxn@531] - Processing mntr command from /127.0.0.1:59685
+2020-06-20 12:19:46,203 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd mntr expected num_alive_connections got zk_version	3.6.1-SNAPSHOT-88650b8fe4a8dd606149302d55bdd69353408da9-dirty, built on 06/20/2020 04:19 GMT
+zk_server_state	standalone
+zk_ephemerals_count	0
+zk_min_latency	0
+zk_avg_latency	0.0
+zk_num_alive_connections	1
+zk_max_file_descriptor_count	10240
+zk_outstanding_requests	0
+zk_approximate_data_size	44
+zk_znode_count	5
+zk_open_file_descriptor_count	103
+zk_global_sessions	0
+zk_local_sessions	0
+zk_uptime	546
+zk_last_client_response_size	-1
+zk_max_latency	0
+zk_packets_sent	7
+zk_outstanding_tls_handshake	0
+zk_packets_received	6
+zk_max_client_response_size	-1
+zk_connection_drop_probability	0.0
+zk_watch_count	0
+zk_min_client_response_size	-1
+zk_proposal_count	0
+zk_outstanding_changes_removed	0
+zk_stale_requests_dropped	0
+zk_large_requests_rejected	0
+zk_connection_rejected	0
+zk_sessionless_connections_expired	0
+zk_looking_count	0
+zk_dead_watchers_queued	0
+zk_stale_requests	0
+zk_connection_drop_count	0
+zk_learner_proposal_received_count	0
+zk_digest_mismatches_count	0
+zk_dead_watchers_cleared	0
+zk_response_packet_cache_hits	0
+zk_bytes_received_count	24
+zk_add_dead_watcher_stall_time	0
+zk_request_throttle_wait_count	0
+zk_response_packet_cache_misses	0
+zk_ensemble_auth_success	0
+zk_prep_processor_request_queued	0
+zk_learner_commit_received_count	0
+zk_stale_replies	0
+zk_connection_request_count	0
+zk_ensemble_auth_fail	0
+zk_diff_count	0
+zk_response_packet_get_children_cache_misses	0
+zk_connection_revalidate_count	0
+zk_quit_leading_due_to_disloyal_voter	0
+zk_snap_count	0
+zk_unrecoverable_error_count	0
+zk_commit_count	0
+zk_stale_sessions_expired	0
+zk_response_packet_get_children_cache_hits	0
+zk_sync_processor_request_queued	0
+zk_outstanding_changes_queued	0
+zk_request_commit_queued	0
+zk_ensemble_auth_skip	0
+zk_tls_handshake_exceeded	0
+zk_revalidate_count	0
+zk_avg_node_created_watch_count	0.0
+zk_min_node_created_watch_count	0
+zk_max_node_created_watch_count	0
+zk_cnt_node_created_watch_count	0
+zk_sum_node_created_watch_count	0
+zk_avg_session_queues_drained	0.0
+zk_min_session_queues_drained	0
+zk_max_session_queues_drained	0
+zk_cnt_session_queues_drained	0
+zk_sum_session_queues_drained	0
+zk_avg_write_commit_proc_req_queued	0.0
+zk_min_write_commit_proc_req_queued	0
+zk_max_write_commit_proc_req_queued	0
+zk_cnt_write_commit_proc_req_queued	0
+zk_sum_write_commit_proc_req_queued	0
+zk_avg_connection_token_deficit	0.0
+zk_min_connection_token_deficit	0
+zk_max_connection_token_deficit	0
+zk_cnt_connection_token_deficit	0
+zk_sum_connection_token_deficit	0
+zk_avg_read_commit_proc_req_queued	0.0
+zk_min_read_commit_proc_req_queued	0
+zk_max_read_commit_proc_req_queued	0
+zk_cnt_read_commit_proc_req_queued	0
+zk_sum_read_commit_proc_req_queued	0
+zk_avg_node_deleted_watch_count	0.0
+zk_min_node_deleted_watch_count	0
+zk_max_node_deleted_watch_count	0
+zk_cnt_node_deleted_watch_count	0
+zk_sum_node_deleted_watch_count	0
+zk_avg_startup_txns_load_time	0.0
+zk_min_startup_txns_load_time	0
+zk_max_startup_txns_load_time	0
+zk_cnt_startup_txns_load_time	0
+zk_sum_startup_txns_load_time	0
+zk_avg_sync_processor_queue_size	0.0
+zk_min_sync_processor_queue_size	0
+zk_max_sync_processor_queue_size	0
+zk_cnt_sync_processor_queue_size	0
+zk_sum_sync_processor_queue_size	0
+zk_avg_follower_sync_time	0.0
+zk_min_follower_sync_time	0
+zk_max_follower_sync_time	0
+zk_cnt_follower_sync_time	0
+zk_sum_follower_sync_time	0
+zk_avg_prep_processor_queue_size	0.0
+zk_min_prep_processor_queue_size	0
+zk_max_prep_processor_queue_size	0
+zk_cnt_prep_processor_queue_size	0
+zk_sum_prep_processor_queue_size	0
+zk_avg_fsynctime	0.0
+zk_min_fsynctime	0
+zk_max_fsynctime	0
+zk_cnt_fsynctime	0
+zk_sum_fsynctime	0
+zk_avg_reads_issued_from_session_queue	0.0
+zk_min_reads_issued_from_session_queue	0
+zk_max_reads_issued_from_session_queue	0
+zk_cnt_reads_issued_from_session_queue	0
+zk_sum_reads_issued_from_session_queue	0
+zk_avg_snapshottime	0.0
+zk_min_snapshottime	0
+zk_max_snapshottime	0
+zk_cnt_snapshottime	0
+zk_sum_snapshottime	0
+zk_avg_startup_txns_loaded	0.0
+zk_min_startup_txns_loaded	0
+zk_max_startup_txns_loaded	0
+zk_cnt_startup_txns_loaded	0
+zk_sum_startup_txns_loaded	0
+zk_avg_reads_after_write_in_session_queue	0.0
+zk_min_reads_after_write_in_session_queue	0
+zk_max_reads_after_write_in_session_queue	0
+zk_cnt_reads_after_write_in_session_queue	0
+zk_sum_reads_after_write_in_session_queue	0
+zk_avg_requests_in_session_queue	0.0
+zk_min_requests_in_session_queue	0
+zk_max_requests_in_session_queue	0
+zk_cnt_requests_in_session_queue	0
+zk_sum_requests_in_session_queue	0
+zk_avg_write_commit_proc_issued	0.0
+zk_min_write_commit_proc_issued	0
+zk_max_write_commit_proc_issued	0
+zk_cnt_write_commit_proc_issued	0
+zk_sum_write_commit_proc_issued	0
+zk_avg_prep_process_time	0.0
+zk_min_prep_process_time	0
+zk_max_prep_process_time	0
+zk_cnt_prep_process_time	0
+zk_sum_prep_process_time	0
+zk_avg_pending_session_queue_size	0.0
+zk_min_pending_session_queue_size	0
+zk_max_pending_session_queue_size	0
+zk_cnt_pending_session_queue_size	0
+zk_sum_pending_session_queue_size	0
+zk_avg_time_waiting_empty_pool_in_commit_processor_read_ms	0.0
+zk_min_time_waiting_empty_pool_in_commit_processor_read_ms	0
+zk_max_time_waiting_empty_pool_in_commit_processor_read_ms	0
+zk_cnt_time_waiting_empty_pool_in_commit_processor_read_ms	0
+zk_sum_time_waiting_empty_pool_in_commit_processor_read_ms	0
+zk_avg_commit_process_time	0.0
+zk_min_commit_process_time	0
+zk_max_commit_process_time	0
+zk_cnt_commit_process_time	0
+zk_sum_commit_process_time	0
+zk_avg_dbinittime	0.0
+zk_min_dbinittime	0
+zk_max_dbinittime	0
+zk_cnt_dbinittime	0
+zk_sum_dbinittime	0
+zk_avg_netty_queued_buffer_capacity	0.0
+zk_min_netty_queued_buffer_capacity	0
+zk_max_netty_queued_buffer_capacity	0
+zk_cnt_netty_queued_buffer_capacity	0
+zk_sum_netty_queued_buffer_capacity	0
+zk_avg_election_time	0.0
+zk_min_election_time	0
+zk_max_election_time	0
+zk_cnt_election_time	0
+zk_sum_election_time	0
+zk_avg_commit_commit_proc_req_queued	0.0
+zk_min_commit_commit_proc_req_queued	0
+zk_max_commit_commit_proc_req_queued	0
+zk_cnt_commit_commit_proc_req_queued	0
+zk_sum_commit_commit_proc_req_queued	0
+zk_avg_sync_processor_batch_size	0.0
+zk_min_sync_processor_batch_size	0
+zk_max_sync_processor_batch_size	0
+zk_cnt_sync_processor_batch_size	0
+zk_sum_sync_processor_batch_size	0
+zk_avg_node_children_watch_count	0.0
+zk_min_node_children_watch_count	0
+zk_max_node_children_watch_count	0
+zk_cnt_node_children_watch_count	0
+zk_sum_node_children_watch_count	0
+zk_avg_write_batch_time_in_commit_processor	0.0
+zk_min_write_batch_time_in_commit_processor	0
+zk_max_write_batch_time_in_commit_processor	0
+zk_cnt_write_batch_time_in_commit_processor	0
+zk_sum_write_batch_time_in_commit_processor	0
+zk_avg_read_commit_proc_issued	0.0
+zk_min_read_commit_proc_issued	0
+zk_max_read_commit_proc_issued	0
+zk_cnt_read_commit_proc_issued	0
+zk_sum_read_commit_proc_issued	0
+zk_avg_concurrent_request_processing_in_commit_processor	0.0
+zk_min_concurrent_request_processing_in_commit_processor	0
+zk_max_concurrent_request_processing_in_commit_processor	0
+zk_cnt_concurrent_request_processing_in_commit_processor	0
+zk_sum_concurrent_request_processing_in_commit_processor	0
+zk_avg_node_changed_watch_count	0.0
+zk_min_node_changed_watch_count	0
+zk_max_node_changed_watch_count	0
+zk_cnt_node_changed_watch_count	0
+zk_sum_node_changed_watch_count	0
+zk_avg_sync_process_time	0.0
+zk_min_sync_process_time	0
+zk_max_sync_process_time	0
+zk_cnt_sync_process_time	0
+zk_sum_sync_process_time	0
+zk_avg_startup_snap_load_time	0.0
+zk_min_startup_snap_load_time	0
+zk_max_startup_snap_load_time	0
+zk_cnt_startup_snap_load_time	0
+zk_sum_startup_snap_load_time	0
+zk_avg_prep_processor_queue_time_ms	0.0
+zk_min_prep_processor_queue_time_ms	0
+zk_max_prep_processor_queue_time_ms	0
+zk_cnt_prep_processor_queue_time_ms	0
+zk_sum_prep_processor_queue_time_ms	0
+zk_p50_prep_processor_queue_time_ms	0
+zk_p95_prep_processor_queue_time_ms	0
+zk_p99_prep_processor_queue_time_ms	0
+zk_p999_prep_processor_queue_time_ms	0
+zk_avg_close_session_prep_time	0.0
+zk_min_close_session_prep_time	0
+zk_max_close_session_prep_time	0
+zk_cnt_close_session_prep_time	0
+zk_sum_close_session_prep_time	0
+zk_p50_close_session_prep_time	0
+zk_p95_close_session_prep_time	0
+zk_p99_close_session_prep_time	0
+zk_p999_close_session_prep_time	0
+zk_avg_read_commitproc_time_ms	0.0
+zk_min_read_commitproc_time_ms	0
+zk_max_read_commitproc_time_ms	0
+zk_cnt_read_commitproc_time_ms	0
+zk_sum_read_commitproc_time_ms	0
+zk_p50_read_commitproc_time_ms	0
+zk_p95_read_commitproc_time_ms	0
+zk_p99_read_commitproc_time_ms	0
+zk_p999_read_commitproc_time_ms	0
+zk_avg_updatelatency	0.0
+zk_min_updatelatency	0
+zk_max_updatelatency	0
+zk_cnt_updatelatency	0
+zk_sum_updatelatency	0
+zk_p50_updatelatency	0
+zk_p95_updatelatency	0
+zk_p99_updatelatency	0
+zk_p999_updatelatency	0
+zk_avg_local_write_committed_time_ms	0.0
+zk_min_local_write_committed_time_ms	0
+zk_max_local_write_committed_time_ms	0
+zk_cnt_local_write_committed_time_ms	0
+zk_sum_local_write_committed_time_ms	0
+zk_p50_local_write_committed_time_ms	0
+zk_p95_local_write_committed_time_ms	0
+zk_p99_local_write_committed_time_ms	0
+zk_p999_local_write_committed_time_ms	0
+zk_avg_readlatency	0.0
+zk_min_readlatency	0
+zk_max_readlatency	0
+zk_cnt_readlatency	0
+zk_sum_readlatency	0
+zk_p50_readlatency	0
+zk_p95_readlatency	0
+zk_p99_readlatency	0
+zk_p999_readlatency	0
+zk_avg_quorum_ack_latency	0.0
+zk_min_quorum_ack_latency	0
+zk_max_quorum_ack_latency	0
+zk_cnt_quorum_ack_latency	0
+zk_sum_quorum_ack_latency	0
+zk_p50_quorum_ack_latency	0
+zk_p95_quorum_ack_latency	0
+zk_p99_quorum_ack_latency	0
+zk_p999_quorum_ack_latency	0
+zk_avg_om_commit_process_time_ms	0.0
+zk_min_om_commit_process_time_ms	0
+zk_max_om_commit_process_time_ms	0
+zk_cnt_om_commit_process_time_ms	0
+zk_sum_om_commit_process_time_ms	0
+zk_p50_om_commit_process_time_ms	0
+zk_p95_om_commit_process_time_ms	0
+zk_p99_om_commit_process_time_ms	0
+zk_p999_om_commit_process_time_ms	0
+zk_avg_read_final_proc_time_ms	0.0
+zk_min_read_final_proc_time_ms	0
+zk_max_read_final_proc_time_ms	0
+zk_cnt_read_final_proc_time_ms	0
+zk_sum_read_final_proc_time_ms	0
+zk_p50_read_final_proc_time_ms	0
+zk_p95_read_final_proc_time_ms	0
+zk_p99_read_final_proc_time_ms	0
+zk_p999_read_final_proc_time_ms	0
+zk_avg_commit_propagation_latency	0.0
+zk_min_commit_propagation_latency	0
+zk_max_commit_propagation_latency	0
+zk_cnt_commit_propagation_latency	0
+zk_sum_commit_propagation_latency	0
+zk_p50_commit_propagation_latency	0
+zk_p95_commit_propagation_latency	0
+zk_p99_commit_propagation_latency	0
+zk_p999_commit_propagation_latency	0
+zk_avg_dead_watchers_cleaner_latency	0.0
+zk_min_dead_watchers_cleaner_latency	0
+zk_max_dead_watchers_cleaner_latency	0
+zk_cnt_dead_watchers_cleaner_latency	0
+zk_sum_dead_watchers_cleaner_latency	0
+zk_p50_dead_watchers_cleaner_latency	0
+zk_p95_dead_watchers_cleaner_latency	0
+zk_p99_dead_watchers_cleaner_latency	0
+zk_p999_dead_watchers_cleaner_latency	0
+zk_avg_write_final_proc_time_ms	0.0
+zk_min_write_final_proc_time_ms	0
+zk_max_write_final_proc_time_ms	0
+zk_cnt_write_final_proc_time_ms	0
+zk_sum_write_final_proc_time_ms	0
+zk_p50_write_final_proc_time_ms	0
+zk_p95_write_final_proc_time_ms	0
+zk_p99_write_final_proc_time_ms	0
+zk_p999_write_final_proc_time_ms	0
+zk_avg_proposal_ack_creation_latency	0.0
+zk_min_proposal_ack_creation_latency	0
+zk_max_proposal_ack_creation_latency	0
+zk_cnt_proposal_ack_creation_latency	0
+zk_sum_proposal_ack_creation_latency	0
+zk_p50_proposal_ack_creation_latency	0
+zk_p95_proposal_ack_creation_latency	0
+zk_p99_proposal_ack_creation_latency	0
+zk_p999_proposal_ack_creation_latency	0
+zk_avg_proposal_latency	0.0
+zk_min_proposal_latency	0
+zk_max_proposal_latency	0
+zk_cnt_proposal_latency	0
+zk_sum_proposal_latency	0
+zk_p50_proposal_latency	0
+zk_p95_proposal_latency	0
+zk_p99_proposal_latency	0
+zk_p999_proposal_latency	0
+zk_avg_om_proposal_process_time_ms	0.0
+zk_min_om_proposal_process_time_ms	0
+zk_max_om_proposal_process_time_ms	0
+zk_cnt_om_proposal_process_time_ms	0
+zk_sum_om_proposal_process_time_ms	0
+zk_p50_om_proposal_process_time_ms	0
+zk_p95_om_proposal_process_time_ms	0
+zk_p99_om_proposal_process_time_ms	0
+zk_p999_om_proposal_process_time_ms	0
+zk_avg_sync_processor_queue_and_flush_time_ms	0.0
+zk_min_sync_processor_queue_and_flush_time_ms	0
+zk_max_sync_processor_queue_and_flush_time_ms	0
+zk_cnt_sync_processor_queue_and_flush_time_ms	0
+zk_sum_sync_processor_queue_and_flush_time_ms	0
+zk_p50_sync_processor_queue_and_flush_time_ms	0
+zk_p95_sync_processor_queue_and_flush_time_ms	0
+zk_p99_sync_processor_queue_and_flush_time_ms	0
+zk_p999_sync_processor_queue_and_flush_time_ms	0
+zk_avg_propagation_latency	0.0
+zk_min_propagation_latency	0
+zk_max_propagation_latency	0
+zk_cnt_propagation_latency	0
+zk_sum_propagation_latency	0
+zk_p50_propagation_latency	0
+zk_p95_propagation_latency	0
+zk_p99_propagation_latency	0
+zk_p999_propagation_latency	0
+zk_avg_server_write_committed_time_ms	0.0
+zk_min_server_write_committed_time_ms	0
+zk_max_server_write_committed_time_ms	0
+zk_cnt_server_write_committed_time_ms	0
+zk_sum_server_write_committed_time_ms	0
+zk_p50_server_write_committed_time_ms	0
+zk_p95_server_write_committed_time_ms	0
+zk_p99_server_write_committed_time_ms	0
+zk_p999_server_write_committed_time_ms	0
+zk_avg_sync_processor_queue_time_ms	0.0
+zk_min_sync_processor_queue_time_ms	0
+zk_max_sync_processor_queue_time_ms	0
+zk_cnt_sync_processor_queue_time_ms	0
+zk_sum_sync_processor_queue_time_ms	0
+zk_p50_sync_processor_queue_time_ms	0
+zk_p95_sync_processor_queue_time_ms	0
+zk_p99_sync_processor_queue_time_ms	0
+zk_p999_sync_processor_queue_time_ms	0
+zk_avg_sync_processor_queue_flush_time_ms	0.0
+zk_min_sync_processor_queue_flush_time_ms	0
+zk_max_sync_processor_queue_flush_time_ms	0
+zk_cnt_sync_processor_queue_flush_time_ms	0
+zk_sum_sync_processor_queue_flush_time_ms	0
+zk_p50_sync_processor_queue_flush_time_ms	0
+zk_p95_sync_processor_queue_flush_time_ms	0
+zk_p99_sync_processor_queue_flush_time_ms	0
+zk_p999_sync_processor_queue_flush_time_ms	0
+zk_avg_write_commitproc_time_ms	0.0
+zk_min_write_commitproc_time_ms	0
+zk_max_write_commitproc_time_ms	0
+zk_cnt_write_commitproc_time_ms	0
+zk_sum_write_commitproc_time_ms	0
+zk_p50_write_commitproc_time_ms	0
+zk_p95_write_commitproc_time_ms	0
+zk_p99_write_commitproc_time_ms	0
+zk_p999_write_commitproc_time_ms	0
+
+2020-06-20 12:19:46,209 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19303
+2020-06-20 12:19:46,210 [myid:] - INFO  [NIOWorkerThread-7:NIOServerCnxn@531] - Processing stat command from /127.0.0.1:59686
+2020-06-20 12:19:46,211 [myid:] - INFO  [NIOWorkerThread-7:StatCommand@52] - Stat command output
+2020-06-20 12:19:46,211 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd stat expected Connections got Zookeeper version: 3.6.1-SNAPSHOT-88650b8fe4a8dd606149302d55bdd69353408da9-dirty, built on 06/20/2020 04:19 GMT
+Clients:
+ /127.0.0.1:59686[0](queued=0,recved=1,sent=0)
+
+Latency min/avg/max: 0/0.0/0
+Received: 7
+Sent: 9
+Connections: 1
+Outstanding: 0
+Zxid: 0x2
+Mode: standalone
+Node count: 5
+
+2020-06-20 12:19:46,211 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19303
+2020-06-20 12:19:46,212 [myid:] - INFO  [NIOWorkerThread-8:NIOServerCnxn@531] - Processing srvr command from /127.0.0.1:59687
+2020-06-20 12:19:46,215 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd srvr expected Connections got Zookeeper version: 3.6.1-SNAPSHOT-88650b8fe4a8dd606149302d55bdd69353408da9-dirty, built on 06/20/2020 04:19 GMT
+Latency min/avg/max: 0/0.0/0
+Received: 8
+Sent: 10
+Connections: 1
+Outstanding: 0
+Zxid: 0x2
+Mode: standalone
+Node count: 5
+
+2020-06-20 12:19:46,215 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19303
+2020-06-20 12:19:46,217 [myid:] - INFO  [NIOWorkerThread-9:NIOServerCnxn@531] - Processing dirs command from /127.0.0.1:59688
+2020-06-20 12:19:46,224 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd dirs expected size got datadir_size: 102873
+logdir_size: 102873
+
+2020-06-20 12:19:46,226 [myid:] - INFO  [Time-limited test:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 63903
+2020-06-20 12:19:46,227 [myid:] - INFO  [Time-limited test:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 53
+2020-06-20 12:19:46,228 [myid:] - INFO  [Time-limited test:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testFourLetterWordsEnableAllCommandsThroughAsterisk
+2020-06-20 12:19:46,228 [myid:] - INFO  [main:ClientBase@583] - tearDown starting
+2020-06-20 12:19:46,229 [myid:] - INFO  [main:ClientBase@557] - STOPPING server
+2020-06-20 12:19:46,229 [myid:] - INFO  [ConnnectionExpirer:NIOServerCnxnFactory$ConnectionExpirerThread@613] - ConnnectionExpirerThread interrupted
+2020-06-20 12:19:46,230 [myid:] - INFO  [NIOServerCxnFactory.SelectorThread-1:NIOServerCnxnFactory$SelectorThread@423] - selector thread exitted run method
+2020-06-20 12:19:46,231 [myid:] - INFO  [NIOServerCxnFactory.SelectorThread-0:NIOServerCnxnFactory$SelectorThread@423] - selector thread exitted run method
+2020-06-20 12:19:46,232 [myid:] - INFO  [NIOServerCxnFactory.AcceptThread:0.0.0.0/0.0.0.0:19303:NIOServerCnxnFactory$AcceptThread@209] - accept thread exitted run method
+2020-06-20 12:19:46,232 [myid:] - INFO  [main:ZooKeeperServer@807] - shutting down
+2020-06-20 12:19:46,232 [myid:] - INFO  [main:RequestThrottler@252] - Shutting down
+2020-06-20 12:19:46,232 [myid:] - INFO  [RequestThrottler:RequestThrottler@212] - Draining request throttler queue
+2020-06-20 12:19:46,232 [myid:] - INFO  [RequestThrottler:RequestThrottler@188] - RequestThrottler shutdown. Dropped 0 requests
+2020-06-20 12:19:46,232 [myid:] - INFO  [main:SessionTrackerImpl@254] - Shutting down
+2020-06-20 12:19:46,233 [myid:] - INFO  [main:PrepRequestProcessor@1111] - Shutting down
+2020-06-20 12:19:46,233 [myid:] - INFO  [main:SyncRequestProcessor@293] - Shutting down
+2020-06-20 12:19:46,233 [myid:] - INFO  [ProcessThread(sid:0 cport:19303)::PrepRequestProcessor@162] - PrepRequestProcessor exited loop!
+2020-06-20 12:19:46,233 [myid:] - INFO  [SyncThread:0:SyncRequestProcessor@257] - SyncRequestProcessor exited!
+2020-06-20 12:19:46,233 [myid:] - INFO  [main:FinalRequestProcessor@672] - shutdown of request processor complete
+2020-06-20 12:19:46,235 [myid:] - INFO  [main:FourLetterWordMain@93] - connecting to 127.0.0.1 19303
+2020-06-20 12:19:46,236 [myid:] - INFO  [main:JMXEnv@142] - ensureOnly:[]
+2020-06-20 12:19:46,238 [myid:] - INFO  [main:ClientBase@607] - fdcount after test is: 89 at start it was 89
+2020-06-20 12:19:46,239 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testFourLetterWordsEnableAllCommandsThroughAsterisk
+2020-06-20 12:19:46,239 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testFourLetterWordsEnableAllCommandsThroughAsterisk
+2020-06-20 12:19:46,239 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 19304 from range 19300 - 21992.
+2020-06-20 12:19:46,240 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testFourLetterWordsEnableAllCommandsThroughExplicitList
+2020-06-20 12:19:46,240 [myid:] - INFO  [main:ClientBase@486] - Initial fdcount is: 89
+2020-06-20 12:19:46,241 [myid:] - INFO  [main:JMXEnv@58] - connecting to addr service:jmx:rmi://127.0.0.1/stub/rO0ABXNyAC5qYXZheC5tYW5hZ2VtZW50LnJlbW90ZS5ybWkuUk1JU2VydmVySW1wbF9TdHViAAAAAAAAAAICAAB4cgAaamF2YS5ybWkuc2VydmVyLlJlbW90ZVN0dWLp/tzJi+FlGgIAAHhyABxqYXZhLnJtaS5zZXJ2ZXIuUmVtb3RlT2JqZWN002G0kQxhMx4DAAB4cHc4AAtVbmljYXN0UmVmMgAADTE5Mi4xNjguMS4xMDAAAOiMMkNN0sD4kSekarIkAAABcs/0Jn6AJAB4
+2020-06-20 12:19:46,253 [myid:] - INFO  [main:ClientBase@514] - STARTING server
+2020-06-20 12:19:46,257 [myid:] - INFO  [main:ClientBase@423] - CREATING server instance 127.0.0.1:19304
+2020-06-20 12:19:46,259 [myid:] - INFO  [main:ServerCnxnFactory@171] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
+2020-06-20 12:19:46,259 [myid:] - WARN  [main:ServerCnxnFactory@311] - maxCnxns is not configured, using default value 0.
+2020-06-20 12:19:46,260 [myid:] - INFO  [main:NIOServerCnxnFactory@701] - Configuring NIO connection handler with 10s sessionless connection timeout, 2 selector thread(s), 24 worker threads, and 64 kB direct buffers.
+2020-06-20 12:19:46,260 [myid:] - INFO  [main:NIOServerCnxnFactory@709] - binding to port 0.0.0.0/0.0.0.0:19304
+2020-06-20 12:19:46,261 [myid:] - INFO  [main:ClientBase@395] - STARTING server instance 127.0.0.1:19304
+2020-06-20 12:19:46,261 [myid:] - INFO  [main:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-06-20 12:19:46,262 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-20 12:19:46,262 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-20 12:19:46,262 [myid:] - INFO  [main:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-06-20 12:19:46,262 [myid:] - INFO  [main:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-06-20 12:19:46,262 [myid:] - INFO  [main:ZooKeeperServer@1285] - minSessionTimeout set to 6000
+2020-06-20 12:19:46,262 [myid:] - INFO  [main:ZooKeeperServer@1294] - maxSessionTimeout set to 60000
+2020-06-20 12:19:46,263 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-20 12:19:46,263 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-20 12:19:46,263 [myid:] - INFO  [main:RequestPathMetricsCollector@111] - zookeeper.pathStats.slotCapacity = 60
+2020-06-20 12:19:46,263 [myid:] - INFO  [main:RequestPathMetricsCollector@112] - zookeeper.pathStats.slotDuration = 15
+2020-06-20 12:19:46,264 [myid:] - INFO  [main:RequestPathMetricsCollector@113] - zookeeper.pathStats.maxDepth = 6
+2020-06-20 12:19:46,264 [myid:] - INFO  [main:RequestPathMetricsCollector@114] - zookeeper.pathStats.initialDelay = 5
+2020-06-20 12:19:46,264 [myid:] - INFO  [main:RequestPathMetricsCollector@115] - zookeeper.pathStats.delay = 5
+2020-06-20 12:19:46,294 [myid:] - INFO  [main:RequestPathMetricsCollector@116] - zookeeper.pathStats.enabled = false
+2020-06-20 12:19:46,295 [myid:] - INFO  [main:ZooKeeperServer@1533] - The max bytes for all large requests are set to 104857600
+2020-06-20 12:19:46,295 [myid:] - INFO  [main:ZooKeeperServer@1547] - The large request threshold is set to -1
+2020-06-20 12:19:46,295 [myid:] - INFO  [main:ZooKeeperServer@332] - Created server with tickTime 3000 minSessionTimeout 6000 maxSessionTimeout 60000 clientPortListenBacklog -1 datadir /Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/surefire/test1591547069930691838.junit.dir/version-2 snapdir /Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/surefire/test1591547069930691838.junit.dir/version-2
+2020-06-20 12:19:46,299 [myid:] - INFO  [main:FileTxnSnapLog@253] - Initialize file found, an empty database will not block voting participation
+2020-06-20 12:19:46,300 [myid:] - INFO  [main:FileTxnSnapLog@476] - Snapshotting: 0x0 to /Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/surefire/test1591547069930691838.junit.dir/version-2/snapshot.0
+2020-06-20 12:19:46,304 [myid:] - INFO  [main:ZKDatabase@289] - Snapshot loaded in 7 ms, highest zxid is 0x0, digest is 1371985504
+2020-06-20 12:19:46,305 [myid:] - INFO  [main:FileTxnSnapLog@476] - Snapshotting: 0x0 to /Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/surefire/test1591547069930691838.junit.dir/version-2/snapshot.0
+2020-06-20 12:19:46,306 [myid:] - INFO  [main:ZooKeeperServer@525] - Snapshot taken in 1 ms
+2020-06-20 12:19:46,308 [myid:] - INFO  [main:FourLetterWordMain@93] - connecting to 127.0.0.1 19304
+2020-06-20 12:19:46,310 [myid:] - INFO  [NIOWorkerThread-1:NIOServerCnxn@531] - Processing stat command from /127.0.0.1:59690
+2020-06-20 12:19:46,310 [myid:] - INFO  [NIOWorkerThread-1:StatCommand@52] - Stat command output
+2020-06-20 12:19:46,310 [myid:] - INFO  [main:JMXEnv@219] - ensureParent:[InMemoryDataTree, StandaloneServer_port]
+2020-06-20 12:19:46,312 [myid:] - INFO  [main:JMXEnv@235] - expect:InMemoryDataTree
+2020-06-20 12:19:46,312 [myid:] - INFO  [main:JMXEnv@239] - found:InMemoryDataTree org.apache.ZooKeeperService:name0=StandaloneServer_port19304,name1=InMemoryDataTree
+2020-06-20 12:19:46,312 [myid:] - INFO  [main:JMXEnv@235] - expect:StandaloneServer_port
+2020-06-20 12:19:46,313 [myid:] - INFO  [main:JMXEnv@239] - found:StandaloneServer_port org.apache.ZooKeeperService:name0=StandaloneServer_port19304
+2020-06-20 12:19:46,313 [myid:] - INFO  [main:ClientBase@501] - Client test setup finished
+2020-06-20 12:19:46,313 [myid:] - INFO  [Time-limited test:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testFourLetterWordsEnableAllCommandsThroughExplicitList
+2020-06-20 12:19:46,313 [myid:] - INFO  [Time-limited test:ClientBase@557] - STOPPING server
+2020-06-20 12:19:46,314 [myid:] - INFO  [ConnnectionExpirer:NIOServerCnxnFactory$ConnectionExpirerThread@613] - ConnnectionExpirerThread interrupted
+2020-06-20 12:19:46,314 [myid:] - INFO  [NIOServerCxnFactory.AcceptThread:0.0.0.0/0.0.0.0:19304:NIOServerCnxnFactory$AcceptThread@209] - accept thread exitted run method
+2020-06-20 12:19:46,314 [myid:] - INFO  [NIOServerCxnFactory.SelectorThread-0:NIOServerCnxnFactory$SelectorThread@423] - selector thread exitted run method
+2020-06-20 12:19:46,314 [myid:] - INFO  [NIOServerCxnFactory.SelectorThread-1:NIOServerCnxnFactory$SelectorThread@423] - selector thread exitted run method
+2020-06-20 12:19:46,315 [myid:] - INFO  [Time-limited test:ZooKeeperServer@807] - shutting down
+2020-06-20 12:19:46,315 [myid:] - INFO  [Time-limited test:RequestThrottler@252] - Shutting down
+2020-06-20 12:19:46,315 [myid:] - INFO  [RequestThrottler:RequestThrottler@212] - Draining request throttler queue
+2020-06-20 12:19:46,316 [myid:] - INFO  [RequestThrottler:RequestThrottler@188] - RequestThrottler shutdown. Dropped 0 requests
+2020-06-20 12:19:46,316 [myid:] - INFO  [Time-limited test:SessionTrackerImpl@254] - Shutting down
+2020-06-20 12:19:46,316 [myid:] - INFO  [Time-limited test:PrepRequestProcessor@1111] - Shutting down
+2020-06-20 12:19:46,316 [myid:] - INFO  [Time-limited test:SyncRequestProcessor@293] - Shutting down
+2020-06-20 12:19:46,316 [myid:] - INFO  [ProcessThread(sid:0 cport:19304)::PrepRequestProcessor@162] - PrepRequestProcessor exited loop!
+2020-06-20 12:19:46,316 [myid:] - INFO  [SyncThread:0:SyncRequestProcessor@257] - SyncRequestProcessor exited!
+2020-06-20 12:19:46,317 [myid:] - INFO  [Time-limited test:FinalRequestProcessor@672] - shutdown of request processor complete
+2020-06-20 12:19:46,317 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19304
+2020-06-20 12:19:46,318 [myid:] - INFO  [Time-limited test:JMXEnv@142] - ensureOnly:[]
+2020-06-20 12:19:46,319 [myid:] - INFO  [Time-limited test:ClientBase@514] - STARTING server
+2020-06-20 12:19:46,319 [myid:] - INFO  [Time-limited test:ClientBase@423] - CREATING server instance 127.0.0.1:19304
+2020-06-20 12:19:46,320 [myid:] - INFO  [Time-limited test:ServerCnxnFactory@171] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
+2020-06-20 12:19:46,320 [myid:] - WARN  [Time-limited test:ServerCnxnFactory@311] - maxCnxns is not configured, using default value 0.
+2020-06-20 12:19:46,320 [myid:] - INFO  [Time-limited test:NIOServerCnxnFactory@701] - Configuring NIO connection handler with 10s sessionless connection timeout, 2 selector thread(s), 24 worker threads, and 64 kB direct buffers.
+2020-06-20 12:19:46,320 [myid:] - INFO  [Time-limited test:NIOServerCnxnFactory@709] - binding to port 0.0.0.0/0.0.0.0:19304
+2020-06-20 12:19:46,321 [myid:] - INFO  [Time-limited test:ClientBase@395] - STARTING server instance 127.0.0.1:19304
+2020-06-20 12:19:46,321 [myid:] - INFO  [Time-limited test:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-06-20 12:19:46,321 [myid:] - INFO  [Time-limited test:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-20 12:19:46,322 [myid:] - INFO  [Time-limited test:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-20 12:19:46,322 [myid:] - INFO  [Time-limited test:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-06-20 12:19:46,322 [myid:] - INFO  [Time-limited test:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-06-20 12:19:46,322 [myid:] - INFO  [Time-limited test:ZooKeeperServer@1285] - minSessionTimeout set to 6000
+2020-06-20 12:19:46,323 [myid:] - INFO  [Time-limited test:ZooKeeperServer@1294] - maxSessionTimeout set to 60000
+2020-06-20 12:19:46,323 [myid:] - INFO  [Time-limited test:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-20 12:19:46,323 [myid:] - INFO  [Time-limited test:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-20 12:19:46,323 [myid:] - INFO  [Time-limited test:RequestPathMetricsCollector@111] - zookeeper.pathStats.slotCapacity = 60
+2020-06-20 12:19:46,323 [myid:] - INFO  [Time-limited test:RequestPathMetricsCollector@112] - zookeeper.pathStats.slotDuration = 15
+2020-06-20 12:19:46,323 [myid:] - INFO  [Time-limited test:RequestPathMetricsCollector@113] - zookeeper.pathStats.maxDepth = 6
+2020-06-20 12:19:46,323 [myid:] - INFO  [Time-limited test:RequestPathMetricsCollector@114] - zookeeper.pathStats.initialDelay = 5
+2020-06-20 12:19:46,323 [myid:] - INFO  [Time-limited test:RequestPathMetricsCollector@115] - zookeeper.pathStats.delay = 5
+2020-06-20 12:19:46,323 [myid:] - INFO  [Time-limited test:RequestPathMetricsCollector@116] - zookeeper.pathStats.enabled = false
+2020-06-20 12:19:46,324 [myid:] - INFO  [Time-limited test:ZooKeeperServer@1533] - The max bytes for all large requests are set to 104857600
+2020-06-20 12:19:46,324 [myid:] - INFO  [Time-limited test:ZooKeeperServer@1547] - The large request threshold is set to -1
+2020-06-20 12:19:46,324 [myid:] - INFO  [Time-limited test:ZooKeeperServer@332] - Created server with tickTime 3000 minSessionTimeout 6000 maxSessionTimeout 60000 clientPortListenBacklog -1 datadir /Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/surefire/test1591547069930691838.junit.dir/version-2 snapdir /Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/surefire/test1591547069930691838.junit.dir/version-2
+2020-06-20 12:19:46,325 [myid:] - INFO  [Time-limited test:FileSnap@85] - Reading snapshot /Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/surefire/test1591547069930691838.junit.dir/version-2/snapshot.0
+2020-06-20 12:19:46,326 [myid:] - INFO  [Time-limited test:DataTree@1767] - The digest value is empty in snapshot
+2020-06-20 12:19:46,326 [myid:] - INFO  [Time-limited test:ZKDatabase@289] - Snapshot loaded in 1 ms, highest zxid is 0x0, digest is 1371985504
+2020-06-20 12:19:46,326 [myid:] - INFO  [Time-limited test:FileTxnSnapLog@476] - Snapshotting: 0x0 to /Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/surefire/test1591547069930691838.junit.dir/version-2/snapshot.0
+2020-06-20 12:19:46,327 [myid:] - INFO  [Time-limited test:ZooKeeperServer@525] - Snapshot taken in 0 ms
+2020-06-20 12:19:46,328 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19304
+2020-06-20 12:19:46,347 [myid:] - INFO  [NIOWorkerThread-1:FourLetterCommands@223] - The list of known four letter word commands is : [{1936881266=srvr, 1937006964=stat, 2003003491=wchc, 1685417328=dump, 1668445044=crst, 1936880500=srst, 1701738089=envi, 1668247142=conf, -720899=telnet close, 1751217000=hash, 2003003507=wchs, 2003003504=wchp, 1684632179=dirs, 1668247155=cons, 1835955314=mntr, 1769173615=isro, 1920298859=ruok, 1735683435=gtmk, 1937010027=stmk}]
+2020-06-20 12:19:46,347 [myid:] - INFO  [NIOWorkerThread-1:FourLetterCommands@224] - The list of enabled four letter word commands is : [[wchs, stat, wchp, dirs, stmk, ruok, conf, mntr, srvr, wchc, envi, srst, isro, dump, gtmk, crst, cons]]
+2020-06-20 12:19:46,347 [myid:] - INFO  [NIOWorkerThread-1:NIOServerCnxn@531] - Processing stat command from /127.0.0.1:59692
+2020-06-20 12:19:46,347 [myid:] - INFO  [NIOWorkerThread-1:StatCommand@52] - Stat command output
+2020-06-20 12:19:46,348 [myid:] - INFO  [Time-limited test:JMXEnv@219] - ensureParent:[InMemoryDataTree, StandaloneServer_port]
+2020-06-20 12:19:46,355 [myid:] - INFO  [Time-limited test:JMXEnv@235] - expect:InMemoryDataTree
+2020-06-20 12:19:46,355 [myid:] - INFO  [Time-limited test:JMXEnv@239] - found:InMemoryDataTree org.apache.ZooKeeperService:name0=StandaloneServer_port19304,name1=InMemoryDataTree
+2020-06-20 12:19:46,355 [myid:] - INFO  [Time-limited test:JMXEnv@235] - expect:StandaloneServer_port
+2020-06-20 12:19:46,356 [myid:] - INFO  [Time-limited test:JMXEnv@239] - found:StandaloneServer_port org.apache.ZooKeeperService:name0=StandaloneServer_port19304
+2020-06-20 12:19:46,356 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19304
+2020-06-20 12:19:46,357 [myid:] - INFO  [NIOWorkerThread-2:NIOServerCnxn@531] - Processing ruok command from /127.0.0.1:59694
+2020-06-20 12:19:46,358 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@243] - cmd ruok expected an exact match of imok; got imok
+
+2020-06-20 12:19:46,358 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19304
+2020-06-20 12:19:46,359 [myid:] - INFO  [NIOWorkerThread-3:NIOServerCnxn@531] - Processing envi command from /127.0.0.1:59695
+2020-06-20 12:19:46,360 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd envi expected java.version got Environment:
+zookeeper.version=3.6.1-SNAPSHOT-88650b8fe4a8dd606149302d55bdd69353408da9-dirty, built on 06/20/2020 04:19 GMT
+host.name=192.168.1.100
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+java.home=/Library/Java/JavaVirtualMachines/jdk8.jdk/Contents/Home/jre
+java.class.path=/Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/test-classes:/Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/classes:/Users/dylan/environment/repo/com/github/spotbugs/spotbugs-annotations/3.1.9/spotbugs-annotations-3.1.9.jar:/Users/dylan/environment/repo/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/dylan/environment/repo/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar:/Users/dylan/environment/repo/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/dylan/environment/repo/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/dylan/environment/repo/org/apache/zookeeper/zookeeper-jute/3.6.1-SNAPSHOT/zookeeper-jute-3.6.1-SNAPSHOT.jar:/Users/dylan/environment/repo/commons-cli/commons-cli/1.2/commons-cli-1.2.jar:/Users/dylan/environment/repo/org/apache/yetus/audience-annotations/0.5.0/audience-annotations-0.5.0.jar:/Users/dylan/environment/repo/io/netty/netty-handler/4.1.45.Final/netty-handler-4.1.45.Final.jar:/Users/dylan/environment/repo/io/netty/netty-common/4.1.45.Final/netty-common-4.1.45.Final.jar:/Users/dylan/environment/repo/io/netty/netty-buffer/4.1.45.Final/netty-buffer-4.1.45.Final.jar:/Users/dylan/environment/repo/io/netty/netty-transport/4.1.45.Final/netty-transport-4.1.45.Final.jar:/Users/dylan/environment/repo/io/netty/netty-resolver/4.1.45.Final/netty-resolver-4.1.45.Final.jar:/Users/dylan/environment/repo/io/netty/netty-codec/4.1.45.Final/netty-codec-4.1.45.Final.jar:/Users/dylan/environment/repo/io/netty/netty-transport-native-epoll/4.1.45.Final/netty-transport-native-epoll-4.1.45.Final.jar:/Users/dylan/environment/repo/io/netty/netty-transport-native-unix-common/4.1.45.Final/netty-transport-native-unix-common-4.1.45.Final.jar:/Users/dylan/environment/repo/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/dylan/environment/repo/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar:/Users/dylan/environment/repo/org/eclipse/jetty/jetty-server/9.4.24.v20191120/jetty-server-9.4.24.v20191120.jar:/Users/dylan/environment/repo/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/dylan/environment/repo/org/eclipse/jetty/jetty-http/9.4.24.v20191120/jetty-http-9.4.24.v20191120.jar:/Users/dylan/environment/repo/org/eclipse/jetty/jetty-util/9.4.24.v20191120/jetty-util-9.4.24.v20191120.jar:/Users/dylan/environment/repo/org/eclipse/jetty/jetty-io/9.4.24.v20191120/jetty-io-9.4.24.v20191120.jar:/Users/dylan/environment/repo/org/eclipse/jetty/jetty-servlet/9.4.24.v20191120/jetty-servlet-9.4.24.v20191120.jar:/Users/dylan/environment/repo/org/eclipse/jetty/jetty-security/9.4.24.v20191120/jetty-security-9.4.24.v20191120.jar:/Users/dylan/environment/repo/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/dylan/environment/repo/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/dylan/environment/repo/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/dylan/environment/repo/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/dylan/environment/repo/org/bouncycastle/bcprov-jdk15on/1.60/bcprov-jdk15on-1.60.jar:/Users/dylan/environment/repo/org/bouncycastle/bcpkix-jdk15on/1.60/bcpkix-jdk15on-1.60.jar:/Users/dylan/environment/repo/jline/jline/2.11/jline-2.11.jar:/Users/dylan/environment/repo/io/dropwizard/metrics/metrics-core/3.2.5/metrics-core-3.2.5.jar:/Users/dylan/environment/repo/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-core/2.0.0/kerb-core-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerby-pkix/2.0.0/kerby-pkix-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerby-asn1/2.0.0/kerby-asn1-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerby-util/2.0.0/kerby-util-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-simplekdc/2.0.0/kerb-simplekdc-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-client/2.0.0/kerb-client-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-common/2.0.0/kerb-common-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-crypto/2.0.0/kerb-crypto-2.0.0.jar:/Users/dylan/environment/repo/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-util/2.0.0/kerb-util-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/token-provider/2.0.0/token-provider-2.0.0.jar:/Users/dylan/environment/repo/com/nimbusds/nimbus-jose-jwt/4.41.2/nimbus-jose-jwt-4.41.2.jar:/Users/dylan/environment/repo/com/github/stephenc/jcip/jcip-annotations/1.0-1/jcip-annotations-1.0-1.jar:/Users/dylan/environment/repo/net/minidev/json-smart/2.3/json-smart-2.3.jar:/Users/dylan/environment/repo/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar:/Users/dylan/environment/repo/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-admin/2.0.0/kerb-admin-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-server/2.0.0/kerb-server-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerb-identity/2.0.0/kerb-identity-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerby-xdr/2.0.0/kerby-xdr-2.0.0.jar:/Users/dylan/environment/repo/org/apache/kerby/kerby-config/2.0.0/kerby-config-2.0.0.jar:/Users/dylan/environment/repo/org/mockito/mockito-core/2.27.0/mockito-core-2.27.0.jar:/Users/dylan/environment/repo/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.jar:/Users/dylan/environment/repo/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.jar:/Users/dylan/environment/repo/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/Users/dylan/environment/repo/org/jmockit/jmockit/1.48/jmockit-1.48.jar:/Users/dylan/environment/repo/junit/junit/4.12/junit-4.12.jar:/Users/dylan/environment/repo/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/dylan/environment/repo/org/xerial/snappy/snappy-java/1.1.7/snappy-java-1.1.7.jar:
+java.library.path=/Users/dylan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+java.io.tmpdir=/var/folders/ff/jrkzw6gx39jd5s2rmrzy1tc00000gn/T/
+java.compiler=<NA>
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.13.6
+user.name=dylan
+user.home=/Users/dylan
+user.dir=/Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server
+os.memory.free=235MB
+os.memory.max=455MB
+os.memory.total=245MB
+
+2020-06-20 12:19:46,360 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19304
+2020-06-20 12:19:46,361 [myid:] - INFO  [NIOWorkerThread-4:NIOServerCnxn@531] - Processing conf command from /127.0.0.1:59696
+2020-06-20 12:19:46,362 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd conf expected clientPort got clientPort=19304
+secureClientPort=-1
+dataDir=/Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/surefire/test1591547069930691838.junit.dir/version-2
+dataDirSize=457
+dataLogDir=/Users/dylan/IdeaProjects/openSource/zookeeper-vip2/zookeeper-server/target/surefire/test1591547069930691838.junit.dir/version-2
+dataLogSize=457
+tickTime=3000
+maxClientCnxns=0
+minSessionTimeout=6000
+maxSessionTimeout=60000
+clientPortListenBacklog=-1
+serverId=0
+
+2020-06-20 12:19:46,362 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19304
+2020-06-20 12:19:46,364 [myid:] - INFO  [NIOWorkerThread-5:NIOServerCnxn@531] - Processing stat command from /127.0.0.1:59697
+2020-06-20 12:19:46,364 [myid:] - INFO  [NIOWorkerThread-5:StatCommand@52] - Stat command output
+2020-06-20 12:19:46,364 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd stat expected Outstanding got Zookeeper version: 3.6.1-SNAPSHOT-88650b8fe4a8dd606149302d55bdd69353408da9-dirty, built on 06/20/2020 04:19 GMT
+Clients:
+ /127.0.0.1:59697[0](queued=0,recved=1,sent=0)
+
+Latency min/avg/max: 0/0.0/0
+Received: 5
+Sent: 4
+Connections: 1
+Outstanding: 0
+Zxid: 0x0
+Mode: standalone
+Node count: 5
+
+2020-06-20 12:19:46,365 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19304
+2020-06-20 12:19:46,366 [myid:] - INFO  [NIOWorkerThread-6:NIOServerCnxn@531] - Processing srvr command from /127.0.0.1:59698
+2020-06-20 12:19:46,366 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd srvr expected Outstanding got Zookeeper version: 3.6.1-SNAPSHOT-88650b8fe4a8dd606149302d55bdd69353408da9-dirty, built on 06/20/2020 04:19 GMT
+Latency min/avg/max: 0/0.0/0
+Received: 6
+Sent: 5
+Connections: 1
+Outstanding: 0
+Zxid: 0x0
+Mode: standalone
+Node count: 5
+
+2020-06-20 12:19:46,367 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19304
+2020-06-20 12:19:46,368 [myid:] - INFO  [NIOWorkerThread-7:NIOServerCnxn@531] - Processing cons command from /127.0.0.1:59699
+2020-06-20 12:19:46,368 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd cons expected queued got  /127.0.0.1:59699[0](queued=0,recved=1,sent=0)
+
+
+2020-06-20 12:19:46,368 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19304
+2020-06-20 12:19:46,370 [myid:] - INFO  [NIOWorkerThread-8:NIOServerCnxn@531] - Processing dump command from /127.0.0.1:59700
+2020-06-20 12:19:46,370 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd dump expected Session got SessionTracker dump:
+Session Sets (0)/(0):
+ephemeral nodes dump:
+Sessions with Ephemerals (0):
+Connections dump:
+Connections Sets (1)/(1):
+1 expire at Sat Jun 20 12:20:02 CST 2020:
+	ip: /127.0.0.1:59700 sessionId: 0x0
+
+2020-06-20 12:19:46,370 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19304
+2020-06-20 12:19:46,372 [myid:] - INFO  [NIOWorkerThread-9:NIOServerCnxn@531] - Processing wchs command from /127.0.0.1:59701
+2020-06-20 12:19:46,372 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd wchs expected watches got 0 connections watching 0 paths
+Total watches:0
+
+2020-06-20 12:19:46,372 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19304
+2020-06-20 12:19:46,373 [myid:] - INFO  [NIOWorkerThread-10:NIOServerCnxn@531] - Processing wchp command from /127.0.0.1:59702
+2020-06-20 12:19:46,374 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd wchp expected  got 
+
+2020-06-20 12:19:46,374 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19304
+2020-06-20 12:19:46,377 [myid:] - INFO  [NIOWorkerThread-11:NIOServerCnxn@531] - Processing wchc command from /127.0.0.1:59703
+2020-06-20 12:19:46,377 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd wchc expected  got 
+
+2020-06-20 12:19:46,378 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19304
+2020-06-20 12:19:46,379 [myid:] - INFO  [NIOWorkerThread-12:NIOServerCnxn@531] - Processing srst command from /127.0.0.1:59704
+2020-06-20 12:19:46,379 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd srst expected reset got Server stats reset.
+
+2020-06-20 12:19:46,380 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19304
+2020-06-20 12:19:46,381 [myid:] - INFO  [NIOWorkerThread-13:NIOServerCnxn@531] - Processing crst command from /127.0.0.1:59705
+2020-06-20 12:19:46,381 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd crst expected reset got Connection stats reset.
+
+2020-06-20 12:19:46,381 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19304
+2020-06-20 12:19:46,383 [myid:] - INFO  [NIOWorkerThread-14:NIOServerCnxn@531] - Processing stat command from /127.0.0.1:59706
+2020-06-20 12:19:46,383 [myid:] - INFO  [NIOWorkerThread-14:StatCommand@52] - Stat command output
+2020-06-20 12:19:46,383 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd stat expected Outstanding got Zookeeper version: 3.6.1-SNAPSHOT-88650b8fe4a8dd606149302d55bdd69353408da9-dirty, built on 06/20/2020 04:19 GMT
+Clients:
+ /127.0.0.1:59706[0](queued=0,recved=1,sent=0)
+
+Latency min/avg/max: 0/0.0/0
+Received: 2
+Sent: 2
+Connections: 1
+Outstanding: 0
+Zxid: 0x0
+Mode: standalone
+Node count: 5
+
+2020-06-20 12:19:46,383 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19304
+2020-06-20 12:19:46,384 [myid:] - INFO  [NIOWorkerThread-15:NIOServerCnxn@531] - Processing srvr command from /127.0.0.1:59707
+2020-06-20 12:19:46,385 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd srvr expected Outstanding got Zookeeper version: 3.6.1-SNAPSHOT-88650b8fe4a8dd606149302d55bdd69353408da9-dirty, built on 06/20/2020 04:19 GMT
+Latency min/avg/max: 0/0.0/0
+Received: 3
+Sent: 3
+Connections: 1
+Outstanding: 0
+Zxid: 0x0
+Mode: standalone
+Node count: 5
+
+2020-06-20 12:19:46,385 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19304
+2020-06-20 12:19:46,386 [myid:] - INFO  [NIOWorkerThread-16:NIOServerCnxn@531] - Processing cons command from /127.0.0.1:59708
+2020-06-20 12:19:46,387 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd cons expected queued got  /127.0.0.1:59708[0](queued=0,recved=1,sent=0)
+
+
+2020-06-20 12:19:46,387 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19304
+2020-06-20 12:19:46,390 [myid:] - INFO  [NIOWorkerThread-17:NIOServerCnxn@531] - Processing gtmk command from /127.0.0.1:59709
+2020-06-20 12:19:46,390 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd gtmk expected 306 got 306
+
+2020-06-20 12:19:46,390 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 19304
+2020-06-20 12:19:46,391 [myid:] - INFO  [NIOWorkerThread-18:NIOServerCnxn@531] - Processing isro command from /127.0.0.1:59710
+2020-06-20 12:19:46,392 [myid:] - INFO  [Time-limited test:FourLetterWordsWhiteListTest@233] - cmd isro expected rw got rw
+
+2020-06-20 12:19:46,392 [myid:] - INFO  [Time-limited test:ZooKeeper@1042] - Initiating client connection, connectString=127.0.0.1:19304 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@737a66d7
+2020-06-20 12:19:46,392 [myid:] - INFO  [Time-limited test:ClientCnxnSocket@247] - jute.maxbuffer value is 1048575 Bytes
+2020-06-20 12:19:46,393 [myid:] - INFO  [Time-limited test:ClientCnxn@1812] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-20 12:19:46,395 [myid:127.0.0.1:19304] - INFO  [Time-limited test-SendThread(127.0.0.1:19304):ClientCnxn$SendThread@1213] - Opening socket connection to server localhost/127.0.0.1:19304.
