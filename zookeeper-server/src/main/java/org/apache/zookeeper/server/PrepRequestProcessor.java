@@ -687,6 +687,7 @@ public class PrepRequestProcessor extends ZooKeeperCriticalThread implements Req
             path = createRequest.getPath();
             acl = createRequest.getAcl();
             data = createRequest.getData();
+            // 没有时间限制
             ttl = -1;
         }
         // 节点类型（临时节点、顺序节点...） -s -e
@@ -704,17 +705,14 @@ public class PrepRequestProcessor extends ZooKeeperCriticalThread implements Req
 
         zks.checkACL(request.cnxn, parentRecord.acl, ZooDefs.Perms.CREATE, request.authInfo, path, listACL);
 
-         // create -s /xx/luban_
-        // luban_000002
 
-        // children的cversion    1
+        // children的cversion
         int parentCVersion = parentRecord.stat.getCversion();
 
+        // 顺序节点
         if (createMode.isSequential()) {
-            //
             path = path + String.format(Locale.ENGLISH, "%010d", parentCVersion);
         }
-
 
         validatePath(path, request.sessionId);
         try {
@@ -731,7 +729,7 @@ public class PrepRequestProcessor extends ZooKeeperCriticalThread implements Req
             throw new KeeperException.NoChildrenForEphemeralsException(path);
         }
 
-        // Cversion+1
+        // cversion+1
         int newCversion = parentRecord.stat.getCversion() + 1;
 
         // 根据不同的类型，设置日志体
