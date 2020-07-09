@@ -193,6 +193,7 @@ public class JvmPauseMonitor {
                     return;
                 }
                 long endTime = Instant.now().toEpochMilli();
+                // 正常执行这里是会等于0或者接近于0的
                 long extraSleepTime = (endTime - startTime) - sleepTimeMs;
                 Map<String, GcTimes> gcTimesAfterSleep = getGcTimes();
 
